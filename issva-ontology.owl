@@ -6,7 +6,466 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <owl:Ontology rdf:about="http://purl.org/issva/classification"/>
+    <owl:Ontology rdf:about="http://purl.org/issva/classification">
+        <rdfs:label xml:lang="en">ISSVA classification for vascular anomalies</rdfs:label>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/issva/classification#Acral_arteriovenous_tumour -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#Acral_arteriovenous_tumour">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Provisionally_unclassified_vascular_anomaly"/>
+        <rdfs:label>Acral arteriovenous tumour</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#Angiokeratoma -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#Angiokeratoma">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Provisionally_unclassified_vascular_anomaly"/>
+        <rdfs:label>Angiokeratoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#Arteriovenous_fistula -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#Arteriovenous_fistula">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Simple_vascular_malformation"/>
+        <rdfs:label>Arteriovenous fistula</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#Arteriovenous_fistula_in_CM-AVM -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#Arteriovenous_fistula_in_CM-AVM">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Arteriovenous_fistula"/>
+        <rdfs:label>Arteriovenous fistula in capillary malformation-arteriovenous malformation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#Arteriovenous_fistula_in_HHT -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#Arteriovenous_fistula_in_HHT">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Arteriovenous_fistula"/>
+        <rdfs:label>Arteriovenous fistula in hereditary hemorrhagic telangiectasia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#Arteriovenous_malformation -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#Arteriovenous_malformation">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Simple_vascular_malformation"/>
+        <rdfs:label>Arteriovenous malformation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#Arteriovenous_malformation_in_CM-AVM -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#Arteriovenous_malformation_in_CM-AVM">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Arteriovenous_malformation"/>
+        <rdfs:label>Arteriovenous malformation in capillary malformation-arteriovenous malformation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#Arteriovenous_malformation_in_HHT -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#Arteriovenous_malformation_in_HHT">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Arteriovenous_malformation"/>
+        <rdfs:label>Arteriovenous malformation in hereditary hemorrhagic telangiectasia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#Bannayan-Riley-Ruvalcaba_sd -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#Bannayan-Riley-Ruvalcaba_sd">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Vascular_malformation_associated_with_other_anomalies"/>
+        <rdfs:label>Bannayan-Riley-Ruvalcaba syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#CLAPO_syndrome -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#CLAPO_syndrome">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Vascular_malformation_associated_with_other_anomalies"/>
+        <rdfs:label>CLAPO syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#CLOVES_syndrome -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#CLOVES_syndrome">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Vascular_malformation_associated_with_other_anomalies"/>
+        <rdfs:label>CLOVES syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#Capillary-arteriovenous_malformation -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#Capillary-arteriovenous_malformation">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Combined_vascular_malformation"/>
+        <rdfs:label>Capillary-arteriovenous malformation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#Capillary-lymphatic-arteriovenous_malformation -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#Capillary-lymphatic-arteriovenous_malformation">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Combined_vascular_malformation"/>
+        <rdfs:label>Capillary-arteriovenous malformation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#Capillary-lymphatic-venous-arteriovenous_malformation -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#Capillary-lymphatic-venous-arteriovenous_malformation">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Combined_vascular_malformation"/>
+        <rdfs:label>Capillary-lymphatic-venous-arteriovenous malformation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#Capillary-lymphatic-venous_malformation -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#Capillary-lymphatic-venous_malformation">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Combined_vascular_malformation"/>
+        <rdfs:label>Capillary-lymphatic-venous malformation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#Capillary-lymphatic_malformation -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#Capillary-lymphatic_malformation">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Combined_vascular_malformation"/>
+        <rdfs:label>Capillary-lymphatic malformation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#Capillary-venous-arteriovenous_malformation -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#Capillary-venous-arteriovenous_malformation">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Combined_vascular_malformation"/>
+        <rdfs:label>Capillary-venous-arteriovenous malformation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#Capillary-venous_malformation -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#Capillary-venous_malformation">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Combined_vascular_malformation"/>
+        <rdfs:label>Capillary-venous malformation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#Cerebral_cavernous_malformation -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#Cerebral_cavernous_malformation">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Venous_malformation"/>
+        <rdfs:label>Cerebral cavernous malformation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#Combined_vascular_malformation -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#Combined_vascular_malformation">
+        <rdfs:label>Combined vascular malformation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#Common_VM -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#Common_VM">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Venous_malformation"/>
+        <rdfs:label>Common venous malformation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#Familial_VM_cutaneo-mucosal -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#Familial_VM_cutaneo-mucosal">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Venous_malformation"/>
+        <rdfs:label>Familial venous malformation cutaneo-mucosal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#Familial_intraosseous_vascular_malformation -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#Familial_intraosseous_vascular_malformation">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Venous_malformation"/>
+        <rdfs:label>Familial intraosseous vascular malformation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#Fibro_adipose_vascular_anomaly -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#Fibro_adipose_vascular_anomaly">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Provisionally_unclassified_vascular_anomaly"/>
+        <rdfs:label>Fibro adipose vascular anomaly</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#Glomuvenous_malformation -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#Glomuvenous_malformation">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Venous_malformation"/>
+        <rdfs:label>Glomuvenous malformation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#Intramuscular_hemangioma -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#Intramuscular_hemangioma">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Provisionally_unclassified_vascular_anomaly"/>
+        <rdfs:label>Intramuscular hemangioma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#Klippel-Trenaunay_syndrome -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#Klippel-Trenaunay_syndrome">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Vascular_malformation_associated_with_other_anomalies"/>
+        <rdfs:label>Klippel-Trenaunay syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#Lymphatic-venous_malformation -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#Lymphatic-venous_malformation">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Combined_vascular_malformation"/>
+        <rdfs:label>Lymphatic-venous malformation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#Maffucci_syndrome -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#Maffucci_syndrome">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Vascular_malformation_associated_with_other_anomalies"/>
+        <rdfs:label>Maffucci syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#Other_Venous_malformation -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#Other_Venous_malformation">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Venous_malformation"/>
+        <rdfs:label>Other venous malformation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#Other_arteriovenous_fistula -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#Other_arteriovenous_fistula">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Arteriovenous_fistula"/>
+        <rdfs:label>Other arteriovenous fistula</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#Other_arteriovenous_malformation -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#Other_arteriovenous_malformation">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Arteriovenous_malformation"/>
+        <rdfs:label>Other arteriovenous malformation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#Parkes_Weber_syndrome -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#Parkes_Weber_syndrome">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Vascular_malformation_associated_with_other_anomalies"/>
+        <rdfs:label>Parkes Weber syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#Proteus_syndrome -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#Proteus_syndrome">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Vascular_malformation_associated_with_other_anomalies"/>
+        <rdfs:label>Proteus syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#Provisionally_unclassified_vascular_anomaly -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#Provisionally_unclassified_vascular_anomaly">
+        <rdfs:label>Provisionally unclassified vascular anomaly</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#Servelle-Martorell_syndrome -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#Servelle-Martorell_syndrome">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Vascular_malformation_associated_with_other_anomalies"/>
+        <rdfs:label>Servelle-Martorell syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#Simple_vascular_malformation -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#Simple_vascular_malformation">
+        <rdfs:label>Simple vascular malformation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#Sinusoidal_hemangioma -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#Sinusoidal_hemangioma">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Provisionally_unclassified_vascular_anomaly"/>
+        <rdfs:label>Sinusoidal hemangioma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#Sporadic_Arteriovenous_malformation -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#Sporadic_Arteriovenous_malformation">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Arteriovenous_malformation"/>
+        <rdfs:label>Sporadic arteriovenous malformation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#Sporadic_arteriovenous_fistula -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#Sporadic_arteriovenous_fistula">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Arteriovenous_fistula"/>
+        <rdfs:label>Sporadic arteriovenous fistula</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#Sturge-Weber_syndrome -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#Sturge-Weber_syndrome">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Vascular_malformation_associated_with_other_anomalies"/>
+        <rdfs:label>Sturge-Weber syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#Vascular_malformation_associated_with_other_anomalies -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#Vascular_malformation_associated_with_other_anomalies">
+        <rdfs:label>Vascular malformation associated with other anomalies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#Venous_malformation -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#Venous_malformation">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Simple_vascular_malformation"/>
+        <rdfs:label>Venous malformation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#Verrucous_venous_malformation -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#Verrucous_venous_malformation">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Venous_malformation"/>
+        <rdfs:label>Verrucous venous malformation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#Blue_rubber_bleb_nevus_(Bean)_syndrome_VM -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#Blue_rubber_bleb_nevus_(Bean)_syndrome_VM">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Venous_malformation"/>
+        <rdfs:label>Blue rubber bleb nevus (Bean) syndrome venous malformation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#Limb_CM_+_congenital_non-progressive_limb_overgrowth -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#Limb_CM_+_congenital_non-progressive_limb_overgrowth">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Vascular_malformation_associated_with_other_anomalies"/>
+        <rdfs:label>Limb capillary malformation + congenital non-progressive limb overgrowth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#Macrocephaly_-_CM_(M-CM_/_MCAP) -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#Macrocephaly_-_CM_(M-CM_/_MCAP)">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Vascular_malformation_associated_with_other_anomalies"/>
+        <rdfs:label>Macrocephaly-capillary malformation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#Microcephaly_-_CM_(MICCAP) -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#Microcephaly_-_CM_(MICCAP)">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Vascular_malformation_associated_with_other_anomalies"/>
+        <rdfs:label>Microcephaly-capillary malformation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#Multifocal_lymphangioendotheliomatosis_with_thrombocytopenia_/_cutaneovisceral_angiomatosis_with_thrombocytopenia -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#Multifocal_lymphangioendotheliomatosis_with_thrombocytopenia_/_cutaneovisceral_angiomatosis_with_thrombocytopenia">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Provisionally_unclassified_vascular_anomaly"/>
+        <rdfs:label>Multifocal lymphangioendotheliomatosis with thrombocytopenia / cutaneovisceral angiomatosis with thrombocytopenia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#PTEN_(type)_hamartoma_of_soft_tissue_/_angiomatosis_of_soft_tissue -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#PTEN_(type)_hamartoma_of_soft_tissue_/_angiomatosis_of_soft_tissue">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Provisionally_unclassified_vascular_anomaly"/>
+        <rdfs:label>PTEN (type) hamartoma of soft tissue / angiomatosis of soft tissue</rdfs:label>
+    </owl:Class>
 </rdf:RDF>
 
 
