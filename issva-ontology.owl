@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.org/issva/classification#"
      xml:base="http://purl.org/issva/classification"
-     xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
@@ -23,11 +23,27 @@
     
 
 
+    <!-- http://purl.org/issva/classification#Acquired_elastotic_hemangioma -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#Acquired_elastotic_hemangioma">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Others"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/issva/classification#Acral_arteriovenous_tumour -->
 
     <owl:Class rdf:about="http://purl.org/issva/classification#Acral_arteriovenous_tumour">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Provisionally_unclassified_vascular_anomaly"/>
         <rdfs:label>Acral arteriovenous tumour</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#Anastomosing_hemangioma -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#Anastomosing_hemangioma">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Others"/>
     </owl:Class>
     
 
@@ -45,6 +61,7 @@
 
     <owl:Class rdf:about="http://purl.org/issva/classification#Arteriovenous_fistula">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Simple_vascular_malformation"/>
+        <rdfs:comment xml:lang="en">high-flow lesions</rdfs:comment>
         <rdfs:label>Arteriovenous fistula</rdfs:label>
     </owl:Class>
     
@@ -72,6 +89,7 @@
 
     <owl:Class rdf:about="http://purl.org/issva/classification#Arteriovenous_malformation">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Simple_vascular_malformation"/>
+        <rdfs:comment xml:lang="en">high-flow lesions</rdfs:comment>
         <rdfs:label>Arteriovenous malformation</rdfs:label>
     </owl:Class>
     
@@ -95,11 +113,28 @@
     
 
 
+    <!-- http://purl.org/issva/classification#Bacillary_angiomatosis -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#Bacillary_angiomatosis">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Related_lesions"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/issva/classification#Bannayan-Riley-Ruvalcaba_sd -->
 
     <owl:Class rdf:about="http://purl.org/issva/classification#Bannayan-Riley-Ruvalcaba_sd">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Vascular_malformation_associated_with_other_anomalies"/>
         <rdfs:label>Bannayan-Riley-Ruvalcaba syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#Benign_vascular_tumors -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#Benign_vascular_tumors">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Vascular_tumors"/>
+        <rdfs:comment xml:lang="en">reactive proliferative vascular lesions are listed with benign tumors</rdfs:comment>
     </owl:Class>
     
 
@@ -197,6 +232,8 @@
     <!-- http://purl.org/issva/classification#Combined_vascular_malformation -->
 
     <owl:Class rdf:about="http://purl.org/issva/classification#Combined_vascular_malformation">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Vascular_malformations"/>
+        <rdfs:comment xml:lang="en">defined as two or more vascular malformations found in one lesion</rdfs:comment>
         <rdfs:label>Combined vascular malformation</rdfs:label>
     </owl:Class>
     
@@ -207,6 +244,38 @@
     <owl:Class rdf:about="http://purl.org/issva/classification#Common_VM">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Venous_malformation"/>
         <rdfs:label>Common venous malformation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#Congenital_hemangioma -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#Congenital_hemangioma">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Benign_vascular_tumors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#Cutaneous_epithelioid_angiomatous_nodule -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#Cutaneous_epithelioid_angiomatous_nodule">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Others"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#Eccrine_angiomatous_hamartoma -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#Eccrine_angiomatous_hamartoma">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Related_lesions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#Epithelioid_hemangioma_FOS -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#Epithelioid_hemangioma_FOS">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Benign_vascular_tumors"/>
     </owl:Class>
     
 
@@ -238,11 +307,27 @@
     
 
 
+    <!-- http://purl.org/issva/classification#Glomeruloid_hemangioma -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#Glomeruloid_hemangioma">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Others"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/issva/classification#Glomuvenous_malformation -->
 
     <owl:Class rdf:about="http://purl.org/issva/classification#Glomuvenous_malformation">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Venous_malformation"/>
         <rdfs:label>Glomuvenous malformation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#Hobnail_hemangioma -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#Hobnail_hemangioma">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Others"/>
     </owl:Class>
     
 
@@ -256,11 +341,35 @@
     
 
 
+    <!-- http://purl.org/issva/classification#Intravascular_papillary_endothelial_hyperplasia -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#Intravascular_papillary_endothelial_hyperplasia">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Others"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/issva/classification#Klippel-Trenaunay_syndrome -->
 
     <owl:Class rdf:about="http://purl.org/issva/classification#Klippel-Trenaunay_syndrome">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Vascular_malformation_associated_with_other_anomalies"/>
         <rdfs:label>Klippel-Trenaunay syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#Littoral_cell_hemangioma_of_the_spleen -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#Littoral_cell_hemangioma_of_the_spleen">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Others"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#Locally_agressive_or_borderline -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#Locally_agressive_or_borderline">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Vascular_tumors"/>
     </owl:Class>
     
 
@@ -279,6 +388,30 @@
     <owl:Class rdf:about="http://purl.org/issva/classification#Maffucci_syndrome">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Vascular_malformation_associated_with_other_anomalies"/>
         <rdfs:label>Maffucci syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#Malignant -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#Malignant">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Vascular_tumors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#Microvenular_hemangioma -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#Microvenular_hemangioma">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Others"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#Non-involuting -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#Non-involuting">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Congenital_hemangioma"/>
     </owl:Class>
     
 
@@ -310,11 +443,36 @@
     
 
 
+    <!-- http://purl.org/issva/classification#Others -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#Others">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Benign_vascular_tumors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#Papillary_hemangioma -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#Papillary_hemangioma">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Others"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/issva/classification#Parkes_Weber_syndrome -->
 
     <owl:Class rdf:about="http://purl.org/issva/classification#Parkes_Weber_syndrome">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Vascular_malformation_associated_with_other_anomalies"/>
         <rdfs:label>Parkes Weber syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#Partially_involuting -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#Partially_involuting">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Congenital_hemangioma"/>
+        <rdfs:comment xml:lang="en">some lesions may be associated with thrombocytopenia and/or consumptive coagulopathy</rdfs:comment>
     </owl:Class>
     
 
@@ -331,7 +489,43 @@
     <!-- http://purl.org/issva/classification#Provisionally_unclassified_vascular_anomaly -->
 
     <owl:Class rdf:about="http://purl.org/issva/classification#Provisionally_unclassified_vascular_anomaly">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Vascular_malformations"/>
         <rdfs:label>Provisionally unclassified vascular anomaly</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#Pyogenic_granuloma -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#Pyogenic_granuloma">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Benign_vascular_tumors"/>
+        <rdfs:comment xml:lang="en">also known as lobular capillary hemangioma</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#Rapid_involuting -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#Rapid_involuting">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Congenital_hemangioma"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#Reactive_angioendotheliomatosis -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#Reactive_angioendotheliomatosis">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Related_lesions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#Related_lesions -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#Related_lesions">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Benign_vascular_tumors"/>
+        <rdfs:comment xml:lang="en">The tumor nature of some of these lesions is not certain
+Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comment>
     </owl:Class>
     
 
@@ -348,6 +542,7 @@
     <!-- http://purl.org/issva/classification#Simple_vascular_malformation -->
 
     <owl:Class rdf:about="http://purl.org/issva/classification#Simple_vascular_malformation">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Vascular_malformations"/>
         <rdfs:label>Simple vascular malformation</rdfs:label>
     </owl:Class>
     
@@ -358,6 +553,14 @@
     <owl:Class rdf:about="http://purl.org/issva/classification#Sinusoidal_hemangioma">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Provisionally_unclassified_vascular_anomaly"/>
         <rdfs:label>Sinusoidal hemangioma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#Spindle-cell_hemangioma -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#Spindle-cell_hemangioma">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Benign_vascular_tumors"/>
     </owl:Class>
     
 
@@ -389,11 +592,34 @@
     
 
 
+    <!-- http://purl.org/issva/classification#Tufted_angioma -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#Tufted_angioma">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Benign_vascular_tumors"/>
+        <rdfs:comment xml:lang="en">many experts believe that tufted angioma and kaposiform hemangioendothelioma are part of a spectrum rather than distinct entities</rdfs:comment>
+        <rdfs:comment xml:lang="en">some lesions may be associated with thrombocyctopenia and/or consumptive coagulopathy</rdfs:comment>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/issva/classification#Vascular_malformation_associated_with_other_anomalies -->
 
     <owl:Class rdf:about="http://purl.org/issva/classification#Vascular_malformation_associated_with_other_anomalies">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Vascular_malformations"/>
         <rdfs:label>Vascular malformation associated with other anomalies</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#Vascular_malformations -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#Vascular_malformations"/>
+    
+
+
+    <!-- http://purl.org/issva/classification#Vascular_tumors -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#Vascular_tumors"/>
     
 
 
@@ -415,11 +641,29 @@
     
 
 
+    <!-- http://purl.org/issva/classification#of_major_named_vessels -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#of_major_named_vessels">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Vascular_malformations"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/issva/classification#Blue_rubber_bleb_nevus_(Bean)_syndrome_VM -->
 
     <owl:Class rdf:about="http://purl.org/issva/classification#Blue_rubber_bleb_nevus_(Bean)_syndrome_VM">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Venous_malformation"/>
         <rdfs:label>Blue rubber bleb nevus (Bean) syndrome venous malformation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#Infantile-hemangioma/hemangioma-of-infancy -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#Infantile-hemangioma/hemangioma-of-infancy">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Benign_vascular_tumors"/>
+        <rdfs:label xml:lang="en">Hemangioma of infancy</rdfs:label>
+        <rdfs:label xml:lang="en">Infantile hemangioma</rdfs:label>
     </owl:Class>
     
 
@@ -470,5 +714,5 @@
 
 
 
-<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
 
