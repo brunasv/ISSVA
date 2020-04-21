@@ -6,7 +6,8 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/">
     <owl:Ontology rdf:about="http://purl.org/issva/classification">
         <rdfs:label xml:lang="en">ISSVA classification for vascular anomalies</rdfs:label>
     </owl:Ontology>
@@ -24,9 +25,122 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/RO_0003302 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0003302">
+        <rdfs:label>causes or contributes to condition</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- http://www.w3.org/2004/02/skos/core#prefLabel -->
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/issva/classification#Vessel_type -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/issva/classification#Vessel_type">
+        <rdfs:domain rdf:resource="http://purl.org/issva/classification#Vascular_anomalies_of_major_named_vessels"/>
+        <rdfs:range rdf:resource="http://purl.org/issva/classification#Type_of_vessels"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/issva/classification#Origin -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/issva/classification#Origin">
+        <rdfs:domain rdf:resource="http://purl.org/issva/classification#Vascular_anomalies_of_major_named_vessels"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/issva/classification#communication_AVF -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/issva/classification#communication_AVF">
+        <rdfs:domain rdf:resource="http://purl.org/issva/classification#Vascular_anomalies_of_major_named_vessels"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/issva/classification#course -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/issva/classification#course">
+        <rdfs:domain rdf:resource="http://purl.org/issva/classification#Vascular_anomalies_of_major_named_vessels"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/issva/classification#diameter -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/issva/classification#diameter">
+        <rdfs:domain rdf:resource="http://purl.org/issva/classification#Vascular_anomalies_of_major_named_vessels"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>(aplasia, hypoplasia, stenosis, ectasia / aneurysm)</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/issva/classification#length -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/issva/classification#length">
+        <rdfs:domain rdf:resource="http://purl.org/issva/classification#Vascular_anomalies_of_major_named_vessels"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/issva/classification#number -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/issva/classification#number">
+        <rdfs:domain rdf:resource="http://purl.org/issva/classification#Vascular_anomalies_of_major_named_vessels"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/issva/classification#persistence -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/issva/classification#persistence">
+        <rdfs:domain rdf:resource="http://purl.org/issva/classification#Vascular_anomalies_of_major_named_vessels"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>(of embryonal vessel)</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/issva/classification#valves -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/issva/classification#valves">
+        <rdfs:domain rdf:resource="http://purl.org/issva/classification#Vascular_anomalies_of_major_named_vessels"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
     
 
 
@@ -38,6 +152,28 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.org/issva/classification#ACVRL1 -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#ACVRL1">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Causal_genes_of_vascular_anomalies"/>
+        <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Arteriovenous_fistula_in_HHT"/>
+        <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Arteriovenous_malformation_in_HHT"/>
+        <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Telangiectasia"/>
+        <rdfs:label xml:lang="en">ACVRL1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#AKT1 -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#AKT1">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Causal_genes_of_vascular_anomalies"/>
+        <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Proteus_syndrome"/>
+        <rdfs:label xml:lang="en">AKT1</rdfs:label>
+    </owl:Class>
     
 
 
@@ -96,26 +232,10 @@
     
 
 
-    <!-- http://purl.org/issva/classification#Anomalies_of -->
-
-    <owl:Class rdf:about="http://purl.org/issva/classification#Anomalies_of">
-        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Vascular_anomalies_of_major_named_vessels"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/issva/classification#Anomalies_that_affect -->
-
-    <owl:Class rdf:about="http://purl.org/issva/classification#Anomalies_that_affect">
-        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Vascular_anomalies_of_major_named_vessels"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.org/issva/classification#Arteries -->
 
     <owl:Class rdf:about="http://purl.org/issva/classification#Arteries">
-        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Anomalies_that_affect"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Type_of_vessels"/>
     </owl:Class>
     
 
@@ -124,6 +244,18 @@
 
     <owl:Class rdf:about="http://purl.org/issva/classification#Arteriovenous_fistula">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Simple_vascular_malformation"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/issva/classification#Vessel_type"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Arteries"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/issva/classification#Vessel_type"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Veins"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">Congenital. High-flow lesions.</rdfs:comment>
         <rdfs:label>Arteriovenous fistula (AVF)</rdfs:label>
     </owl:Class>
@@ -152,6 +284,18 @@
 
     <owl:Class rdf:about="http://purl.org/issva/classification#Arteriovenous_malformation">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Simple_vascular_malformation"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/issva/classification#Vessel_type"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Arteries"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/issva/classification#Vessel_type"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Veins"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">high-flow lesions</rdfs:comment>
         <rdfs:label>Arteriovenous malformation (AVM)</rdfs:label>
     </owl:Class>
@@ -176,6 +320,16 @@
     
 
 
+    <!-- http://purl.org/issva/classification#BRAF -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#BRAF">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Causal_genes_of_vascular_anomalies"/>
+        <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Pyogenic_granuloma"/>
+        <rdfs:label xml:lang="en">BRAF</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/issva/classification#Bacillary_angiomatosis -->
 
     <owl:Class rdf:about="http://purl.org/issva/classification#Bacillary_angiomatosis">
@@ -189,6 +343,18 @@
 
     <owl:Class rdf:about="http://purl.org/issva/classification#Bannayan-Riley-Ruvalcaba_sd">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Vascular_malformation_associated_with_other_anomalies"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/issva/classification#Vessel_type"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Arteries"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/issva/classification#Vessel_type"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Veins"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">Associated with AVM + VM +macrocephaly, lipomatous overgrowth</rdfs:comment>
         <rdfs:label>Bannayan-Riley-Ruvalcaba syndrome</rdfs:label>
     </owl:Class>
@@ -214,10 +380,42 @@
     
 
 
+    <!-- http://purl.org/issva/classification#CAMTA1 -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#CAMTA1">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Causal_genes_of_vascular_anomalies"/>
+        <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Epithelioid_hemangioendothelioma"/>
+        <rdfs:label xml:lang="en">CAMTA1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#CCBE1 -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#CCBE1">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Causal_genes_of_vascular_anomalies"/>
+        <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Primary_generalized_lymphatic_anomaly"/>
+        <rdfs:label xml:lang="en">CCBE1</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/issva/classification#CLAPO_syndrome -->
 
     <owl:Class rdf:about="http://purl.org/issva/classification#CLAPO_syndrome">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Vascular_malformation_associated_with_other_anomalies"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/issva/classification#Vessel_type"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Capillaries"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/issva/classification#Vessel_type"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Lymphatics"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">Associated with lower lip CM + face and neck LM + asymmetry and partial/generalized overgrowth. CLAPO syndrome belongs to the PIK3CA-related overgrowth spectrum (PROS).</rdfs:comment>
         <rdfs:label>CLAPO syndrome</rdfs:label>
     </owl:Class>
@@ -228,6 +426,30 @@
 
     <owl:Class rdf:about="http://purl.org/issva/classification#CLOVES_syndrome">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Vascular_malformation_associated_with_other_anomalies"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/issva/classification#Vessel_type"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Arteries"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/issva/classification#Vessel_type"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Capillaries"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/issva/classification#Vessel_type"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Lymphatics"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/issva/classification#Vessel_type"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Veins"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">Associated with LM + VM + CM +/- AVM + lipomatous overgrowth. CLOVES syndrome belongs to the PIK3CA-related overgrowth spectrum (PROS)</rdfs:comment>
         <rdfs:label>CLOVES syndrome</rdfs:label>
     </owl:Class>
@@ -270,10 +492,36 @@
     
 
 
+    <!-- http://purl.org/issva/classification#Capillaries -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#Capillaries">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Type_of_vessels"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/issva/classification#Capillary-arteriovenous_malformation -->
 
     <owl:Class rdf:about="http://purl.org/issva/classification#Capillary-arteriovenous_malformation">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Combined_vascular_malformation"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/issva/classification#Vessel_type"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Arteries"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/issva/classification#Vessel_type"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Capillaries"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/issva/classification#Vessel_type"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Veins"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label>Capillary-arteriovenous malformation (CAVM)</rdfs:label>
     </owl:Class>
     
@@ -283,6 +531,30 @@
 
     <owl:Class rdf:about="http://purl.org/issva/classification#Capillary-lymphatic-arteriovenous_malformation">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Combined_vascular_malformation"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/issva/classification#Vessel_type"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Arteries"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/issva/classification#Vessel_type"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Capillaries"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/issva/classification#Vessel_type"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Lymphatics"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/issva/classification#Vessel_type"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Veins"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label>Capillary-lymphatic-arteriovenous malformation (CLAVM)</rdfs:label>
     </owl:Class>
     
@@ -292,6 +564,30 @@
 
     <owl:Class rdf:about="http://purl.org/issva/classification#Capillary-lymphatic-venous-arteriovenous_malformation">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Combined_vascular_malformation"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/issva/classification#Vessel_type"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Arteries"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/issva/classification#Vessel_type"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Capillaries"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/issva/classification#Vessel_type"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Lymphatics"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/issva/classification#Vessel_type"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Veins"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label>Capillary-lymphatic-venous-arteriovenous malformation (CLVAVM)</rdfs:label>
     </owl:Class>
     
@@ -301,6 +597,30 @@
 
     <owl:Class rdf:about="http://purl.org/issva/classification#Capillary-lymphatic-venous_malformation">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Combined_vascular_malformation"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/issva/classification#Vessel_type"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Arteries"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/issva/classification#Vessel_type"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Capillaries"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/issva/classification#Vessel_type"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Lymphatics"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/issva/classification#Vessel_type"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Veins"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label>Capillary-lymphatic-venous malformation (CLVM)</rdfs:label>
     </owl:Class>
     
@@ -310,6 +630,18 @@
 
     <owl:Class rdf:about="http://purl.org/issva/classification#Capillary-lymphatic_malformation">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Combined_vascular_malformation"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/issva/classification#Vessel_type"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Capillaries"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/issva/classification#Vessel_type"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Lymphatics"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label>Capillary-lymphatic malformation (CLM)</rdfs:label>
     </owl:Class>
     
@@ -319,6 +651,24 @@
 
     <owl:Class rdf:about="http://purl.org/issva/classification#Capillary-venous-arteriovenous_malformation">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Combined_vascular_malformation"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/issva/classification#Vessel_type"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Arteries"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/issva/classification#Vessel_type"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Capillaries"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/issva/classification#Vessel_type"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Veins"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label>Capillary-venous-arteriovenous malformation (CVAVM)</rdfs:label>
     </owl:Class>
     
@@ -328,6 +678,18 @@
 
     <owl:Class rdf:about="http://purl.org/issva/classification#Capillary-venous_malformation">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Combined_vascular_malformation"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/issva/classification#Vessel_type"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Capillaries"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/issva/classification#Vessel_type"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Veins"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label>Capillary-venous malformation (CVM)</rdfs:label>
     </owl:Class>
     
@@ -337,8 +699,20 @@
 
     <owl:Class rdf:about="http://purl.org/issva/classification#Capillary_malformations_CM">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Simple_vascular_malformation"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/issva/classification#Vessel_type"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Capillaries"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Capillary malformations (CM)</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#Causal_genes_of_vascular_anomalies -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#Causal_genes_of_vascular_anomalies"/>
     
 
 
@@ -407,15 +781,6 @@
     
 
 
-    <!-- http://purl.org/issva/classification#Course -->
-
-    <owl:Class rdf:about="http://purl.org/issva/classification#Course">
-        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Anomalies_of"/>
-        <rdfs:label xml:lang="en">course</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.org/issva/classification#Cutaneous_and_or_mucosal_CM -->
 
     <owl:Class rdf:about="http://purl.org/issva/classification#Cutaneous_and_or_mucosal_CM">
@@ -444,12 +809,33 @@
     
 
 
-    <!-- http://purl.org/issva/classification#Diameter -->
+    <!-- http://purl.org/issva/classification#ELMO2 -->
 
-    <owl:Class rdf:about="http://purl.org/issva/classification#Diameter">
-        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Anomalies_of"/>
-        <rdfs:comment xml:lang="en">(aplasia, hypoplasia, stenosis, ectasia / aneurysm)</rdfs:comment>
-        <rdfs:label xml:lang="en">diameter (aplasia, hypoplasia, stenosis, ectasia / aneurysm)</rdfs:label>
+    <owl:Class rdf:about="http://purl.org/issva/classification#ELMO2">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Causal_genes_of_vascular_anomalies"/>
+        <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Familial_intraosseous_vascular_malformation"/>
+        <rdfs:label xml:lang="en">ELMO2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#ENG -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#ENG">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Causal_genes_of_vascular_anomalies"/>
+        <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Arteriovenous_fistula_in_HHT"/>
+        <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Arteriovenous_malformation_in_HHT"/>
+        <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Telangiectasia"/>
+        <rdfs:label xml:lang="en">ENG</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#EPHB4 -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#EPHB4">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Causal_genes_of_vascular_anomalies"/>
+        <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Capillary-arteriovenous_malformation"/>
     </owl:Class>
     
 
@@ -481,6 +867,47 @@
     
 
 
+    <!-- http://purl.org/issva/classification#FLT4 -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#FLT4">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Causal_genes_of_vascular_anomalies"/>
+        <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Nonne-Milroy_syndrome"/>
+        <rdfs:label xml:lang="en">FLT4</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.org/issva/classification#VEGFR3"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#FOS -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#FOS">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Causal_genes_of_vascular_anomalies"/>
+        <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Epithelioid_hemangioma"/>
+        <rdfs:label xml:lang="en">FOS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#FOSB -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#FOSB">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Causal_genes_of_vascular_anomalies"/>
+        <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Pseudomyogenic_hemangioendothelioma"/>
+        <rdfs:label xml:lang="en">FOSB</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#FOXC2 -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#FOXC2">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Causal_genes_of_vascular_anomalies"/>
+        <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Lymphedema-distichiasis"/>
+        <rdfs:label xml:lang="en">FOXC2</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/issva/classification#Familial_VM_cutaneo-mucosal -->
 
     <owl:Class rdf:about="http://purl.org/issva/classification#Familial_VM_cutaneo-mucosal">
@@ -503,7 +930,70 @@
 
     <owl:Class rdf:about="http://purl.org/issva/classification#Fibro_adipose_vascular_anomaly_FAVA">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Provisionally_unclassified_vascular_anomaly"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/issva/classification#Vessel_type"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Lymphatics"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label>Fibro adipose vascular anomaly (FAVA)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#GATA2 -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#GATA2">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Causal_genes_of_vascular_anomalies"/>
+        <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Primary_lymphedema_with_myelodysplasia"/>
+        <rdfs:label xml:lang="en">GATA2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#GJC2 -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#GJC2">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Causal_genes_of_vascular_anomalies"/>
+        <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Primary_hereditary_lymphedema"/>
+        <rdfs:label xml:lang="en">GJC2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#GNA11 -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#GNA11">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Causal_genes_of_vascular_anomalies"/>
+        <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#CM_with_bone_and_or_soft_tissues_overgrowth"/>
+        <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Congenital_hemangioma"/>
+        <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Diffuse_CM_with_overgrowth_(DCMO)"/>
+        <rdfs:label xml:lang="en">GNA11</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#GNA14 -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#GNA14">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Causal_genes_of_vascular_anomalies"/>
+        <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Kaposiform_hemangioendothelioma"/>
+        <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Pyogenic_granuloma"/>
+        <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Tufted_angioma"/>
+        <rdfs:label xml:lang="en">GNA14</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#GNAQ -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#GNAQ">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Causal_genes_of_vascular_anomalies"/>
+        <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Congenital_hemangioma"/>
+        <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Cutaneous_and_or_mucosal_CM"/>
+        <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Nonsyndromic_CM"/>
+        <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Sturge-Weber_syndrome"/>
+        <rdfs:label xml:lang="en">GNAQ</rdfs:label>
     </owl:Class>
     
 
@@ -522,6 +1012,16 @@
     <owl:Class rdf:about="http://purl.org/issva/classification#Glomeruloid_hemangioma">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Others"/>
         <rdfs:label xml:lang="en">Glomeruloid hemangioma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#Glomulin -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#Glomulin">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Causal_genes_of_vascular_anomalies"/>
+        <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Glomuvenous_malformation"/>
+        <rdfs:label xml:lang="en">Glomulin</rdfs:label>
     </owl:Class>
     
 
@@ -571,10 +1071,50 @@
     
 
 
+    <!-- http://purl.org/issva/classification#IDH1 -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#IDH1">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Causal_genes_of_vascular_anomalies"/>
+        <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Maffucci_syndrome"/>
+        <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Spindle-cell_hemangioma"/>
+        <rdfs:label xml:lang="en">IDH1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#IDH2 -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#IDH2">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Causal_genes_of_vascular_anomalies"/>
+        <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Maffucci_syndrome"/>
+        <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Spindle-cell_hemangioma"/>
+        <rdfs:label xml:lang="en">IDH2</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/issva/classification#Intramuscular_hemangioma -->
 
     <owl:Class rdf:about="http://purl.org/issva/classification#Intramuscular_hemangioma">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Provisionally_unclassified_vascular_anomaly"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/issva/classification#Vessel_type"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Arteries"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/issva/classification#Vessel_type"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Lymphatics"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/issva/classification#Vessel_type"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Veins"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">Distinct from infantile hemangioma, from intramuscular common VM, PHOST/AST, FAVA and AVM. Some lesions may be associated with thrombocytopenia and/or consumptive coagulopathy.</rdfs:comment>
         <rdfs:label>Intramuscular hemangioma</rdfs:label>
     </owl:Class>
@@ -586,6 +1126,28 @@
     <owl:Class rdf:about="http://purl.org/issva/classification#Intravascular_papillary_endothelial_hyperplasia">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Others"/>
         <rdfs:label xml:lang="en">Intravascular papillary endothelial hyperplasia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#KIF11 -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#KIF11">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Causal_genes_of_vascular_anomalies"/>
+        <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Primary_lymphedema"/>
+        <obo:RO_0003302 xml:lang="en">Mental retardation syndrome</obo:RO_0003302>
+        <obo:RO_0003302 xml:lang="en">Microcephaly with or without chorioretinopathy</obo:RO_0003302>
+        <rdfs:label xml:lang="en">KIF11</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#KRIT1 -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#KRIT1">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Causal_genes_of_vascular_anomalies"/>
+        <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Cerebral_cavernous_malformation"/>
+        <rdfs:label xml:lang="en">KRIT1</rdfs:label>
     </owl:Class>
     
 
@@ -624,6 +1186,18 @@ rather than distinct entities</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.org/issva/classification#Klippel-Trenaunay_syndrome">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Vascular_malformation_associated_with_other_anomalies"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/issva/classification#Vessel_type"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Capillaries"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/issva/classification#Vessel_type"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Veins"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">Associated with CM + VM +/- LM + limb overgrowth.
 Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PROS).</rdfs:comment>
         <rdfs:label>Klippel-Trenaunay syndrome</rdfs:label>
@@ -640,19 +1214,16 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
     
 
 
-    <!-- http://purl.org/issva/classification#Length -->
-
-    <owl:Class rdf:about="http://purl.org/issva/classification#Length">
-        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Anomalies_of"/>
-        <rdfs:label xml:lang="en">length</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.org/issva/classification#Limb_CM_with_congenital_non-progressive_limb_overgrowth -->
 
     <owl:Class rdf:about="http://purl.org/issva/classification#Limb_CM_with_congenital_non-progressive_limb_overgrowth">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Vascular_malformation_associated_with_other_anomalies"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/issva/classification#Vessel_type"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Capillaries"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label>Limb capillary malformation + congenital non-progressive limb overgrowth</rdfs:label>
     </owl:Class>
     
@@ -680,6 +1251,18 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
 
     <owl:Class rdf:about="http://purl.org/issva/classification#Lymphatic-venous_malformation">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Combined_vascular_malformation"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/issva/classification#Vessel_type"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Lymphatics"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/issva/classification#Vessel_type"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Veins"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label>Lymphatic-venous malformation (LVM)</rdfs:label>
     </owl:Class>
     
@@ -697,7 +1280,7 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
     <!-- http://purl.org/issva/classification#Lymphatics -->
 
     <owl:Class rdf:about="http://purl.org/issva/classification#Lymphatics">
-        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Anomalies_that_affect"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Type_of_vessels"/>
     </owl:Class>
     
 
@@ -720,10 +1303,47 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
     
 
 
+    <!-- http://purl.org/issva/classification#MAP2K1 -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#MAP2K1">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Causal_genes_of_vascular_anomalies"/>
+        <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Sporadic_Arteriovenous_malformation"/>
+        <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Sporadic_arteriovenous_fistula"/>
+        <rdfs:label xml:lang="en">MAP2K1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#MAP3K3 -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#MAP3K3">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Causal_genes_of_vascular_anomalies"/>
+        <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Verrucous_venous_malformation"/>
+        <rdfs:label xml:lang="en">MAP3K3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#MYC -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#MYC">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Causal_genes_of_vascular_anomalies"/>
+        <obo:RO_0003302 xml:lang="en">Post radiation angiosarcoma</obo:RO_0003302>
+        <rdfs:label xml:lang="en">MYC</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/issva/classification#Macrocephaly_CM_M-CM_MCAP -->
 
     <owl:Class rdf:about="http://purl.org/issva/classification#Macrocephaly_CM_M-CM_MCAP">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Vascular_malformation_associated_with_other_anomalies"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/issva/classification#Vessel_type"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Capillaries"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">MCAP belongs to the PIK3CA-related overgrowth spectrum (PROS)</rdfs:comment>
         <rdfs:label>Macrocephaly-capillary malformation (M-CM / MCAP)</rdfs:label>
     </owl:Class>
@@ -743,8 +1363,24 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
 
     <owl:Class rdf:about="http://purl.org/issva/classification#Maffucci_syndrome">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Vascular_malformation_associated_with_other_anomalies"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/issva/classification#Vessel_type"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Veins"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">Associated with VM +/- spindle-cell hemangioma + enchondroma</rdfs:comment>
         <rdfs:label>Maffucci syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#Malcavernin -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#Malcavernin">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Causal_genes_of_vascular_anomalies"/>
+        <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Cerebral_cavernous_malformation"/>
+        <rdfs:label xml:lang="en">Malcavernin</rdfs:label>
     </owl:Class>
     
 
@@ -762,6 +1398,12 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
 
     <owl:Class rdf:about="http://purl.org/issva/classification#Microcephaly_CM_MICCAP">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Vascular_malformation_associated_with_other_anomalies"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/issva/classification#Vessel_type"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Capillaries"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label>Microcephaly-capillary malformation (MICCAP)</rdfs:label>
     </owl:Class>
     
@@ -771,7 +1413,9 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
 
     <owl:Class rdf:about="http://purl.org/issva/classification#Microcephaly_with_or_without_chorioretinopathy_lymphedema_or_mental_retardation_syndrome">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Primary_lymphedema"/>
-        <rdfs:label xml:lang="en">Microcephaly with or without chorioretinopathy, lymphedema, or mental retardation syndrome</rdfs:label>
+        <obo:RO_0003302 xml:lang="en">Microcephaly with or without chorioretinopathy</obo:RO_0003302>
+        <obo:RO_0003302 xml:lang="en">lymphedema</obo:RO_0003302>
+        <obo:RO_0003302 xml:lang="en">mental retardation syndrome</obo:RO_0003302>
     </owl:Class>
     
 
@@ -807,7 +1451,23 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
 
     <owl:Class rdf:about="http://purl.org/issva/classification#Multifocal_lymphangioendotheliomatosis_with_thrombocytopenia_cutaneovisceral_angiomatosis_with_thrombocytopenia_MLT_CAT">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Provisionally_unclassified_vascular_anomaly"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/issva/classification#Vessel_type"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Lymphatics"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label>Multifocal lymphangioendotheliomatosis with thrombocytopenia / cutaneovisceral angiomatosis with thrombocytopenia (MLT/CAT)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#NPM11 -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#NPM11">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Causal_genes_of_vascular_anomalies"/>
+        <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Maffucci_syndrome"/>
+        <rdfs:label xml:lang="en">NPM11</rdfs:label>
     </owl:Class>
     
 
@@ -845,24 +1505,6 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
     <owl:Class rdf:about="http://purl.org/issva/classification#Nonsyndromic_CM">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Cutaneous_and_or_mucosal_CM"/>
         <rdfs:label xml:lang="en">Nonsyndromic CM</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/issva/classification#Number -->
-
-    <owl:Class rdf:about="http://purl.org/issva/classification#Number">
-        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Anomalies_of"/>
-        <rdfs:label xml:lang="en">number</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/issva/classification#Origin -->
-
-    <owl:Class rdf:about="http://purl.org/issva/classification#Origin">
-        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Anomalies_of"/>
-        <rdfs:label xml:lang="en">origin</rdfs:label>
     </owl:Class>
     
 
@@ -939,11 +1581,64 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
     
 
 
+    <!-- http://purl.org/issva/classification#PDCD10 -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#PDCD10">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Causal_genes_of_vascular_anomalies"/>
+        <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Cerebral_cavernous_malformation"/>
+        <rdfs:label xml:lang="en">PDCD10</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#PIK3CA -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#PIK3CA">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Causal_genes_of_vascular_anomalies"/>
+        <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#CLAPO_syndrome"/>
+        <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#CLOVES_syndrome"/>
+        <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#CM_of_MCAP_megalencephaly-capillary_malformation-polymicrogyria"/>
+        <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Common_VM"/>
+        <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Common_cystic_LM"/>
+        <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Fibro_adipose_vascular_anomaly_FAVA"/>
+        <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Klippel-Trenaunay_syndrome"/>
+        <rdfs:label xml:lang="en">PIK3CA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#PTEN -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#PTEN">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Causal_genes_of_vascular_anomalies"/>
+        <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Bannayan-Riley-Ruvalcaba_sd"/>
+        <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#PTEN_type_hamartoma_of_soft_tissue_angiomatosis_of_soft_tissue"/>
+        <rdfs:label xml:lang="en">PTEN</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/issva/classification#PTEN_type_hamartoma_of_soft_tissue_angiomatosis_of_soft_tissue -->
 
     <owl:Class rdf:about="http://purl.org/issva/classification#PTEN_type_hamartoma_of_soft_tissue_angiomatosis_of_soft_tissue">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Provisionally_unclassified_vascular_anomaly"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/issva/classification#Vessel_type"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Lymphatics"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label>PTEN (type) hamartoma of soft tissue / &quot;angiomatosis&quot; of soft tissue (PHOST)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#PTPN14 -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#PTPN14">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Causal_genes_of_vascular_anomalies"/>
+        <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Lymphedema-choanal_atresia"/>
+        <rdfs:label xml:lang="en">PTPN14</rdfs:label>
     </owl:Class>
     
 
@@ -971,6 +1666,18 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
 
     <owl:Class rdf:about="http://purl.org/issva/classification#Parkes_Weber_syndrome">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Vascular_malformation_associated_with_other_anomalies"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/issva/classification#Vessel_type"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Arteries"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/issva/classification#Vessel_type"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Capillaries"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">Associated with CM + AVF + limb overgrowth</rdfs:comment>
         <rdfs:label>Parkes Weber syndrome</rdfs:label>
     </owl:Class>
@@ -1037,6 +1744,24 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
 
     <owl:Class rdf:about="http://purl.org/issva/classification#Proteus_syndrome">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Vascular_malformation_associated_with_other_anomalies"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/issva/classification#Vessel_type"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Capillaries"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/issva/classification#Vessel_type"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Lymphatics"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/issva/classification#Vessel_type"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Veins"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">Associated with CM, VM and/or LM + asymmetrical somatic overgrowth.</rdfs:comment>
         <rdfs:label>Proteus syndrome</rdfs:label>
     </owl:Class>
@@ -1067,6 +1792,27 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Benign_vascular_tumors"/>
         <rdfs:comment xml:lang="en">also known as lobular capillary hemangioma</rdfs:comment>
         <rdfs:label xml:lang="en">Pyogenic granuloma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#RAS -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#RAS">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Causal_genes_of_vascular_anomalies"/>
+        <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Pyogenic_granuloma"/>
+        <rdfs:label xml:lang="en">RAS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#RASA1 -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#RASA1">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Causal_genes_of_vascular_anomalies"/>
+        <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Capillary-venous-arteriovenous_malformation"/>
+        <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Parkes_Weber_syndrome"/>
+        <rdfs:label xml:lang="en">RASA1</rdfs:label>
     </owl:Class>
     
 
@@ -1118,10 +1864,49 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
     
 
 
+    <!-- http://purl.org/issva/classification#SMAD4 -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#SMAD4">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Causal_genes_of_vascular_anomalies"/>
+        <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Arteriovenous_fistula_in_HHT"/>
+        <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Arteriovenous_malformation_in_HHT"/>
+        <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Telangiectasia"/>
+        <rdfs:comment xml:lang="en">Causes AVM and AVF of Juvenile polyposis hemorrhagic telangiectasia JPHT</rdfs:comment>
+        <rdfs:label xml:lang="en">SMAD4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#SOX18 -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#SOX18">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Causal_genes_of_vascular_anomalies"/>
+        <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Hypotrichosis-lymphedema-telangiectasia"/>
+        <rdfs:label xml:lang="en">SOX18</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#STAMBP -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#STAMBP">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Causal_genes_of_vascular_anomalies"/>
+        <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Microcephaly_CM_MICCAP"/>
+        <rdfs:label xml:lang="en">STAMBP</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/issva/classification#Servelle-Martorell_syndrome -->
 
     <owl:Class rdf:about="http://purl.org/issva/classification#Servelle-Martorell_syndrome">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Vascular_malformation_associated_with_other_anomalies"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/issva/classification#Vessel_type"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Veins"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">Associated with limb VM + bone undergrowth</rdfs:comment>
         <rdfs:label>Servelle-Martorell syndrome</rdfs:label>
     </owl:Class>
@@ -1132,6 +1917,12 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
 
     <owl:Class rdf:about="http://purl.org/issva/classification#Simple_vascular_malformation">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Vascular_malformations"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/issva/classification#Vessel_type"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Lymphatics"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label>Simple vascular malformations</rdfs:label>
     </owl:Class>
     
@@ -1177,8 +1968,36 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
 
     <owl:Class rdf:about="http://purl.org/issva/classification#Sturge-Weber_syndrome">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Vascular_malformation_associated_with_other_anomalies"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/issva/classification#Vessel_type"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Capillaries"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">Associated with facial + leptomeningeal CM + eye anomalies +/- bone and/or soft tissue overgrowth</rdfs:comment>
         <rdfs:label>Sturge-Weber syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#TEK_TIE2 -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#TEK_TIE2">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Causal_genes_of_vascular_anomalies"/>
+        <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Blue_rubber_bleb_nevus_Bean_syndrome_VM"/>
+        <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Common_VM"/>
+        <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Familial_VM_cutaneo-mucosal"/>
+        <rdfs:label xml:lang="en">TEK (TIE2)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#TFE3 -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#TFE3">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Causal_genes_of_vascular_anomalies"/>
+        <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Epithelioid_hemangioendothelioma"/>
+        <rdfs:label xml:lang="en">TFE3</rdfs:label>
     </owl:Class>
     
 
@@ -1204,10 +2023,54 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
     
 
 
+    <!-- http://purl.org/issva/classification#Type_of_vessels -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#Type_of_vessels"/>
+    
+
+
+    <!-- http://purl.org/issva/classification#VEGFC -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#VEGFC">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Causal_genes_of_vascular_anomalies"/>
+        <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Primary_hereditary_lymphedema"/>
+        <rdfs:label xml:lang="en">VEGFC</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#VEGFR3 -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#VEGFR3">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Causal_genes_of_vascular_anomalies"/>
+        <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Nonne-Milroy_syndrome"/>
+        <rdfs:label xml:lang="en">VEGFR3</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/issva/classification#Vascular_anomalies_of_major_named_vessels -->
 
     <owl:Class rdf:about="http://purl.org/issva/classification#Vascular_anomalies_of_major_named_vessels">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Vascular_malformations"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/issva/classification#Vessel_type"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Arteries"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/issva/classification#Vessel_type"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Lymphatics"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/issva/classification#Vessel_type"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Veins"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">(also known as &quot;channel type&quot; or &quot;truncal&quot; vascular malformations)</rdfs:comment>
         <rdfs:label xml:lang="en">Vascular anomalies of major named vessels</rdfs:label>
     </owl:Class>
@@ -1242,7 +2105,7 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
     <!-- http://purl.org/issva/classification#Veins -->
 
     <owl:Class rdf:about="http://purl.org/issva/classification#Veins">
-        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Anomalies_that_affect"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Type_of_vessels"/>
     </owl:Class>
     
 
@@ -1251,6 +2114,12 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
 
     <owl:Class rdf:about="http://purl.org/issva/classification#Venous_malformation">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Simple_vascular_malformation"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/issva/classification#Vessel_type"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Veins"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">some lesions may be associated with thrombocytopenia and/or consumptive coagulopathy</rdfs:comment>
         <rdfs:label>Venous malformation</rdfs:label>
     </owl:Class>
@@ -1263,33 +2132,6 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Venous_malformation"/>
         <rdfs:comment xml:lang="en">(formerly verrucous hemangioma)</rdfs:comment>
         <rdfs:label>Verrucous venous malformation</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/issva/classification#communication_AVF -->
-
-    <owl:Class rdf:about="http://purl.org/issva/classification#communication_AVF">
-        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Anomalies_of"/>
-        <rdfs:label xml:lang="en">communication (AVF)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/issva/classification#persistence_of_embryonal_vessel -->
-
-    <owl:Class rdf:about="http://purl.org/issva/classification#persistence_of_embryonal_vessel">
-        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Anomalies_of"/>
-        <rdfs:label xml:lang="en">persistence (of embryonal vessel)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/issva/classification#valves -->
-
-    <owl:Class rdf:about="http://purl.org/issva/classification#valves">
-        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Anomalies_of"/>
-        <rdfs:label xml:lang="en">Valves</rdfs:label>
     </owl:Class>
     
 
