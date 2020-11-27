@@ -37,6 +37,12 @@
     
 
 
+    <!-- http://www.w3.org/2004/02/skos/core#exactMatch -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+    
+
+
     <!-- http://www.w3.org/2004/02/skos/core#prefLabel -->
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel"/>
@@ -853,6 +859,7 @@
 
     <owl:Class rdf:about="http://purl.org/issva/classification#Congenital_hemangioma">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Benign_vascular_tumors"/>
+        <owl:disjointWith rdf:resource="http://purl.org/issva/classification#GNA11"/>
         <rdfs:label xml:lang="en">Congenital hemangioma</rdfs:label>
         <skos:exactMatch rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3841"/>
         <skos:exactMatch rdf:resource="http://snomed.info/id/32361000119104"/>
@@ -1933,6 +1940,8 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Benign_vascular_tumors"/>
         <rdfs:comment xml:lang="en">also known as lobular capillary hemangioma</rdfs:comment>
         <rdfs:label xml:lang="en">Pyogenic granuloma</rdfs:label>
+        <skos:exactMatch rdf:resource="http://snomed.info/id/17372009"/>
+        <skos:exactMatch rdf:resource="http://snomed.info/id/200722003"/>
     </owl:Class>
     
 
@@ -1954,6 +1963,7 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
         <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Capillary-venous-arteriovenous_malformation"/>
         <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Parkes_Weber_syndrome"/>
         <rdfs:label xml:lang="en">RASA1</rdfs:label>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_118231"/>
     </owl:Class>
     
 
@@ -1963,6 +1973,7 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
     <owl:Class rdf:about="http://purl.org/issva/classification#Rapid_involuting_RICH">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Congenital_hemangioma"/>
         <rdfs:label xml:lang="en">Rapidly involuting (RICH)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_141184"/>
     </owl:Class>
     
 
@@ -1972,6 +1983,7 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
     <owl:Class rdf:about="http://purl.org/issva/classification#Reactive_angioendotheliomatosis">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Related_lesions"/>
         <rdfs:label xml:lang="en">Reactive angioendotheliomatosis</rdfs:label>
+        <skos:exactMatch rdf:resource="http://snomed.info/id/725501005"/>
     </owl:Class>
     
 
@@ -2001,6 +2013,10 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
     <owl:Class rdf:about="http://purl.org/issva/classification#Retiform_hemangioendothelioma">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Locally_agressive_or_borderline"/>
         <rdfs:label xml:lang="en">Retiform hemangioendothelioma</rdfs:label>
+        <skos:exactMatch rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C27511"/>
+        <skos:exactMatch rdf:resource="http://snomed.info/id/403982005"/>
+        <skos:exactMatch rdf:resource="http://snomed.info/id/703659003"/>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_458763"/>
     </owl:Class>
     
 
@@ -2014,6 +2030,7 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
         <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Telangiectasia"/>
         <rdfs:comment xml:lang="en">Causes AVM and AVF of Juvenile polyposis hemorrhagic telangiectasia JPHT</rdfs:comment>
         <rdfs:label xml:lang="en">SMAD4</rdfs:label>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_119727"/>
     </owl:Class>
     
 
@@ -2024,6 +2041,7 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Causal_genes_of_vascular_anomalies"/>
         <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Hypotrichosis-lymphedema-telangiectasia"/>
         <rdfs:label xml:lang="en">SOX18</rdfs:label>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_119788"/>
     </owl:Class>
     
 
@@ -2034,6 +2052,7 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Causal_genes_of_vascular_anomalies"/>
         <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Microcephaly_CM_MICCAP"/>
         <rdfs:label xml:lang="en">STAMBP</rdfs:label>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_353369"/>
     </owl:Class>
     
 
@@ -2050,6 +2069,8 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">Associated with limb VM + bone undergrowth</rdfs:comment>
         <rdfs:label>Servelle-Martorell syndrome</rdfs:label>
+        <skos:exactMatch rdf:resource="http://snomed.info/id/703659003"/>
+        <skos:exactMatch rdf:resource="http://snomed.info/id/765750001"/>
     </owl:Class>
     
 
@@ -2065,6 +2086,7 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label>Simple vascular malformations</rdfs:label>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_211243"/>
     </owl:Class>
     
 
@@ -2074,6 +2096,8 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
     <owl:Class rdf:about="http://purl.org/issva/classification#Sinusoidal_hemangioma">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Provisionally_unclassified_vascular_anomaly"/>
         <rdfs:label>Sinusoidal hemangioma</rdfs:label>
+        <skos:exactMatch rdf:resource="http://snomed.info/id/403965008"/>
+        <skos:exactMatch rdf:resource="http://snomed.info/id/699606005"/>
     </owl:Class>
     
 
@@ -2083,6 +2107,10 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
     <owl:Class rdf:about="http://purl.org/issva/classification#Spindle-cell_hemangioma">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Benign_vascular_tumors"/>
         <rdfs:label xml:lang="en">Spindle-cell hemangioma</rdfs:label>
+        <skos:exactMatch rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C4754"/>
+        <skos:exactMatch rdf:resource="http://snomed.info/id/128769003"/>
+        <skos:exactMatch rdf:resource="http://snomed.info/id/403967000"/>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_210584"/>
     </owl:Class>
     
 
@@ -2117,6 +2145,9 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">Associated with facial + leptomeningeal CM + eye anomalies +/- bone and/or soft tissue overgrowth</rdfs:comment>
         <rdfs:label>Sturge-Weber syndrome</rdfs:label>
+        <skos:exactMatch rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3391"/>
+        <skos:exactMatch rdf:resource="http://snomed.info/id/19886006"/>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_3205"/>
     </owl:Class>
     
 
@@ -2139,6 +2170,7 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Causal_genes_of_vascular_anomalies"/>
         <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Epithelioid_hemangioendothelioma"/>
         <rdfs:label xml:lang="en">TFE3</rdfs:label>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_120036"/>
     </owl:Class>
     
 
@@ -2149,6 +2181,9 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Capillary_malformations_CM"/>
         <rdfs:comment xml:lang="en">The CM nature of some subtypes of telangiectasia is debated. Some telangiectasia may be reclassified in other sections in the future.</rdfs:comment>
         <rdfs:label xml:lang="en">Telangiectasia</rdfs:label>
+        <skos:exactMatch rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C28194"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0001009"/>
+        <skos:exactMatch rdf:resource="http://snomed.info/id/112641009"/>
     </owl:Class>
     
 
@@ -2160,6 +2195,9 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
         <rdfs:comment xml:lang="en">many experts believe that tufted angioma and kaposiform hemangioendothelioma are part of a spectrum rather than distinct entities</rdfs:comment>
         <rdfs:comment xml:lang="en">some lesions may be associated with thrombocyctopenia and/or consumptive coagulopathy</rdfs:comment>
         <rdfs:label xml:lang="en">Tufted angioma</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0012329"/>
+        <skos:exactMatch rdf:resource="http://snomed.info/id/705155008"/>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_1063"/>
     </owl:Class>
     
 
@@ -2178,6 +2216,7 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Causal_genes_of_vascular_anomalies"/>
         <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Primary_hereditary_lymphedema"/>
         <rdfs:label xml:lang="en">VEGFC</rdfs:label>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_376917"/>
     </owl:Class>
     
 
@@ -2188,6 +2227,7 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Causal_genes_of_vascular_anomalies"/>
         <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Nonne-Milroy_syndrome"/>
         <rdfs:label xml:lang="en">VEGFR3</rdfs:label>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_121872"/>
     </owl:Class>
     
 
@@ -2216,6 +2256,7 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">(also known as &quot;channel type&quot; or &quot;truncal&quot; vascular malformations)</rdfs:comment>
         <rdfs:label xml:lang="en">Vascular anomalies of major named vessels</rdfs:label>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_458844"/>
     </owl:Class>
     
 
@@ -2233,6 +2274,7 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
     <owl:Class rdf:about="http://purl.org/issva/classification#Vascular_malformation_associated_with_other_anomalies">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Vascular_malformations"/>
         <rdfs:label>Vascular malformation associated with other anomalies</rdfs:label>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_211277"/>
     </owl:Class>
     
 
@@ -2242,6 +2284,9 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
     <owl:Class rdf:about="http://purl.org/issva/classification#Vascular_malformations">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Vascular_anomaly"/>
         <rdfs:label xml:lang="en">Vascular malformation</rdfs:label>
+        <skos:exactMatch rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C112117"/>
+        <skos:exactMatch rdf:resource="http://snomed.info/id/400159008"/>
+        <skos:exactMatch rdf:resource="http://snomed.info/id/783806000"/>
     </owl:Class>
     
 
@@ -2251,6 +2296,7 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
     <owl:Class rdf:about="http://purl.org/issva/classification#Vascular_tumors">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Vascular_anomaly"/>
         <rdfs:label xml:lang="en">Vascular tumor</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0100742"/>
     </owl:Class>
     
 
@@ -2275,6 +2321,9 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">some lesions may be associated with thrombocytopenia and/or consumptive coagulopathy</rdfs:comment>
         <rdfs:label>Venous malformation</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0012721"/>
+        <skos:exactMatch rdf:resource="http://snomed.info/id/234124003"/>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_211252"/>
     </owl:Class>
     
 
