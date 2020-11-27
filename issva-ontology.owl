@@ -27,9 +27,13 @@
 
     <!-- http://purl.obolibrary.org/obo/RO_0003302 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0003302">
-        <rdfs:label>causes or contributes to condition</rdfs:label>
-    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0003302"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#exactMatch -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#exactMatch"/>
     
 
 
@@ -47,6 +51,14 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0003302 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0003302">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:ObjectProperty>
     
 
 
@@ -159,10 +171,26 @@
 
     <owl:Class rdf:about="http://purl.org/issva/classification#ACVRL1">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Causal_genes_of_vascular_anomalies"/>
-        <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Arteriovenous_fistula_in_HHT"/>
-        <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Arteriovenous_malformation_in_HHT"/>
-        <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Telangiectasia"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003302"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Arteriovenous_fistula_in_HHT"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003302"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Arteriovenous_malformation_in_HHT"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003302"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Telangiectasia"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">ACVRL1</rdfs:label>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_117764"/>
     </owl:Class>
     
 
@@ -173,6 +201,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Causal_genes_of_vascular_anomalies"/>
         <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Proteus_syndrome"/>
         <rdfs:label xml:lang="en">AKT1</rdfs:label>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_281472"/>
     </owl:Class>
     
 
@@ -192,6 +221,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Lymphatic_malformations_LM"/>
         <rdfs:comment xml:lang="en">so called acquired progressive &quot;lymphangioma&quot;</rdfs:comment>
         <rdfs:label xml:lang="en">“Acquired” progressive lymphatic anomaly</rdfs:label>
+        <skos:exactMatch rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3203"/>
     </owl:Class>
     
 
@@ -210,6 +240,7 @@
     <owl:Class rdf:about="http://purl.org/issva/classification#Anastomosing_hemangioma">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Others"/>
         <rdfs:label xml:lang="en">Anastomosing hemangioma</rdfs:label>
+        <skos:exactMatch rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C131760"/>
     </owl:Class>
     
 
@@ -219,6 +250,16 @@
     <owl:Class rdf:about="http://purl.org/issva/classification#Angiokeratoma">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Provisionally_unclassified_vascular_anomaly"/>
         <rdfs:label>Angiokeratoma</rdfs:label>
+        <skos:exactMatch rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C2874"/>
+        <skos:exactMatch rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3088"/>
+        <skos:exactMatch rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C4488"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0001014"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0200058"/>
+        <skos:exactMatch rdf:resource="http://snomed.info/id/254788004"/>
+        <skos:exactMatch rdf:resource="http://snomed.info/id/26810009"/>
+        <skos:exactMatch rdf:resource="http://snomed.info/id/39000009"/>
+        <skos:exactMatch rdf:resource="http://snomed.info/id/403977003"/>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_263413"/>
     </owl:Class>
     
 
@@ -258,6 +299,11 @@
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">Congenital. High-flow lesions.</rdfs:comment>
         <rdfs:label>Arteriovenous fistula (AVF)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C36192"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0004947"/>
+        <skos:exactMatch rdf:resource="http://snomed.info/id/128617001"/>
+        <skos:exactMatch rdf:resource="http://snomed.info/id/439470001"/>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_98731"/>
     </owl:Class>
     
 
@@ -298,6 +344,9 @@
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">high-flow lesions</rdfs:comment>
         <rdfs:label>Arteriovenous malformation (AVM)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0100026"/>
+        <skos:exactMatch rdf:resource="http://snomed.info/id/24551003"/>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_211266"/>
     </owl:Class>
     
 
@@ -307,6 +356,7 @@
     <owl:Class rdf:about="http://purl.org/issva/classification#Arteriovenous_malformation_in_CM-AVM">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Arteriovenous_malformation"/>
         <rdfs:label>Arteriovenous malformation in capillary malformation-arteriovenous malformation (in CM-AVM)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_137667"/>
     </owl:Class>
     
 
@@ -326,6 +376,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Causal_genes_of_vascular_anomalies"/>
         <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Pyogenic_granuloma"/>
         <rdfs:label xml:lang="en">BRAF</rdfs:label>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_119066"/>
     </owl:Class>
     
 
@@ -335,6 +386,8 @@
     <owl:Class rdf:about="http://purl.org/issva/classification#Bacillary_angiomatosis">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Related_lesions"/>
         <rdfs:label xml:lang="en">Bacillary angiomatosis</rdfs:label>
+        <skos:exactMatch rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3477"/>
+        <skos:exactMatch rdf:resource="http://snomed.info/id/58213005"/>
     </owl:Class>
     
 
@@ -357,6 +410,8 @@
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">Associated with AVM + VM +macrocephaly, lipomatous overgrowth</rdfs:comment>
         <rdfs:label>Bannayan-Riley-Ruvalcaba syndrome</rdfs:label>
+        <skos:exactMatch rdf:resource="http://snomed.info/id/234138005"/>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_109"/>
     </owl:Class>
     
 
@@ -376,6 +431,9 @@
     <owl:Class rdf:about="http://purl.org/issva/classification#Blue_rubber_bleb_nevus_Bean_syndrome_VM">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Venous_malformation"/>
         <rdfs:label>Blue rubber bleb nevus (Bean) syndrome venous malformation</rdfs:label>
+        <skos:exactMatch rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C4486"/>
+        <skos:exactMatch rdf:resource="http://snomed.info/id/254784002"/>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_1059"/>
     </owl:Class>
     
 
@@ -386,6 +444,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Causal_genes_of_vascular_anomalies"/>
         <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Epithelioid_hemangioendothelioma"/>
         <rdfs:label xml:lang="en">CAMTA1</rdfs:label>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_317761"/>
     </owl:Class>
     
 
@@ -396,6 +455,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Causal_genes_of_vascular_anomalies"/>
         <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Primary_generalized_lymphatic_anomaly"/>
         <rdfs:label xml:lang="en">CCBE1</rdfs:label>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_220744"/>
     </owl:Class>
     
 
@@ -418,6 +478,8 @@
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">Associated with lower lip CM + face and neck LM + asymmetry and partial/generalized overgrowth. CLAPO syndrome belongs to the PIK3CA-related overgrowth spectrum (PROS).</rdfs:comment>
         <rdfs:label>CLAPO syndrome</rdfs:label>
+        <skos:exactMatch rdf:resource="http://snomed.info/id/717765001"/>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_168984"/>
     </owl:Class>
     
 
@@ -452,6 +514,8 @@
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">Associated with LM + VM + CM +/- AVM + lipomatous overgrowth. CLOVES syndrome belongs to the PIK3CA-related overgrowth spectrum (PROS)</rdfs:comment>
         <rdfs:label>CLOVES syndrome</rdfs:label>
+        <skos:exactMatch rdf:resource="http://snomed.info/id/719475006"/>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_140944"/>
     </owl:Class>
     
 
@@ -470,6 +534,7 @@
     <owl:Class rdf:about="http://purl.org/issva/classification#CM_of_MCAP_megalencephaly-capillary_malformation-polymicrogyria">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Reticulate_CM"/>
         <rdfs:label xml:lang="en">CM of MCAP (megalencephaly-capillary malformation-polymicrogyria)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_60040"/>
     </owl:Class>
     
 
@@ -691,6 +756,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label>Capillary-venous malformation (CVM)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://snomed.info/id/234133001"/>
     </owl:Class>
     
 
@@ -706,6 +772,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Capillary malformations (CM)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0025104"/>
     </owl:Class>
     
 
@@ -723,6 +790,7 @@
     <owl:Class rdf:about="http://purl.org/issva/classification#Cerebral_cavernous_malformation">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Venous_malformation"/>
         <rdfs:label>Cerebral cavernous malformation (CCM)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C84626"/>
     </owl:Class>
     
 
@@ -742,6 +810,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Vascular_malformations"/>
         <rdfs:comment xml:lang="en">defined as two or more vascular malformations found in one lesion</rdfs:comment>
         <rdfs:label>Combined vascular malformation</rdfs:label>
+        <skos:exactMatch rdf:resource="http://snomed.info/id/400017009"/>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_458837"/>
     </owl:Class>
     
 
@@ -761,6 +831,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Lymphatic_malformations_LM"/>
         <rdfs:comment xml:lang="en">When associated with overgrowth, some of these lesions belong to the PIK3CA-related overgrowth spectrum. Some of these lesions may be associated with thrombocytopenia and/or consumptive coagulopathy.</rdfs:comment>
         <rdfs:label xml:lang="en">Common (cystic) LM</rdfs:label>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_458833"/>
     </owl:Class>
     
 
@@ -770,6 +841,10 @@
     <owl:Class rdf:about="http://purl.org/issva/classification#Composite_hemangioendothelioma">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Locally_agressive_or_borderline"/>
         <rdfs:label xml:lang="en">Composite hemangioendothelioma</rdfs:label>
+        <skos:exactMatch rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C45475"/>
+        <skos:exactMatch rdf:resource="http://snomed.info/id/403984006"/>
+        <skos:exactMatch rdf:resource="http://snomed.info/id/703660008"/>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_458758"/>
     </owl:Class>
     
 
@@ -779,6 +854,9 @@
     <owl:Class rdf:about="http://purl.org/issva/classification#Congenital_hemangioma">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Benign_vascular_tumors"/>
         <rdfs:label xml:lang="en">Congenital hemangioma</rdfs:label>
+        <skos:exactMatch rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3841"/>
+        <skos:exactMatch rdf:resource="http://snomed.info/id/32361000119104"/>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_458775"/>
     </owl:Class>
     
 
@@ -798,6 +876,8 @@
     <owl:Class rdf:about="http://purl.org/issva/classification#Cutaneous_epithelioid_angiomatous_nodule">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Others"/>
         <rdfs:label xml:lang="en">Cutaneous epithelioid angiomatous nodule</rdfs:label>
+        <skos:exactMatch rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C49079"/>
+        <skos:exactMatch rdf:resource="http://snomed.info/id/817950008"/>
     </owl:Class>
     
 
@@ -807,6 +887,10 @@
     <owl:Class rdf:about="http://purl.org/issva/classification#Cutis_marmorata_telangiectatica_congenita_CMTC">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Capillary_malformations_CM"/>
         <rdfs:label xml:lang="en">Cutis marmorata telangiectatica congenita (CMTC)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3923"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0025107"/>
+        <skos:exactMatch rdf:resource="http://snomed.info/id/254778000"/>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_1556"/>
     </owl:Class>
     
 
@@ -817,6 +901,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Causal_genes_of_vascular_anomalies"/>
         <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Familial_intraosseous_vascular_malformation"/>
         <rdfs:label xml:lang="en">ELMO2</rdfs:label>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_465978"/>
     </owl:Class>
     
 
@@ -829,6 +914,7 @@
         <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Arteriovenous_malformation_in_HHT"/>
         <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Telangiectasia"/>
         <rdfs:label xml:lang="en">ENG</rdfs:label>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_121536"/>
     </owl:Class>
     
 
@@ -838,6 +924,7 @@
     <owl:Class rdf:about="http://purl.org/issva/classification#EPHB4">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Causal_genes_of_vascular_anomalies"/>
         <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Capillary-arteriovenous_malformation"/>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_509002"/>
     </owl:Class>
     
 
@@ -847,6 +934,8 @@
     <owl:Class rdf:about="http://purl.org/issva/classification#Eccrine_angiomatous_hamartoma">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Related_lesions"/>
         <rdfs:label xml:lang="en">Eccrine angiomatous hamartoma</rdfs:label>
+        <skos:exactMatch rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C4703"/>
+        <skos:exactMatch rdf:resource="http://snomed.info/id/239115005"/>
     </owl:Class>
     
 
@@ -856,6 +945,10 @@
     <owl:Class rdf:about="http://purl.org/issva/classification#Epithelioid_hemangioendothelioma">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Malignant_vascular_tumors"/>
         <rdfs:label xml:lang="en">Epithelioid hemangioendothelioma</rdfs:label>
+        <skos:exactMatch rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3800"/>
+        <skos:exactMatch rdf:resource="http://snomed.info/id/403981003"/>
+        <skos:exactMatch rdf:resource="http://snomed.info/id/54124005"/>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_157791"/>
     </owl:Class>
     
 
@@ -865,6 +958,9 @@
     <owl:Class rdf:about="http://purl.org/issva/classification#Epithelioid_hemangioma">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Benign_vascular_tumors"/>
         <rdfs:label xml:lang="en">Epithelioid hemangioma</rdfs:label>
+        <skos:exactMatch rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C4298"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0032060"/>
+        <skos:exactMatch rdf:resource="http://snomed.info/id/33929001"/>
     </owl:Class>
     
 
@@ -876,6 +972,7 @@
         <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Nonne-Milroy_syndrome"/>
         <rdfs:label xml:lang="en">FLT4</rdfs:label>
         <rdfs:seeAlso rdf:resource="http://purl.org/issva/classification#VEGFR3"/>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_121872"/>
     </owl:Class>
     
 
@@ -886,6 +983,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Causal_genes_of_vascular_anomalies"/>
         <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Epithelioid_hemangioma"/>
         <rdfs:label xml:lang="en">FOS</rdfs:label>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_364789"/>
     </owl:Class>
     
 
@@ -906,6 +1004,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Causal_genes_of_vascular_anomalies"/>
         <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Lymphedema-distichiasis"/>
         <rdfs:label xml:lang="en">FOXC2</rdfs:label>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_121891"/>
     </owl:Class>
     
 
@@ -949,6 +1048,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Causal_genes_of_vascular_anomalies"/>
         <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Primary_lymphedema_with_myelodysplasia"/>
         <rdfs:label xml:lang="en">GATA2</rdfs:label>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_274222"/>
     </owl:Class>
     
 
@@ -959,6 +1059,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Causal_genes_of_vascular_anomalies"/>
         <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Primary_hereditary_lymphedema"/>
         <rdfs:label xml:lang="en">GJC2</rdfs:label>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_122110"/>
     </owl:Class>
     
 
@@ -971,6 +1072,7 @@
         <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Congenital_hemangioma"/>
         <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Diffuse_CM_with_overgrowth_(DCMO)"/>
         <rdfs:label xml:lang="en">GNA11</rdfs:label>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_360224"/>
     </owl:Class>
     
 
@@ -983,6 +1085,7 @@
         <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Pyogenic_granuloma"/>
         <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Tufted_angioma"/>
         <rdfs:label xml:lang="en">GNA14</rdfs:label>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_477268"/>
     </owl:Class>
     
 
@@ -996,6 +1099,7 @@
         <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Nonsyndromic_CM"/>
         <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Sturge-Weber_syndrome"/>
         <rdfs:label xml:lang="en">GNAQ</rdfs:label>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_353497"/>
     </owl:Class>
     
 
@@ -1005,6 +1109,7 @@
     <owl:Class rdf:about="http://purl.org/issva/classification#Generalized_lymphatic_anomaly_GLA">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Lymphatic_malformations_LM"/>
         <rdfs:label xml:lang="en">Generalized lymphatic anomaly (GLA)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_141209"/>
     </owl:Class>
     
 
@@ -1014,6 +1119,9 @@
     <owl:Class rdf:about="http://purl.org/issva/classification#Glomeruloid_hemangioma">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Others"/>
         <rdfs:label xml:lang="en">Glomeruloid hemangioma</rdfs:label>
+        <skos:exactMatch rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C27505"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0031357"/>
+        <skos:exactMatch rdf:resource="http://snomed.info/id/403976007"/>
     </owl:Class>
     
 
@@ -1024,6 +1132,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Causal_genes_of_vascular_anomalies"/>
         <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Glomuvenous_malformation"/>
         <rdfs:label xml:lang="en">Glomulin</rdfs:label>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_122172"/>
     </owl:Class>
     
 
@@ -1033,6 +1142,8 @@
     <owl:Class rdf:about="http://purl.org/issva/classification#Glomuvenous_malformation">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Venous_malformation"/>
         <rdfs:label xml:lang="en">Glomuvenous malformation (GVM)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://snomed.info/id/715644000"/>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_83454"/>
     </owl:Class>
     
 
@@ -1042,6 +1153,7 @@
     <owl:Class rdf:about="http://purl.org/issva/classification#Hemangioendothelioma_not_otherwise_specified">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Locally_agressive_or_borderline"/>
         <rdfs:label xml:lang="en">Hemangioendothelioma not otherwise specified</rdfs:label>
+        <skos:exactMatch rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3084"/>
     </owl:Class>
     
 
@@ -1051,6 +1163,9 @@
     <owl:Class rdf:about="http://purl.org/issva/classification#Hereditary_hemorrhagic_telangiectasia_HHT">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Telangiectasia"/>
         <rdfs:label xml:lang="en">Hereditary hemorrhagic telangiectasia (HHT)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C35064"/>
+        <skos:exactMatch rdf:resource="http://snomed.info/id/21877004"/>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_774"/>
     </owl:Class>
     
 
@@ -1060,6 +1175,7 @@
     <owl:Class rdf:about="http://purl.org/issva/classification#Hobnail_hemangioma">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Others"/>
         <rdfs:label xml:lang="en">Hobnail hemangioma</rdfs:label>
+        <skos:exactMatch rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C27506"/>
     </owl:Class>
     
 
@@ -1080,6 +1196,7 @@
         <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Maffucci_syndrome"/>
         <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Spindle-cell_hemangioma"/>
         <rdfs:label xml:lang="en">IDH1</rdfs:label>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_299152"/>
     </owl:Class>
     
 
@@ -1091,6 +1208,7 @@
         <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Maffucci_syndrome"/>
         <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Spindle-cell_hemangioma"/>
         <rdfs:label xml:lang="en">IDH2</rdfs:label>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_247145"/>
     </owl:Class>
     
 
@@ -1119,6 +1237,8 @@
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">Distinct from infantile hemangioma, from intramuscular common VM, PHOST/AST, FAVA and AVM. Some lesions may be associated with thrombocytopenia and/or consumptive coagulopathy.</rdfs:comment>
         <rdfs:label>Intramuscular hemangioma</rdfs:label>
+        <skos:exactMatch rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3699"/>
+        <skos:exactMatch rdf:resource="http://snomed.info/id/54249004"/>
     </owl:Class>
     
 
@@ -1128,6 +1248,8 @@
     <owl:Class rdf:about="http://purl.org/issva/classification#Intravascular_papillary_endothelial_hyperplasia">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Others"/>
         <rdfs:label xml:lang="en">Intravascular papillary endothelial hyperplasia</rdfs:label>
+        <skos:exactMatch rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C4391"/>
+        <skos:exactMatch rdf:resource="http://snomed.info/id/238770007"/>
     </owl:Class>
     
 
@@ -1140,6 +1262,7 @@
         <obo:RO_0003302 xml:lang="en">Mental retardation syndrome</obo:RO_0003302>
         <obo:RO_0003302 xml:lang="en">Microcephaly with or without chorioretinopathy</obo:RO_0003302>
         <rdfs:label xml:lang="en">KIF11</rdfs:label>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_292401"/>
     </owl:Class>
     
 
@@ -1150,6 +1273,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Causal_genes_of_vascular_anomalies"/>
         <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Cerebral_cavernous_malformation"/>
         <rdfs:label xml:lang="en">KRIT1</rdfs:label>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_122883"/>
     </owl:Class>
     
 
@@ -1159,6 +1283,11 @@
     <owl:Class rdf:about="http://purl.org/issva/classification#Kaposi_sarcoma">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Locally_agressive_or_borderline"/>
         <rdfs:label xml:lang="en">Kaposi sarcoma</rdfs:label>
+        <skos:exactMatch rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C9087"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0100726"/>
+        <skos:exactMatch rdf:resource="http://snomed.info/id/109385007"/>
+        <skos:exactMatch rdf:resource="http://snomed.info/id/49937004"/>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_33276"/>
     </owl:Class>
     
 
@@ -1171,6 +1300,9 @@
 rather than distinct entities</rdfs:comment>
         <rdfs:comment xml:lang="en">some lesions may be associated with thrombocytopenia and/or consumptive coagulopathy see details</rdfs:comment>
         <rdfs:label xml:lang="en">Kaposiform hemangioendothelioma</rdfs:label>
+        <skos:exactMatch rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C27510"/>
+        <skos:exactMatch rdf:resource="http://snomed.info/id/403983000"/>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_2122"/>
     </owl:Class>
     
 
@@ -1180,6 +1312,7 @@ rather than distinct entities</rdfs:comment>
     <owl:Class rdf:about="http://purl.org/issva/classification#Kaposiform_lymphangiomatosis_KLA">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Generalized_lymphatic_anomaly_GLA"/>
         <rdfs:label xml:lang="en">Kaposiform lymphangiomatosis (KLA)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_464329"/>
     </owl:Class>
     
 
@@ -1203,6 +1336,9 @@ rather than distinct entities</rdfs:comment>
         <rdfs:comment xml:lang="en">Associated with CM + VM +/- LM + limb overgrowth.
 Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PROS).</rdfs:comment>
         <rdfs:label>Klippel-Trenaunay syndrome</rdfs:label>
+        <skos:exactMatch rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C84801"/>
+        <skos:exactMatch rdf:resource="http://snomed.info/id/721105004"/>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_90308"/>
     </owl:Class>
     
 
@@ -1212,6 +1348,7 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
     <owl:Class rdf:about="http://purl.org/issva/classification#LM_in_Gorham-Stout_disease">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Lymphatic_malformations_LM"/>
         <rdfs:label xml:lang="en">LM in Gorham-Stout disease</rdfs:label>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_73"/>
     </owl:Class>
     
 
@@ -1275,6 +1412,7 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
     <owl:Class rdf:about="http://purl.org/issva/classification#Lymphatic_malformations_LM">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Simple_vascular_malformation"/>
         <rdfs:label xml:lang="en">Lymphatic malformations (LM)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_458833"/>
     </owl:Class>
     
 
@@ -1292,6 +1430,7 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
     <owl:Class rdf:about="http://purl.org/issva/classification#Lymphedema-choanal_atresia">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Primary_lymphedema"/>
         <rdfs:label xml:lang="en">Lymphedema-choanal atresia</rdfs:label>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_99141"/>
     </owl:Class>
     
 
@@ -2102,7 +2241,7 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
 
     <owl:Class rdf:about="http://purl.org/issva/classification#Vascular_malformations">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Vascular_anomaly"/>
-        <rdfs:label xml:lang="en">Vascular malformations</rdfs:label>
+        <rdfs:label xml:lang="en">Vascular malformation</rdfs:label>
     </owl:Class>
     
 
@@ -2111,7 +2250,7 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
 
     <owl:Class rdf:about="http://purl.org/issva/classification#Vascular_tumors">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Vascular_anomaly"/>
-        <rdfs:label xml:lang="en">Vascular tumors</rdfs:label>
+        <rdfs:label xml:lang="en">Vascular tumor</rdfs:label>
     </owl:Class>
     
 
@@ -2155,6 +2294,7 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
     <owl:Class rdf:about="http://purl.org/issva/classification#CM_with_CNS_and_or_ocular_anomalies_(Sturge-Weber_syndrome)">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Cutaneous_and_or_mucosal_CM"/>
         <rdfs:label xml:lang="en">CM with CNS and/or ocular anomalies (Sturge-Weber syndrome)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_3205"/>
     </owl:Class>
     
 
@@ -2174,8 +2314,24 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Benign_vascular_tumors"/>
         <rdfs:label xml:lang="en">Hemangioma of infancy</rdfs:label>
         <rdfs:label xml:lang="en">Infantile hemangioma</rdfs:label>
+        <skos:exactMatch rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C6645"/>
+        <skos:exactMatch rdf:resource="http://snomed.info/id/83343001"/>
         <skos:prefLabel xml:lang="en">Infantile hemangioma</skos:prefLabel>
     </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0003302">
+        <rdfs:label>causes or contributes to condition</rdfs:label>
+    </rdf:Description>
 </rdf:RDF>
 
 
