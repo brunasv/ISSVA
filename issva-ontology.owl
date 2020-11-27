@@ -31,6 +31,12 @@
     
 
 
+    <!-- http://www.w3.org/2004/02/skos/core#altLabel -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#altLabel"/>
+    
+
+
     <!-- http://www.w3.org/2004/02/skos/core#exactMatch -->
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#exactMatch"/>
@@ -277,6 +283,7 @@
 
     <owl:Class rdf:about="http://purl.org/issva/classification#Arteries">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Type_of_vessels"/>
+        <rdfs:label>Artery</rdfs:label>
     </owl:Class>
     
 
@@ -298,7 +305,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">Congenital. High-flow lesions.</rdfs:comment>
-        <rdfs:label>Arteriovenous fistula (AVF)</rdfs:label>
+        <rdfs:label>Arteriovenous fistula</rdfs:label>
+        <skos:altLabel>AVF</skos:altLabel>
         <skos:exactMatch rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C36192"/>
         <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0004947"/>
         <skos:exactMatch rdf:resource="http://snomed.info/id/128617001"/>
@@ -343,7 +351,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">high-flow lesions</rdfs:comment>
-        <rdfs:label>Arteriovenous malformation (AVM)</rdfs:label>
+        <rdfs:label>Arteriovenous malformation</rdfs:label>
+        <skos:altLabel>AVM</skos:altLabel>
         <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0100026"/>
         <skos:exactMatch rdf:resource="http://snomed.info/id/24551003"/>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_211266"/>
@@ -421,7 +430,7 @@
     <owl:Class rdf:about="http://purl.org/issva/classification#Benign_vascular_tumors">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Vascular_tumors"/>
         <rdfs:comment xml:lang="en">reactive proliferative vascular lesions are listed with benign tumors</rdfs:comment>
-        <rdfs:label xml:lang="en">Benign vascular tumors</rdfs:label>
+        <rdfs:label xml:lang="en">Benign vascular tumor</rdfs:label>
     </owl:Class>
     
 
@@ -524,7 +533,8 @@
 
     <owl:Class rdf:about="http://purl.org/issva/classification#CM_of_CM-AVM">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Capillary_malformations_CM"/>
-        <rdfs:label xml:lang="en">CM of CM-AVM</rdfs:label>
+        <rdfs:label>Capillary malformation of Capillary malformation-arteriovenous malformation</rdfs:label>
+        <skos:altLabel xml:lang="en">CM of CM-AVM</skos:altLabel>
     </owl:Class>
     
 
@@ -533,7 +543,8 @@
 
     <owl:Class rdf:about="http://purl.org/issva/classification#CM_of_MCAP_megalencephaly-capillary_malformation-polymicrogyria">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Reticulate_CM"/>
-        <rdfs:label xml:lang="en">CM of MCAP (megalencephaly-capillary malformation-polymicrogyria)</rdfs:label>
+        <rdfs:label>Capillary malformation of megalencephaly-capillary malformation-polymicrogyria</rdfs:label>
+        <skos:altLabel xml:lang="en">CM of MCAP</skos:altLabel>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_60040"/>
     </owl:Class>
     
@@ -543,7 +554,8 @@
 
     <owl:Class rdf:about="http://purl.org/issva/classification#CM_of_MIC-CAP_microcephaly-capillary_malformation">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Reticulate_CM"/>
-        <rdfs:label xml:lang="en">CM of MIC-CAP (microcephaly-capillary malformation)</rdfs:label>
+        <rdfs:label>Capillary malformation of microcephaly-capillary malformation</rdfs:label>
+        <skos:altLabel xml:lang="en">CM of MIC-CAP</skos:altLabel>
     </owl:Class>
     
 
@@ -552,7 +564,8 @@
 
     <owl:Class rdf:about="http://purl.org/issva/classification#CM_with_bone_and_or_soft_tissues_overgrowth">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Cutaneous_and_or_mucosal_CM"/>
-        <rdfs:label xml:lang="en">CM with bone and/or soft tissues overgrowth</rdfs:label>
+        <rdfs:label>Capillary malformation with bone and/or soft tissues overgrowth</rdfs:label>
+        <skos:altLabel xml:lang="en">CM with bone and/or soft tissues overgrowth</skos:altLabel>
     </owl:Class>
     
 
@@ -561,6 +574,7 @@
 
     <owl:Class rdf:about="http://purl.org/issva/classification#Capillaries">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Type_of_vessels"/>
+        <rdfs:label>Capillary</rdfs:label>
     </owl:Class>
     
 
@@ -587,7 +601,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Veins"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label>Capillary-arteriovenous malformation (CAVM)</rdfs:label>
+        <rdfs:label>Capillary-arteriovenous malformation</rdfs:label>
+        <skos:altLabel>CAVM</skos:altLabel>
     </owl:Class>
     
 
@@ -620,7 +635,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Veins"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label>Capillary-lymphatic-arteriovenous malformation (CLAVM)</rdfs:label>
+        <rdfs:label>Capillary-lymphatic-arteriovenous malformation</rdfs:label>
+        <skos:altLabel>CLAVM</skos:altLabel>
     </owl:Class>
     
 
@@ -653,7 +669,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Veins"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label>Capillary-lymphatic-venous-arteriovenous malformation (CLVAVM)</rdfs:label>
+        <rdfs:label>Capillary-lymphatic-venous-arteriovenous malformation</rdfs:label>
+        <skos:altLabel>CLVAVM</skos:altLabel>
     </owl:Class>
     
 
@@ -686,7 +703,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Veins"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label>Capillary-lymphatic-venous malformation (CLVM)</rdfs:label>
+        <rdfs:label>Capillary-lymphatic-venous malformation</rdfs:label>
+        <skos:altLabel>CLVM</skos:altLabel>
     </owl:Class>
     
 
@@ -707,7 +725,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Lymphatics"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label>Capillary-lymphatic malformation (CLM)</rdfs:label>
+        <rdfs:label>Capillary-lymphatic malformation</rdfs:label>
+        <skos:altLabel>CLM</skos:altLabel>
     </owl:Class>
     
 
@@ -734,7 +753,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Veins"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label>Capillary-venous-arteriovenous malformation (CVAVM)</rdfs:label>
+        <rdfs:label>Capillary-venous-arteriovenous malformation</rdfs:label>
+        <skos:altLabel>CVAVM</skos:altLabel>
     </owl:Class>
     
 
@@ -755,7 +775,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Veins"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label>Capillary-venous malformation (CVM)</rdfs:label>
+        <rdfs:label>Capillary-venous malformation</rdfs:label>
+        <skos:altLabel>CVM</skos:altLabel>
         <skos:exactMatch rdf:resource="http://snomed.info/id/234133001"/>
     </owl:Class>
     
@@ -771,7 +792,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Capillaries"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">Capillary malformations (CM)</rdfs:label>
+        <rdfs:label xml:lang="en">Capillary malformation</rdfs:label>
+        <skos:altLabel>CM</skos:altLabel>
         <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0025104"/>
     </owl:Class>
     
@@ -780,7 +802,7 @@
     <!-- http://purl.org/issva/classification#Causal_genes_of_vascular_anomalies -->
 
     <owl:Class rdf:about="http://purl.org/issva/classification#Causal_genes_of_vascular_anomalies">
-        <rdfs:label>Causal genes of vascular anomalies</rdfs:label>
+        <rdfs:label>Causal gene of vascular anomaly</rdfs:label>
     </owl:Class>
     
 
@@ -789,7 +811,8 @@
 
     <owl:Class rdf:about="http://purl.org/issva/classification#Cerebral_cavernous_malformation">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Venous_malformation"/>
-        <rdfs:label>Cerebral cavernous malformation (CCM)</rdfs:label>
+        <rdfs:label>Cerebral cavernous malformation</rdfs:label>
+        <skos:altLabel>CCM</skos:altLabel>
         <skos:exactMatch rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C84626"/>
     </owl:Class>
     
@@ -799,7 +822,8 @@
 
     <owl:Class rdf:about="http://purl.org/issva/classification#Channel_type_LM">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Lymphatic_malformations_LM"/>
-        <rdfs:label xml:lang="en">Channel type LM</rdfs:label>
+        <rdfs:label>Channel type lymphatic malformation</rdfs:label>
+        <skos:altLabel xml:lang="en">Channel type LM</skos:altLabel>
     </owl:Class>
     
 
@@ -830,7 +854,8 @@
     <owl:Class rdf:about="http://purl.org/issva/classification#Common_cystic_LM">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Lymphatic_malformations_LM"/>
         <rdfs:comment xml:lang="en">When associated with overgrowth, some of these lesions belong to the PIK3CA-related overgrowth spectrum. Some of these lesions may be associated with thrombocytopenia and/or consumptive coagulopathy.</rdfs:comment>
-        <rdfs:label xml:lang="en">Common (cystic) LM</rdfs:label>
+        <rdfs:label>Common (cystic) lymphatic malformation</rdfs:label>
+        <skos:altLabel xml:lang="en">Common (cystic) LM</skos:altLabel>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_458833"/>
     </owl:Class>
     
@@ -866,7 +891,8 @@
     <owl:Class rdf:about="http://purl.org/issva/classification#Cutaneous_and_or_mucosal_CM">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Capillary_malformations_CM"/>
         <rdfs:comment xml:lang="en">also known as “port-wine” stain</rdfs:comment>
-        <rdfs:label xml:lang="en">Cutaneous and/or mucosal CM</rdfs:label>
+        <rdfs:label>Cutaneous and/or mucosal capillary malformation</rdfs:label>
+        <skos:altLabel xml:lang="en">Cutaneous and/or mucosal CM</skos:altLabel>
     </owl:Class>
     
 
@@ -886,7 +912,8 @@
 
     <owl:Class rdf:about="http://purl.org/issva/classification#Cutis_marmorata_telangiectatica_congenita_CMTC">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Capillary_malformations_CM"/>
-        <rdfs:label xml:lang="en">Cutis marmorata telangiectatica congenita (CMTC)</rdfs:label>
+        <rdfs:label xml:lang="en">Cutis marmorata telangiectatica congenita</rdfs:label>
+        <skos:altLabel>CMTC</skos:altLabel>
         <skos:exactMatch rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3923"/>
         <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0025107"/>
         <skos:exactMatch rdf:resource="http://snomed.info/id/254778000"/>
@@ -1013,7 +1040,8 @@
 
     <owl:Class rdf:about="http://purl.org/issva/classification#Familial_VM_cutaneo-mucosal">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Venous_malformation"/>
-        <rdfs:label xml:lang="en">Familial venous malformation cutaneo-mucosal (VMCM)</rdfs:label>
+        <rdfs:label xml:lang="en">Familial venous malformation cutaneo-mucosal</rdfs:label>
+        <skos:altLabel>VMCM</skos:altLabel>
     </owl:Class>
     
 
@@ -1022,7 +1050,8 @@
 
     <owl:Class rdf:about="http://purl.org/issva/classification#Familial_intraosseous_vascular_malformation">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Venous_malformation"/>
-        <rdfs:label xml:lang="en">Familial intraosseous vascular malformation (VMOS)</rdfs:label>
+        <rdfs:label xml:lang="en">Familial intraosseous vascular malformation</rdfs:label>
+        <skos:altLabel>VMOS</skos:altLabel>
     </owl:Class>
     
 
@@ -1037,7 +1066,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Lymphatics"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label>Fibro adipose vascular anomaly (FAVA)</rdfs:label>
+        <rdfs:label>Fibro adipose vascular anomaly</rdfs:label>
+        <skos:altLabel>FAVA</skos:altLabel>
     </owl:Class>
     
 
@@ -1108,7 +1138,8 @@
 
     <owl:Class rdf:about="http://purl.org/issva/classification#Generalized_lymphatic_anomaly_GLA">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Lymphatic_malformations_LM"/>
-        <rdfs:label xml:lang="en">Generalized lymphatic anomaly (GLA)</rdfs:label>
+        <rdfs:label xml:lang="en">Generalized lymphatic anomaly</rdfs:label>
+        <skos:altLabel>GLA</skos:altLabel>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_141209"/>
     </owl:Class>
     
@@ -1141,7 +1172,8 @@
 
     <owl:Class rdf:about="http://purl.org/issva/classification#Glomuvenous_malformation">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Venous_malformation"/>
-        <rdfs:label xml:lang="en">Glomuvenous malformation (GVM)</rdfs:label>
+        <rdfs:label xml:lang="en">Glomuvenous malformation</rdfs:label>
+        <skos:altLabel>GVM</skos:altLabel>
         <skos:exactMatch rdf:resource="http://snomed.info/id/715644000"/>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_83454"/>
     </owl:Class>
@@ -1162,7 +1194,8 @@
 
     <owl:Class rdf:about="http://purl.org/issva/classification#Hereditary_hemorrhagic_telangiectasia_HHT">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Telangiectasia"/>
-        <rdfs:label xml:lang="en">Hereditary hemorrhagic telangiectasia (HHT)</rdfs:label>
+        <rdfs:label xml:lang="en">Hereditary hemorrhagic telangiectasia</rdfs:label>
+        <skos:altLabel>HHT</skos:altLabel>
         <skos:exactMatch rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C35064"/>
         <skos:exactMatch rdf:resource="http://snomed.info/id/21877004"/>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_774"/>
@@ -1311,7 +1344,8 @@ rather than distinct entities</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.org/issva/classification#Kaposiform_lymphangiomatosis_KLA">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Generalized_lymphatic_anomaly_GLA"/>
-        <rdfs:label xml:lang="en">Kaposiform lymphangiomatosis (KLA)</rdfs:label>
+        <rdfs:label xml:lang="en">Kaposiform lymphangiomatosis</rdfs:label>
+        <skos:altLabel>KLA</skos:altLabel>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_464329"/>
     </owl:Class>
     
@@ -1347,7 +1381,8 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
 
     <owl:Class rdf:about="http://purl.org/issva/classification#LM_in_Gorham-Stout_disease">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Lymphatic_malformations_LM"/>
-        <rdfs:label xml:lang="en">LM in Gorham-Stout disease</rdfs:label>
+        <rdfs:label>Lymphatic malformation in Gorham-Stout disease</rdfs:label>
+        <skos:altLabel xml:lang="en">LM in Gorham-Stout disease</skos:altLabel>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_73"/>
     </owl:Class>
     
@@ -1381,7 +1416,7 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
 
     <owl:Class rdf:about="http://purl.org/issva/classification#Locally_agressive_or_borderline">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Vascular_tumors"/>
-        <rdfs:label xml:lang="en">Locally aggressive or borderline vascular tumors</rdfs:label>
+        <rdfs:label xml:lang="en">Locally aggressive or borderline vascular tumor</rdfs:label>
     </owl:Class>
     
 
@@ -1402,7 +1437,8 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
                 <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Veins"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label>Lymphatic-venous malformation (LVM)</rdfs:label>
+        <rdfs:label>Lymphatic-venous malformation</rdfs:label>
+        <skos:altLabel>LVM</skos:altLabel>
     </owl:Class>
     
 
@@ -1411,7 +1447,8 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
 
     <owl:Class rdf:about="http://purl.org/issva/classification#Lymphatic_malformations_LM">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Simple_vascular_malformation"/>
-        <rdfs:label xml:lang="en">Lymphatic malformations (LM)</rdfs:label>
+        <rdfs:label xml:lang="en">Lymphatic malformation</rdfs:label>
+        <skos:altLabel>LM</skos:altLabel>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_458833"/>
     </owl:Class>
     
@@ -1421,6 +1458,7 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
 
     <owl:Class rdf:about="http://purl.org/issva/classification#Lymphatics">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Type_of_vessels"/>
+        <rdfs:label>Lymphatic</rdfs:label>
     </owl:Class>
     
 
@@ -1486,7 +1524,8 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">MCAP belongs to the PIK3CA-related overgrowth spectrum (PROS)</rdfs:comment>
-        <rdfs:label>Macrocephaly-capillary malformation (M-CM / MCAP)</rdfs:label>
+        <rdfs:label>Macrocephaly-capillary malformation</rdfs:label>
+        <skos:altLabel>M-CM / MCAP</skos:altLabel>
     </owl:Class>
     
 
@@ -1495,7 +1534,8 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
 
     <owl:Class rdf:about="http://purl.org/issva/classification#Macrocystic_LM">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Common_cystic_LM"/>
-        <rdfs:label xml:lang="en">Macrocystic LM</rdfs:label>
+        <rdfs:label>Macrocystic lymphatic malformation</rdfs:label>
+        <skos:altLabel xml:lang="en">Macrocystic LM</skos:altLabel>
     </owl:Class>
     
 
@@ -1530,7 +1570,7 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
 
     <owl:Class rdf:about="http://purl.org/issva/classification#Malignant_vascular_tumors">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Vascular_tumors"/>
-        <rdfs:label xml:lang="en">Malignant vascular tumors</rdfs:label>
+        <rdfs:label xml:lang="en">Malignant vascular tumor</rdfs:label>
     </owl:Class>
     
 
@@ -1545,7 +1585,8 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
                 <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Capillaries"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label>Microcephaly-capillary malformation (MICCAP)</rdfs:label>
+        <rdfs:label>Microcephaly-capillary malformation</rdfs:label>
+        <skos:altLabel>MICCAP</skos:altLabel>
     </owl:Class>
     
 
@@ -1557,6 +1598,7 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
         <obo:RO_0003302 xml:lang="en">Microcephaly with or without chorioretinopathy</obo:RO_0003302>
         <obo:RO_0003302 xml:lang="en">lymphedema</obo:RO_0003302>
         <obo:RO_0003302 xml:lang="en">mental retardation syndrome</obo:RO_0003302>
+        <rdfs:label>Microcephaly with or without chorioretinopathy, lymphedema, or mental retardation syndrome</rdfs:label>
     </owl:Class>
     
 
@@ -1565,7 +1607,8 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
 
     <owl:Class rdf:about="http://purl.org/issva/classification#Microcystic_LM">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Common_cystic_LM"/>
-        <rdfs:label xml:lang="en">Microcystic LM</rdfs:label>
+        <rdfs:label>Macrocystic lymphatic malformation</rdfs:label>
+        <skos:altLabel xml:lang="en">Microcystic LM</skos:altLabel>
     </owl:Class>
     
 
@@ -1583,7 +1626,8 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
 
     <owl:Class rdf:about="http://purl.org/issva/classification#Mixed_cystic_LM">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Common_cystic_LM"/>
-        <rdfs:label xml:lang="en">Mixed cystic LM</rdfs:label>
+        <rdfs:label>Macrocystic lymphatic malformation</rdfs:label>
+        <skos:altLabel xml:lang="en">Mixed cystic LM</skos:altLabel>
     </owl:Class>
     
 
@@ -1627,7 +1671,8 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
 
     <owl:Class rdf:about="http://purl.org/issva/classification#Non-involuting_NICH">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Congenital_hemangioma"/>
-        <rdfs:label xml:lang="en">Non-involuting (NICH)</rdfs:label>
+        <rdfs:label xml:lang="en">Non-involuting congenital hemangioma</rdfs:label>
+        <skos:altLabel>NICH</skos:altLabel>
     </owl:Class>
     
 
@@ -1645,7 +1690,8 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
 
     <owl:Class rdf:about="http://purl.org/issva/classification#Nonsyndromic_CM">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Cutaneous_and_or_mucosal_CM"/>
-        <rdfs:label xml:lang="en">Nonsyndromic CM</rdfs:label>
+        <rdfs:label>Nonsyndromic capillary malformation</rdfs:label>
+        <skos:altLabel xml:lang="en">Nonsyndromic CM</skos:altLabel>
     </owl:Class>
     
 
@@ -1681,7 +1727,8 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
 
     <owl:Class rdf:about="http://purl.org/issva/classification#Other_capillary_malformations_CM">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Capillary_malformations_CM"/>
-        <rdfs:label xml:lang="en">Others capillary malformations (CM)</rdfs:label>
+        <rdfs:label xml:lang="en">Other capillary malformation</rdfs:label>
+        <skos:altLabel>Other CM</skos:altLabel>
     </owl:Class>
     
 
@@ -1690,7 +1737,7 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
 
     <owl:Class rdf:about="http://purl.org/issva/classification#Other_locally_agressive_or_borderline_vascular_tumors">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Locally_agressive_or_borderline"/>
-        <rdfs:label xml:lang="en">Other locally aggressive or borderline vascular tumors</rdfs:label>
+        <rdfs:label xml:lang="en">Other locally aggressive or borderline vascular tumor</rdfs:label>
     </owl:Class>
     
 
@@ -1699,7 +1746,7 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
 
     <owl:Class rdf:about="http://purl.org/issva/classification#Other_malignant_vascular_tumors">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Malignant_vascular_tumors"/>
-        <rdfs:label xml:lang="en">Other malignant vascular tumors</rdfs:label>
+        <rdfs:label xml:lang="en">Other malignant vascular tumor</rdfs:label>
     </owl:Class>
     
 
@@ -1708,7 +1755,7 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
 
     <owl:Class rdf:about="http://purl.org/issva/classification#Other_telangiectasias">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Telangiectasia"/>
-        <rdfs:label xml:lang="en">Other telangiectasias</rdfs:label>
+        <rdfs:label xml:lang="en">Other telangiectasia</rdfs:label>
     </owl:Class>
     
 
@@ -1717,7 +1764,7 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
 
     <owl:Class rdf:about="http://purl.org/issva/classification#Others">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Benign_vascular_tumors"/>
-        <rdfs:label xml:lang="en">Other benign vascular tumors</rdfs:label>
+        <rdfs:label xml:lang="en">Other benign vascular tumor</rdfs:label>
     </owl:Class>
     
 
@@ -1769,7 +1816,8 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
                 <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Lymphatics"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label>PTEN (type) hamartoma of soft tissue / &quot;angiomatosis&quot; of soft tissue (PHOST)</rdfs:label>
+        <rdfs:label>PTEN (type) hamartoma of soft tissue / &quot;Angiomatosis&quot; of soft tissue</rdfs:label>
+        <skos:altLabel>PHOST</skos:altLabel>
     </owl:Class>
     
 
@@ -1797,8 +1845,9 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
 
     <owl:Class rdf:about="http://purl.org/issva/classification#Papillary_intralymphatic_angioendothelioma_PILA">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Locally_agressive_or_borderline"/>
-        <rdfs:label xml:lang="en">Papillary intralymphatic angioendothelioma (PILA)</rdfs:label>
+        <rdfs:label xml:lang="en">Papillary intralymphatic angioendothelioma</rdfs:label>
         <rdfs:seeAlso xml:lang="en">Dabska tumor</rdfs:seeAlso>
+        <skos:altLabel>PILA</skos:altLabel>
     </owl:Class>
     
 
@@ -1830,7 +1879,8 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
     <owl:Class rdf:about="http://purl.org/issva/classification#Partially_involuting_PICH">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Congenital_hemangioma"/>
         <rdfs:comment xml:lang="en">some lesions may be associated with thrombocytopenia and/or consumptive coagulopathy</rdfs:comment>
-        <rdfs:label xml:lang="en">Partially involuting (PICH)</rdfs:label>
+        <rdfs:label xml:lang="en">Partially involuting congenital hemangioma</rdfs:label>
+        <skos:altLabel>PICH</skos:altLabel>
     </owl:Class>
     
 
@@ -1962,7 +2012,8 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
 
     <owl:Class rdf:about="http://purl.org/issva/classification#Rapid_involuting_RICH">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Congenital_hemangioma"/>
-        <rdfs:label xml:lang="en">Rapidly involuting (RICH)</rdfs:label>
+        <rdfs:label xml:lang="en">Rapidly involuting congenital hemangioma</rdfs:label>
+        <skos:altLabel>RICH</skos:altLabel>
     </owl:Class>
     
 
@@ -1982,7 +2033,7 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Benign_vascular_tumors"/>
         <rdfs:comment xml:lang="en">The tumor nature of some of these lesions is not certain
 Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comment>
-        <rdfs:label xml:lang="en">Related lesions</rdfs:label>
+        <rdfs:label xml:lang="en">Related lesion</rdfs:label>
     </owl:Class>
     
 
@@ -1991,7 +2042,8 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
 
     <owl:Class rdf:about="http://purl.org/issva/classification#Reticulate_CM">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Capillary_malformations_CM"/>
-        <rdfs:label xml:lang="en">Reticulate CM</rdfs:label>
+        <rdfs:label>Reticulate capillary malformation</rdfs:label>
+        <skos:altLabel xml:lang="en">Reticulate CM</skos:altLabel>
     </owl:Class>
     
 
@@ -2064,7 +2116,7 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
                 <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Lymphatics"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label>Simple vascular malformations</rdfs:label>
+        <rdfs:label>Simple vascular malformation</rdfs:label>
     </owl:Class>
     
 
@@ -2215,7 +2267,7 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">(also known as &quot;channel type&quot; or &quot;truncal&quot; vascular malformations)</rdfs:comment>
-        <rdfs:label xml:lang="en">Vascular anomalies of major named vessels</rdfs:label>
+        <rdfs:label xml:lang="en">Vascular anomaly of major named vessel</rdfs:label>
     </owl:Class>
     
 
@@ -2259,6 +2311,7 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
 
     <owl:Class rdf:about="http://purl.org/issva/classification#Veins">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Type_of_vessels"/>
+        <rdfs:label>Vein</rdfs:label>
     </owl:Class>
     
 
@@ -2293,7 +2346,9 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
 
     <owl:Class rdf:about="http://purl.org/issva/classification#CM_with_CNS_and_or_ocular_anomalies_(Sturge-Weber_syndrome)">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Cutaneous_and_or_mucosal_CM"/>
-        <rdfs:label xml:lang="en">CM with CNS and/or ocular anomalies (Sturge-Weber syndrome)</rdfs:label>
+        <rdfs:label>Capillary malformation with central nervous system and/or ocular anomalies</rdfs:label>
+        <skos:altLabel xml:lang="en">CM with CNS and/or ocular anomalies</skos:altLabel>
+        <skos:altLabel>Sturge-Weber syndrome</skos:altLabel>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_3205"/>
     </owl:Class>
     
@@ -2303,7 +2358,9 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
 
     <owl:Class rdf:about="http://purl.org/issva/classification#Diffuse_CM_with_overgrowth_(DCMO)">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Cutaneous_and_or_mucosal_CM"/>
-        <rdfs:label xml:lang="en">Diffuse CM with overgrowth (DCMO)</rdfs:label>
+        <rdfs:label>Diffuse capillary malformation with overgrowth</rdfs:label>
+        <skos:altLabel>DCMO</skos:altLabel>
+        <skos:altLabel xml:lang="en">Diffuse CM with overgrowth</skos:altLabel>
     </owl:Class>
     
 
