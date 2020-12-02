@@ -43,12 +43,6 @@
     
 
 
-    <!-- http://www.w3.org/2004/02/skos/core#exactMatch -->
-
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#exactMatch"/>
-    
-
-
     <!-- http://www.w3.org/2004/02/skos/core#prefLabel -->
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel"/>
@@ -1485,6 +1479,8 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
     <owl:Class rdf:about="http://purl.org/issva/classification#Lymphedema-distichiasis">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Primary_lymphedema"/>
         <rdfs:label xml:lang="en">Lymphedema-distichiasis</rdfs:label>
+        <skos:exactMatch rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C128191"/>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_33001"/>
     </owl:Class>
     
 
@@ -1496,6 +1492,7 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
         <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Sporadic_Arteriovenous_malformation"/>
         <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Sporadic_arteriovenous_fistula"/>
         <rdfs:label xml:lang="en">MAP2K1</rdfs:label>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_123135"/>
     </owl:Class>
     
 
@@ -1516,6 +1513,7 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Causal_genes_of_vascular_anomalies"/>
         <obo:RO_0003302 xml:lang="en">Post radiation angiosarcoma</obo:RO_0003302>
         <rdfs:label xml:lang="en">MYC</rdfs:label>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_159785"/>
     </owl:Class>
     
 
@@ -1533,6 +1531,7 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
         <rdfs:comment xml:lang="en">MCAP belongs to the PIK3CA-related overgrowth spectrum (PROS)</rdfs:comment>
         <rdfs:label>Macrocephaly-capillary malformation</rdfs:label>
         <skos:altLabel>M-CM / MCAP</skos:altLabel>
+        <skos:exactMatch rdf:resource="http://snomed.info/id/700063005"/>
     </owl:Class>
     
 
@@ -1543,6 +1542,7 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Common_cystic_LM"/>
         <rdfs:label>Macrocystic lymphatic malformation</rdfs:label>
         <skos:altLabel xml:lang="en">Macrocystic LM</skos:altLabel>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_79489"/>
     </owl:Class>
     
 
@@ -1559,6 +1559,9 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">Associated with VM +/- spindle-cell hemangioma + enchondroma</rdfs:comment>
         <rdfs:label>Maffucci syndrome</rdfs:label>
+        <skos:exactMatch rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3213"/>
+        <skos:exactMatch rdf:resource="http://snomed.info/id/46041001"/>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_163634"/>
     </owl:Class>
     
 
@@ -1569,6 +1572,7 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Causal_genes_of_vascular_anomalies"/>
         <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Cerebral_cavernous_malformation"/>
         <rdfs:label xml:lang="en">Malcavernin</rdfs:label>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_119213"/>
     </owl:Class>
     
 
@@ -1606,6 +1610,7 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
         <obo:RO_0003302 xml:lang="en">lymphedema</obo:RO_0003302>
         <obo:RO_0003302 xml:lang="en">mental retardation syndrome</obo:RO_0003302>
         <rdfs:label>Microcephaly with or without chorioretinopathy, lymphedema, or mental retardation syndrome</rdfs:label>
+        <skos:exactMatch rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C129306"/>
     </owl:Class>
     
 
@@ -1616,6 +1621,7 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Common_cystic_LM"/>
         <rdfs:label>Macrocystic lymphatic malformation</rdfs:label>
         <skos:altLabel xml:lang="en">Microcystic LM</skos:altLabel>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_79490"/>
     </owl:Class>
     
 
@@ -1625,6 +1631,8 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
     <owl:Class rdf:about="http://purl.org/issva/classification#Microvenular_hemangioma">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Others"/>
         <rdfs:label xml:lang="en">Microvenular hemangioma</rdfs:label>
+        <skos:exactMatch rdf:resource="http://snomed.info/id/403964007"/>
+        <skos:exactMatch rdf:resource="http://snomed.info/id/699607001"/>
     </owl:Class>
     
 
@@ -1635,6 +1643,7 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Common_cystic_LM"/>
         <rdfs:label>Macrocystic lymphatic malformation</rdfs:label>
         <skos:altLabel xml:lang="en">Mixed cystic LM</skos:altLabel>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_458792"/>
     </owl:Class>
     
 
@@ -1650,6 +1659,7 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label>Multifocal lymphangioendotheliomatosis with thrombocytopenia / cutaneovisceral angiomatosis with thrombocytopenia (MLT/CAT)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_210115"/>
     </owl:Class>
     
 
@@ -1680,6 +1690,7 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Congenital_hemangioma"/>
         <rdfs:label xml:lang="en">Non-involuting congenital hemangioma</rdfs:label>
         <skos:altLabel>NICH</skos:altLabel>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_141179"/>
     </owl:Class>
     
 
@@ -1689,6 +1700,7 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
     <owl:Class rdf:about="http://purl.org/issva/classification#Nonne-Milroy_syndrome">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Primary_lymphedema"/>
         <rdfs:label xml:lang="en">Nonne-Milroy syndrome</rdfs:label>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_79452"/>
     </owl:Class>
     
 
@@ -1708,6 +1720,7 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
     <owl:Class rdf:about="http://purl.org/issva/classification#Other_Venous_malformation">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Venous_malformation"/>
         <rdfs:label>Other venous malformation</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0012721"/>
     </owl:Class>
     
 
@@ -1717,6 +1730,12 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
     <owl:Class rdf:about="http://purl.org/issva/classification#Other_arteriovenous_fistula">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Arteriovenous_fistula"/>
         <rdfs:label>Other arteriovenous fistula</rdfs:label>
+        <skos:exactMatch rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C36192"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0004947"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0100784"/>
+        <skos:exactMatch rdf:resource="http://snomed.info/id/128617001"/>
+        <skos:exactMatch rdf:resource="http://snomed.info/id/439470001"/>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_98731"/>
     </owl:Class>
     
 
@@ -1726,6 +1745,8 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
     <owl:Class rdf:about="http://purl.org/issva/classification#Other_arteriovenous_malformation">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Arteriovenous_malformation"/>
         <rdfs:label>Other arteriovenous malformation</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0100026"/>
+        <skos:exactMatch rdf:resource="http://snomed.info/id/24551003"/>
     </owl:Class>
     
 
@@ -1763,6 +1784,9 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
     <owl:Class rdf:about="http://purl.org/issva/classification#Other_telangiectasias">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Telangiectasia"/>
         <rdfs:label xml:lang="en">Other telangiectasia</rdfs:label>
+        <skos:exactMatch rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C28194"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0001009"/>
+        <skos:exactMatch rdf:resource="http://snomed.info/id/112641009"/>
     </owl:Class>
     
 
@@ -1782,6 +1806,7 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Causal_genes_of_vascular_anomalies"/>
         <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Cerebral_cavernous_malformation"/>
         <rdfs:label xml:lang="en">PDCD10</rdfs:label>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_124142"/>
     </owl:Class>
     
 
@@ -1798,6 +1823,7 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
         <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Fibro_adipose_vascular_anomaly_FAVA"/>
         <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Klippel-Trenaunay_syndrome"/>
         <rdfs:label xml:lang="en">PIK3CA</rdfs:label>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_117820"/>
     </owl:Class>
     
 
@@ -1809,6 +1835,7 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
         <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Bannayan-Riley-Ruvalcaba_sd"/>
         <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#PTEN_type_hamartoma_of_soft_tissue_angiomatosis_of_soft_tissue"/>
         <rdfs:label xml:lang="en">PTEN</rdfs:label>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_118128"/>
     </owl:Class>
     
 
@@ -1825,6 +1852,7 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
         </rdfs:subClassOf>
         <rdfs:label>PTEN (type) hamartoma of soft tissue / &quot;Angiomatosis&quot; of soft tissue</rdfs:label>
         <skos:altLabel>PHOST</skos:altLabel>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_306498"/>
     </owl:Class>
     
 
@@ -1835,6 +1863,7 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Causal_genes_of_vascular_anomalies"/>
         <obo:RO_0003302 rdf:resource="http://purl.org/issva/classification#Lymphedema-choanal_atresia"/>
         <rdfs:label xml:lang="en">PTPN14</rdfs:label>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_468087"/>
     </owl:Class>
     
 
@@ -1855,6 +1884,8 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
         <rdfs:label xml:lang="en">Papillary intralymphatic angioendothelioma</rdfs:label>
         <rdfs:seeAlso xml:lang="en">Dabska tumor</rdfs:seeAlso>
         <skos:altLabel>PILA</skos:altLabel>
+        <skos:exactMatch rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C7526"/>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_458768"/>
     </owl:Class>
     
 
@@ -1877,6 +1908,8 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">Associated with CM + AVF + limb overgrowth</rdfs:comment>
         <rdfs:label>Parkes Weber syndrome</rdfs:label>
+        <skos:exactMatch rdf:resource="http://snomed.info/id/234143003"/>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_90307"/>
     </owl:Class>
     
 
@@ -1888,6 +1921,7 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
         <rdfs:comment xml:lang="en">some lesions may be associated with thrombocytopenia and/or consumptive coagulopathy</rdfs:comment>
         <rdfs:label xml:lang="en">Partially involuting congenital hemangioma</rdfs:label>
         <skos:altLabel>PICH</skos:altLabel>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_458785"/>
     </owl:Class>
     
 
@@ -1897,6 +1931,7 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
     <owl:Class rdf:about="http://purl.org/issva/classification#Polymorphous_hemangioendothelioma">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Locally_agressive_or_borderline"/>
         <rdfs:label xml:lang="en">Polymorphous hemangioendothelioma</rdfs:label>
+        <skos:exactMatch rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C45476"/>
     </owl:Class>
     
 
@@ -1925,6 +1960,9 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
     <owl:Class rdf:about="http://purl.org/issva/classification#Primary_lymphedema">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Simple_vascular_malformation"/>
         <rdfs:label xml:lang="en">Primary lymphedema</rdfs:label>
+        <skos:exactMatch rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C48829"/>
+        <skos:exactMatch rdf:resource="http://snomed.info/id/77123007"/>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_77240"/>
     </owl:Class>
     
 
@@ -1962,6 +2000,10 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">Associated with CM, VM and/or LM + asymmetrical somatic overgrowth.</rdfs:comment>
         <rdfs:label>Proteus syndrome</rdfs:label>
+        <skos:exactMatch rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C85032"/>
+        <skos:exactMatch rdf:resource="http://snomed.info/id/23150001"/>
+        <skos:exactMatch rdf:resource="http://snomed.info/id/716862002"/>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_744"/>
     </owl:Class>
     
 
@@ -1980,6 +2022,7 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
     <owl:Class rdf:about="http://purl.org/issva/classification#Pseudomyogenic_hemangioendothelioma">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Locally_agressive_or_borderline"/>
         <rdfs:label xml:lang="en">Pseudomyogenic hemangioendothelioma</rdfs:label>
+        <skos:exactMatch rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C121668"/>
     </owl:Class>
     
 
