@@ -25,12 +25,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/RO_0003302 -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0003302"/>
-    
-
-
     <!-- http://www.w3.org/2004/02/skos/core#altLabel -->
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#altLabel"/>
@@ -85,91 +79,6 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:label>gene-disease association</rdfs:label>
     </owl:ObjectProperty>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Data properties
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://purl.org/issva/classification#Origin -->
-
-    <owl:DatatypeProperty rdf:about="http://purl.org/issva/classification#Origin">
-        <rdfs:domain rdf:resource="http://purl.org/issva/classification#Vascular_anomalies_of_major_named_vessels"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://purl.org/issva/classification#communication_AVF -->
-
-    <owl:DatatypeProperty rdf:about="http://purl.org/issva/classification#communication_AVF">
-        <rdfs:domain rdf:resource="http://purl.org/issva/classification#Vascular_anomalies_of_major_named_vessels"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://purl.org/issva/classification#course -->
-
-    <owl:DatatypeProperty rdf:about="http://purl.org/issva/classification#course">
-        <rdfs:domain rdf:resource="http://purl.org/issva/classification#Vascular_anomalies_of_major_named_vessels"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://purl.org/issva/classification#diameter -->
-
-    <owl:DatatypeProperty rdf:about="http://purl.org/issva/classification#diameter">
-        <rdfs:domain rdf:resource="http://purl.org/issva/classification#Vascular_anomalies_of_major_named_vessels"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:comment>(aplasia, hypoplasia, stenosis, ectasia / aneurysm)</rdfs:comment>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://purl.org/issva/classification#length -->
-
-    <owl:DatatypeProperty rdf:about="http://purl.org/issva/classification#length">
-        <rdfs:domain rdf:resource="http://purl.org/issva/classification#Vascular_anomalies_of_major_named_vessels"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://purl.org/issva/classification#number -->
-
-    <owl:DatatypeProperty rdf:about="http://purl.org/issva/classification#number">
-        <rdfs:domain rdf:resource="http://purl.org/issva/classification#Vascular_anomalies_of_major_named_vessels"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://purl.org/issva/classification#persistence -->
-
-    <owl:DatatypeProperty rdf:about="http://purl.org/issva/classification#persistence">
-        <rdfs:domain rdf:resource="http://purl.org/issva/classification#Vascular_anomalies_of_major_named_vessels"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:comment>(of embryonal vessel)</rdfs:comment>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://purl.org/issva/classification#valves -->
-
-    <owl:DatatypeProperty rdf:about="http://purl.org/issva/classification#valves">
-        <rdfs:domain rdf:resource="http://purl.org/issva/classification#Vascular_anomalies_of_major_named_vessels"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    </owl:DatatypeProperty>
     
 
 
@@ -1971,9 +1880,6 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
 
     <owl:Class rdf:about="http://purl.org/issva/classification#Microcephaly_with_or_without_chorioretinopathy_lymphedema_or_mental_retardation_syndrome">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Primary_lymphedema"/>
-        <obo:RO_0003302 xml:lang="en">Microcephaly with or without chorioretinopathy</obo:RO_0003302>
-        <obo:RO_0003302 xml:lang="en">lymphedema</obo:RO_0003302>
-        <obo:RO_0003302 xml:lang="en">mental retardation syndrome</obo:RO_0003302>
         <rdfs:label>Microcephaly with or without chorioretinopathy, lymphedema, or mental retardation syndrome</rdfs:label>
         <skos:exactMatch rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C129306"/>
     </owl:Class>
