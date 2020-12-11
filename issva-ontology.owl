@@ -16,17 +16,17 @@
         <dc:creator rdf:resource="https://orcid.org/0000-0001-7893-0505"/>
         <dc:creator rdf:resource="https://orcid.org/0000-0002-7124-8949"/>
         <dc:creator rdf:resource="https://orcid.org/0000-0003-3357-3027"/>
-        <dc:description xml:lang="en">ISSVA is a multidisciplinary international society of physicians, scientists, and health care providers united by an interest in vascular anomalies. The Society aims to promote the highest standards of care for patients with vascular anomalies by advancing clinical and scientific knowledge concerning causes, diagnosis and treatment, and by education of physicians, health care providers, patients and the community. The Society encourages the free flow of information between its members and interested groups, through workshop meetings and teaching programs, and by the dissemination of a classification scheme and pertinent scientific data.
+        <dc:description xml:lang="en">The International Society for the Study of Vascular Anomalies (ISSVA) is a multidisciplinary international society of physicians, scientists, and health care providers united by an interest in vascular anomalies. The Society aims to promote the highest standards of care for patients with vascular anomalies by advancing clinical and scientific knowledge concerning causes, diagnosis and treatment, and by education of physicians, health care providers, patients and the community. The Society encourages the free flow of information between its members and interested groups, through workshop meetings and teaching programs, and by the dissemination of a classification scheme and pertinent scientific data.
 
 The updated classification was approved at the May, 2018 General Assembly in Amsterdam, the Netherlands.</dc:description>
         <dc:format xml:lang="en">OWL</dc:format>
-        <dc:title xml:lang="en">ISSVA Ontology for Vascular Anomalies</dc:title>
+        <dc:title xml:lang="en">ISSVA Ontology of Vascular Anomalies</dc:title>
         <terms:bibliographicCitation xml:lang="en">ISSVA Classification of Vascular Anomalies ©2018 International Society for the Study of Vascular Anomalies Available at &quot;issva.org/classification&quot; Accessed [date]</terms:bibliographicCitation>
         <terms:hasVersion xml:lang="en">1.0</terms:hasVersion>
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/legalcode"/>
-        <rdfs:label xml:lang="en">ISSVA Ontology for Vascular Anomalies</rdfs:label>
+        <rdfs:label xml:lang="en">ISSVA Ontology of Vascular Anomalies</rdfs:label>
         <owl:versionInfo xml:lang="en">1.0</owl:versionInfo>
-        <skos:prefLabel xml:lang="en">ISSVA Ontology for Vascular Anomalies</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">ISSVA Ontology of Vascular Anomalies</skos:prefLabel>
         <foaf:name xml:lang="en">ISSVA Ontology for Vascular Anomalies</foaf:name>
         <resource:SIO_000563 rdf:resource="https://www.issva.org/UserFiles/file/ISSVA-Classification-2018.pdf"/>
     </owl:Ontology>
@@ -204,6 +204,7 @@ The updated classification was approved at the May, 2018 General Assembly in Ams
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">ACVRL1</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_117764"/>
+        <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:175</skos:exactMatch>
     </owl:Class>
     
 
@@ -220,6 +221,7 @@ The updated classification was approved at the May, 2018 General Assembly in Ams
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">AKT1</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_281472"/>
+        <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:391</skos:exactMatch>
     </owl:Class>
     
 
@@ -496,6 +498,7 @@ The updated classification was approved at the May, 2018 General Assembly in Ams
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">BRAF</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_119066"/>
+        <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:1097</skos:exactMatch>
     </owl:Class>
     
 
@@ -569,6 +572,7 @@ The updated classification was approved at the May, 2018 General Assembly in Ams
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">CAMTA1</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_317761"/>
+        <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:18806</skos:exactMatch>
     </owl:Class>
     
 
@@ -585,6 +589,7 @@ The updated classification was approved at the May, 2018 General Assembly in Ams
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">CCBE1</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_220744"/>
+        <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:29426</skos:exactMatch>
     </owl:Class>
     
 
@@ -1095,6 +1100,7 @@ The updated classification was approved at the May, 2018 General Assembly in Ams
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">ELMO2</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_465978"/>
+        <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:17233</skos:exactMatch>
     </owl:Class>
     
 
@@ -1123,6 +1129,7 @@ The updated classification was approved at the May, 2018 General Assembly in Ams
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">ENG</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_121536"/>
+        <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:3349</skos:exactMatch>
     </owl:Class>
     
 
@@ -1151,6 +1158,7 @@ The updated classification was approved at the May, 2018 General Assembly in Ams
         </rdfs:subClassOf>
         <rdfs:label>EPHB4</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_509002"/>
+        <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:3395</skos:exactMatch>
     </owl:Class>
     
 
@@ -1204,6 +1212,7 @@ The updated classification was approved at the May, 2018 General Assembly in Ams
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">FLT4</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_121872"/>
+        <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:3767</skos:exactMatch>
     </owl:Class>
     
 
@@ -1220,6 +1229,7 @@ The updated classification was approved at the May, 2018 General Assembly in Ams
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">FOS</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_364789"/>
+        <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:3796</skos:exactMatch>
     </owl:Class>
     
 
@@ -1235,6 +1245,7 @@ The updated classification was approved at the May, 2018 General Assembly in Ams
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">FOSB</rdfs:label>
+        <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:3797</skos:exactMatch>
     </owl:Class>
     
 
@@ -1251,6 +1262,7 @@ The updated classification was approved at the May, 2018 General Assembly in Ams
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">FOXC2</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_121891"/>
+        <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:3801</skos:exactMatch>
     </owl:Class>
     
 
@@ -1303,6 +1315,7 @@ The updated classification was approved at the May, 2018 General Assembly in Ams
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">GATA2</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_274222"/>
+        <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:4171</skos:exactMatch>
     </owl:Class>
     
 
@@ -1319,6 +1332,7 @@ The updated classification was approved at the May, 2018 General Assembly in Ams
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">GJC2</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_122110"/>
+        <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:17494</skos:exactMatch>
     </owl:Class>
     
 
@@ -1347,6 +1361,7 @@ The updated classification was approved at the May, 2018 General Assembly in Ams
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">GNA11</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_360224"/>
+        <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:4379</skos:exactMatch>
     </owl:Class>
     
 
@@ -1375,6 +1390,7 @@ The updated classification was approved at the May, 2018 General Assembly in Ams
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">GNA14</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_477268"/>
+        <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:4382</skos:exactMatch>
     </owl:Class>
     
 
@@ -1403,6 +1419,7 @@ The updated classification was approved at the May, 2018 General Assembly in Ams
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">GNAQ</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_353497"/>
+        <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:4390</skos:exactMatch>
     </owl:Class>
     
 
@@ -1442,6 +1459,7 @@ The updated classification was approved at the May, 2018 General Assembly in Ams
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Glomulin</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_122172"/>
+        <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:14373</skos:exactMatch>
     </owl:Class>
     
 
@@ -1548,6 +1566,7 @@ The updated classification was approved at the May, 2018 General Assembly in Ams
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">IDH1</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_299152"/>
+        <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:5382</skos:exactMatch>
     </owl:Class>
     
 
@@ -1570,6 +1589,7 @@ The updated classification was approved at the May, 2018 General Assembly in Ams
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">IDH2</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_247145"/>
+        <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:5383</skos:exactMatch>
     </owl:Class>
     
 
@@ -1637,6 +1657,7 @@ The updated classification was approved at the May, 2018 General Assembly in Ams
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">KIF11</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_292401"/>
+        <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:6388</skos:exactMatch>
     </owl:Class>
     
 
@@ -1653,6 +1674,7 @@ The updated classification was approved at the May, 2018 General Assembly in Ams
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">KRIT1</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_122883"/>
+        <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:1573</skos:exactMatch>
     </owl:Class>
     
 
@@ -1848,6 +1870,7 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">MAP2K1</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_123135"/>
+        <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:6840</skos:exactMatch>
     </owl:Class>
     
 
@@ -1863,6 +1886,7 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">MAP3K3</rdfs:label>
+        <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:6855</skos:exactMatch>
     </owl:Class>
     
 
@@ -1879,6 +1903,7 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">MYC</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_159785"/>
+        <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:7553</skos:exactMatch>
     </owl:Class>
     
 
@@ -1943,6 +1968,7 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Malcavernin</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_119213"/>
+        <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:21708</skos:exactMatch>
     </owl:Class>
     
 
@@ -2041,7 +2067,9 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
                 <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Maffucci_syndrome"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">NPM11</rdfs:label>
+        <rdfs:label xml:lang="en">NPM1</rdfs:label>
+        <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.orpha.net/ORDO/Orphanet_159793</skos:exactMatch>
+        <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:7910</skos:exactMatch>
     </owl:Class>
     
 
@@ -2184,6 +2212,7 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">PDCD10</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_124142"/>
+        <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:8761</skos:exactMatch>
     </owl:Class>
     
 
@@ -2236,6 +2265,7 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">PIK3CA</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_117820"/>
+        <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:8975</skos:exactMatch>
     </owl:Class>
     
 
@@ -2258,6 +2288,7 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">PTEN</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_118128"/>
+        <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:9588</skos:exactMatch>
     </owl:Class>
     
 
@@ -2291,6 +2322,7 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">PTPN14</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_468087"/>
+        <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:9647</skos:exactMatch>
     </owl:Class>
     
 
@@ -2511,6 +2543,7 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">RASA1</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_118231"/>
+        <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:9871</skos:exactMatch>
     </owl:Class>
     
 
@@ -2594,6 +2627,7 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">SMAD4</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_119727"/>
+        <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:6770</skos:exactMatch>
     </owl:Class>
     
 
@@ -2610,6 +2644,7 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">SOX18</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_119788"/>
+        <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:11194</skos:exactMatch>
     </owl:Class>
     
 
@@ -2632,6 +2667,7 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">STAMBP</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_353369"/>
+        <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:16950</skos:exactMatch>
     </owl:Class>
     
 
@@ -2754,6 +2790,8 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">TEK (TIE2)</rdfs:label>
+        <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.orpha.net/ORDO/Orphanet_120020</skos:exactMatch>
+        <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:11724</skos:exactMatch>
     </owl:Class>
     
 
@@ -2770,6 +2808,7 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">TFE3</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_120036"/>
+        <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:11752</skos:exactMatch>
     </owl:Class>
     
 
@@ -2830,6 +2869,7 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">VEGFC</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_376917"/>
+        <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:12682</skos:exactMatch>
     </owl:Class>
     
 
@@ -2846,6 +2886,7 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">VEGFR3</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_121872"/>
+        <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:3767</skos:exactMatch>
     </owl:Class>
     
 
