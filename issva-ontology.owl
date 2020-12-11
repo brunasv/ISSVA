@@ -1,15 +1,34 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.org/issva/classification#"
      xml:base="http://purl.org/issva/classification"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:resource="https://semanticscience.org/resource/">
     <owl:Ontology rdf:about="http://purl.org/issva/classification">
-        <rdfs:label xml:lang="en">ISSVA classification for vascular anomalies</rdfs:label>
+        <dc:creator rdf:resource="https://orcid.org/0000-0001-7893-0505"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-7124-8949"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0003-3357-3027"/>
+        <dc:description xml:lang="en">ISSVA is a multidisciplinary international society of physicians, scientists, and health care providers united by an interest in vascular anomalies. The Society aims to promote the highest standards of care for patients with vascular anomalies by advancing clinical and scientific knowledge concerning causes, diagnosis and treatment, and by education of physicians, health care providers, patients and the community. The Society encourages the free flow of information between its members and interested groups, through workshop meetings and teaching programs, and by the dissemination of a classification scheme and pertinent scientific data.
+
+The updated classification was approved at the May, 2018 General Assembly in Amsterdam, the Netherlands.</dc:description>
+        <dc:format xml:lang="en">OWL</dc:format>
+        <dc:title xml:lang="en">ISSVA Ontology for Vascular Anomalies</dc:title>
+        <terms:bibliographicCitation xml:lang="en">ISSVA Classification of Vascular Anomalies ©2018 International Society for the Study of Vascular Anomalies Available at &quot;issva.org/classification&quot; Accessed [date]</terms:bibliographicCitation>
+        <terms:hasVersion xml:lang="en">1.0</terms:hasVersion>
+        <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/legalcode"/>
+        <rdfs:label xml:lang="en">ISSVA Ontology for Vascular Anomalies</rdfs:label>
+        <owl:versionInfo xml:lang="en">1.0</owl:versionInfo>
+        <skos:prefLabel xml:lang="en">ISSVA Ontology for Vascular Anomalies</skos:prefLabel>
+        <foaf:name xml:lang="en">ISSVA Ontology for Vascular Anomalies</foaf:name>
+        <resource:SIO_000563 rdf:resource="https://www.issva.org/UserFiles/file/ISSVA-Classification-2018.pdf"/>
     </owl:Ontology>
     
 
@@ -22,6 +41,60 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/contributor -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/contributor"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/format -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/format"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/source -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/source"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/bibliographicCitation -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/bibliographicCitation"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/hasVersion -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/hasVersion"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
     
 
 
@@ -40,6 +113,20 @@
     <!-- http://www.w3.org/2004/02/skos/core#prefLabel -->
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/name -->
+
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/name"/>
+    
+
+
+    <!-- https://semanticscience.org/resource/SIO_000563 -->
+
+    <owl:AnnotationProperty rdf:about="https://semanticscience.org/resource/SIO_000563">
+        <skos:prefLabel xml:lang="en">sio:describes</skos:prefLabel>
+    </owl:AnnotationProperty>
     
 
 
@@ -3025,6 +3112,44 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
         <skos:exactMatch rdf:resource="http://snomed.info/id/83343001"/>
         <skos:prefLabel xml:lang="en">Infantile hemangioma</skos:prefLabel>
     </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://orcid.org/0000-0001-7893-0505 -->
+
+    <owl:Thing rdf:about="https://orcid.org/0000-0001-7893-0505">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdfs:label xml:lang="en">Bruna dos Santos Vieira</rdfs:label>
+    </owl:Thing>
+    
+
+
+    <!-- https://orcid.org/0000-0002-7124-8949 -->
+
+    <owl:Thing rdf:about="https://orcid.org/0000-0002-7124-8949">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdfs:label xml:lang="en">Philip van Damme</rdfs:label>
+    </owl:Thing>
+    
+
+
+    <!-- https://orcid.org/0000-0003-3357-3027 -->
+
+    <owl:Thing rdf:about="https://orcid.org/0000-0003-3357-3027">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdfs:label xml:lang="en">Martijn Kersloot</rdfs:label>
+    </owl:Thing>
 </rdf:RDF>
 
 
