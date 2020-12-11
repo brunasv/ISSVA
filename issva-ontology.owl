@@ -217,6 +217,7 @@
 
     <owl:Class rdf:about="http://purl.org/issva/classification#Arteriovenous_fistula">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Simple_vascular_malformation"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#communication"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/issva/classification#affects_vessel_type"/>
@@ -384,6 +385,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Arteriovenous_malformation_in_HHT"/>
         <rdfs:label>Arteriovenous malformation in juvenile polyposis associated with hereditary hemorrhagic telangiectasia</rdfs:label>
         <skos:altLabel>Arteriovenous malformation in JPHT</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#Attribute -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#Attribute">
+        <rdfs:label>Attribute</rdfs:label>
     </owl:Class>
     
 
@@ -2776,6 +2785,12 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
                 </owl:unionOf>
             </owl:Class>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/issva/classification#is_anomaly_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Attribute"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Vascular anomaly of major named vessel</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_458844"/>
     </owl:Class>
@@ -2856,6 +2871,123 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Venous_malformation"/>
         <rdfs:comment xml:lang="en">(formerly verrucous hemangioma)</rdfs:comment>
         <rdfs:label>Verrucous venous malformation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#aplasia -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#aplasia">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#diameter"/>
+        <rdfs:label>Aplasia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#communication -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#communication">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Attribute"/>
+        <rdfs:label>Communication</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#course -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#course">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Attribute"/>
+        <rdfs:label>Course</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#diameter -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#diameter">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Attribute"/>
+        <rdfs:label>Diameter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#ectasia-or-aneurysm -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#ectasia-or-aneurysm">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#diameter"/>
+        <rdfs:label>Ectasia / aneurysm</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#hypoplasia -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#hypoplasia">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#diameter"/>
+        <rdfs:label>Hypoplasia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#length -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#length">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Attribute"/>
+        <rdfs:label>Length</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#number -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#number">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Attribute"/>
+        <rdfs:label>Number</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#origin -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#origin">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Attribute"/>
+        <rdfs:label>Origin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#persistence -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#persistence">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Attribute"/>
+        <rdfs:label>Persistence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#persistence_of_embryonal_vessel -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#persistence_of_embryonal_vessel">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#persistence"/>
+        <rdfs:label>Persistence of embryonal vessel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#stenosis -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#stenosis">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#diameter"/>
+        <rdfs:label>Stenosis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/issva/classification#valves -->
+
+    <owl:Class rdf:about="http://purl.org/issva/classification#valves">
+        <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Attribute"/>
+        <rdfs:label>Valves</rdfs:label>
     </owl:Class>
     
 
