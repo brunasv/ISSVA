@@ -2510,6 +2510,12 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">RAS</rdfs:label>
+        <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.orpha.net/ORDO/Orphanet_122499</skos:exactMatch>
+        <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.orpha.net/ORDO/Orphanet_122879</skos:exactMatch>
+        <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.orpha.net/ORDO/Orphanet_221346</skos:exactMatch>
+        <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:5173</skos:exactMatch>
+        <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:6407</skos:exactMatch>
+        <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:7989</skos:exactMatch>
     </owl:Class>
     
 
