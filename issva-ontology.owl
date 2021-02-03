@@ -15,6 +15,7 @@
     <owl:Ontology rdf:about="http://purl.org/issva/classification">
         <dc:creator rdf:resource="https://orcid.org/0000-0001-7893-0505"/>
         <dc:creator rdf:resource="https://orcid.org/0000-0001-9217-278X"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-1704-5980"/>
         <dc:creator rdf:resource="https://orcid.org/0000-0002-7124-8949"/>
         <dc:creator rdf:resource="https://orcid.org/0000-0003-3357-3027"/>
         <dc:description xml:lang="en">The International Society for the Study of Vascular Anomalies (ISSVA) is a multidisciplinary international society of physicians, scientists, and health care providers united by an interest in vascular anomalies. The Society aims to promote the highest standards of care for patients with vascular anomalies by advancing clinical and scientific knowledge concerning causes, diagnosis and treatment, and by education of physicians, health care providers, patients and the community. The Society encourages the free flow of information between its members and interested groups, through workshop meetings and teaching programs, and by the dissemination of a classification scheme and pertinent scientific data.
@@ -3158,6 +3159,15 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
     <owl:Thing rdf:about="https://orcid.org/0000-0001-9217-278X">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
         <rdfs:label>Leo Schultze Kool</rdfs:label>
+    </owl:Thing>
+    
+
+
+    <!-- https://orcid.org/0000-0002-1704-5980 -->
+
+    <owl:Thing rdf:about="https://orcid.org/0000-0002-1704-5980">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdfs:label>Ronald Cornet</rdfs:label>
     </owl:Thing>
     
 
