@@ -5,13 +5,13 @@
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:sio="https://semanticscience.org/resource/"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-     xmlns:terms="http://purl.org/dc/terms/"
-     xmlns:resource="https://semanticscience.org/resource/">
+     xmlns:terms="http://purl.org/dc/terms/">
     <owl:Ontology rdf:about="http://purl.org/issva/classification">
         <dc:creator rdf:resource="https://orcid.org/0000-0001-7893-0505"/>
         <dc:creator rdf:resource="https://orcid.org/0000-0001-9217-278X"/>
@@ -30,7 +30,7 @@ The updated classification was approved at the May, 2018 General Assembly in Ams
         <owl:versionInfo xml:lang="en">1.0.0</owl:versionInfo>
         <skos:prefLabel xml:lang="en">ISSVA Ontology of Vascular Anomalies</skos:prefLabel>
         <foaf:name xml:lang="en">ISSVA Ontology of Vascular Anomalies</foaf:name>
-        <resource:SIO_000563 rdf:resource="https://www.issva.org/UserFiles/file/ISSVA-Classification-2018.pdf"/>
+        <sio:SIO_000563 rdf:resource="https://www.issva.org/UserFiles/file/ISSVA-Classification-2018.pdf"/>
     </owl:Ontology>
     
 
@@ -100,6 +100,12 @@ The updated classification was approved at the May, 2018 General Assembly in Ams
     
 
 
+    <!-- http://purl.org/issva/classification#geneDiseaseAssociation -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/issva/classification#geneDiseaseAssociation"/>
+    
+
+
     <!-- http://www.w3.org/2004/02/skos/core#altLabel -->
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#altLabel"/>
@@ -132,6 +138,14 @@ The updated classification was approved at the May, 2018 General Assembly in Ams
     
 
 
+    <!-- https://semanticscience.org/resource/SIO_000983 -->
+
+    <owl:AnnotationProperty rdf:about="https://semanticscience.org/resource/SIO_000983">
+        <skos:prefLabel xml:lang="en">sio:gene-disease-association</skos:prefLabel>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -153,24 +167,6 @@ The updated classification was approved at the May, 2018 General Assembly in Ams
     
 
 
-    <!-- http://purl.org/issva/classification#is_anomaly_of -->
-
-    <owl:ObjectProperty rdf:about="http://purl.org/issva/classification#is_anomaly_of">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:label>is anomaly of</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://semanticscience.org/resource/SIO_000983 -->
-
-    <owl:ObjectProperty rdf:about="http://semanticscience.org/resource/SIO_000983">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:label>gene-disease association</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -186,27 +182,12 @@ The updated classification was approved at the May, 2018 General Assembly in Ams
 
     <owl:Class rdf:about="http://purl.org/issva/classification#ACVRL1">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Gene"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000983"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Arteriovenous_fistula_in_HHT"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000983"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Arteriovenous_malformation_in_HHT"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000983"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Telangiectasia"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">ACVRL1</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_117764"/>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:175</skos:exactMatch>
+        <sio:SIO_000983 rdf:resource="http://purl.org/issva/classification#Arteriovenous_fistula_in_HHT"/>
+        <sio:SIO_000983 rdf:resource="http://purl.org/issva/classification#Arteriovenous_malformation_in_HHT"/>
+        <sio:SIO_000983 rdf:resource="http://purl.org/issva/classification#Telangiectasia"/>
     </owl:Class>
     
 
@@ -215,15 +196,10 @@ The updated classification was approved at the May, 2018 General Assembly in Ams
 
     <owl:Class rdf:about="http://purl.org/issva/classification#AKT1">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Gene"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000983"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Proteus_syndrome"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">AKT1</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_281472"/>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:391</skos:exactMatch>
+        <sio:SIO_000983 rdf:resource="http://purl.org/issva/classification#Proteus_syndrome"/>
     </owl:Class>
     
 
@@ -484,15 +460,10 @@ The updated classification was approved at the May, 2018 General Assembly in Ams
 
     <owl:Class rdf:about="http://purl.org/issva/classification#BRAF">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Gene"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000983"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Pyogenic_granuloma"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">BRAF</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_119066"/>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:1097</skos:exactMatch>
+        <sio:SIO_000983 rdf:resource="http://purl.org/issva/classification#Pyogenic_granuloma"/>
     </owl:Class>
     
 
@@ -558,15 +529,10 @@ The updated classification was approved at the May, 2018 General Assembly in Ams
 
     <owl:Class rdf:about="http://purl.org/issva/classification#CAMTA1">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Gene"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000983"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Epithelioid_hemangioendothelioma"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">CAMTA1</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_317761"/>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:18806</skos:exactMatch>
+        <sio:SIO_000983 rdf:resource="http://purl.org/issva/classification#Epithelioid_hemangioendothelioma"/>
     </owl:Class>
     
 
@@ -575,15 +541,10 @@ The updated classification was approved at the May, 2018 General Assembly in Ams
 
     <owl:Class rdf:about="http://purl.org/issva/classification#CCBE1">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Gene"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000983"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Primary_generalized_lymphatic_anomaly"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">CCBE1</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_220744"/>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:29426</skos:exactMatch>
+        <sio:SIO_000983 rdf:resource="http://purl.org/issva/classification#Primary_generalized_lymphatic_anomaly"/>
     </owl:Class>
     
 
@@ -1069,15 +1030,10 @@ The updated classification was approved at the May, 2018 General Assembly in Ams
 
     <owl:Class rdf:about="http://purl.org/issva/classification#ELMO2">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Gene"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000983"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Familial_intraosseous_vascular_malformation"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">ELMO2</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_465978"/>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:17233</skos:exactMatch>
+        <sio:SIO_000983 rdf:resource="http://purl.org/issva/classification#Familial_intraosseous_vascular_malformation"/>
     </owl:Class>
     
 
@@ -1086,27 +1042,12 @@ The updated classification was approved at the May, 2018 General Assembly in Ams
 
     <owl:Class rdf:about="http://purl.org/issva/classification#ENG">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Gene"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000983"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Arteriovenous_fistula_in_HHT_1"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000983"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Arteriovenous_malformation_in_HHT_1"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000983"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Hereditary_hemorrhagic_telangiectasia_1"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">ENG</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_121536"/>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:3349</skos:exactMatch>
+        <sio:SIO_000983 rdf:resource="http://purl.org/issva/classification#Arteriovenous_fistula_in_HHT_1"/>
+        <sio:SIO_000983 rdf:resource="http://purl.org/issva/classification#Arteriovenous_malformation_in_HHT_1"/>
+        <sio:SIO_000983 rdf:resource="http://purl.org/issva/classification#Hereditary_hemorrhagic_telangiectasia_1"/>
     </owl:Class>
     
 
@@ -1115,27 +1056,12 @@ The updated classification was approved at the May, 2018 General Assembly in Ams
 
     <owl:Class rdf:about="http://purl.org/issva/classification#EPHB4">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Gene"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000983"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Arteriovenous_fistula_in_CM-AVM"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000983"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Arteriovenous_malformation_in_CM-AVM"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000983"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#CM_of_CM-AVM"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label>EPHB4</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_509002"/>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:3395</skos:exactMatch>
+        <sio:SIO_000983 rdf:resource="http://purl.org/issva/classification#Arteriovenous_fistula_in_CM-AVM"/>
+        <sio:SIO_000983 rdf:resource="http://purl.org/issva/classification#Arteriovenous_malformation_in_CM-AVM"/>
+        <sio:SIO_000983 rdf:resource="http://purl.org/issva/classification#CM_of_CM-AVM"/>
     </owl:Class>
     
 
@@ -1181,15 +1107,10 @@ The updated classification was approved at the May, 2018 General Assembly in Ams
     <owl:Class rdf:about="http://purl.org/issva/classification#FLT4">
         <owl:equivalentClass rdf:resource="http://purl.org/issva/classification#VEGFR3"/>
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Gene"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000983"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Nonne-Milroy_syndrome"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">FLT4</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_121872"/>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:3767</skos:exactMatch>
+        <sio:SIO_000983 rdf:resource="http://purl.org/issva/classification#Nonne-Milroy_syndrome"/>
     </owl:Class>
     
 
@@ -1198,15 +1119,10 @@ The updated classification was approved at the May, 2018 General Assembly in Ams
 
     <owl:Class rdf:about="http://purl.org/issva/classification#FOS">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Gene"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000983"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Epithelioid_hemangioma"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">FOS</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_364789"/>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:3796</skos:exactMatch>
+        <sio:SIO_000983 rdf:resource="http://purl.org/issva/classification#Epithelioid_hemangioma"/>
     </owl:Class>
     
 
@@ -1215,14 +1131,9 @@ The updated classification was approved at the May, 2018 General Assembly in Ams
 
     <owl:Class rdf:about="http://purl.org/issva/classification#FOSB">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Gene"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000983"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Pseudomyogenic_hemangioendothelioma"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">FOSB</rdfs:label>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:3797</skos:exactMatch>
+        <sio:SIO_000983 rdf:resource="http://purl.org/issva/classification#Pseudomyogenic_hemangioendothelioma"/>
     </owl:Class>
     
 
@@ -1231,15 +1142,10 @@ The updated classification was approved at the May, 2018 General Assembly in Ams
 
     <owl:Class rdf:about="http://purl.org/issva/classification#FOXC2">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Gene"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000983"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Lymphedema-distichiasis"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">FOXC2</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_121891"/>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:3801</skos:exactMatch>
+        <sio:SIO_000983 rdf:resource="http://purl.org/issva/classification#Lymphedema-distichiasis"/>
     </owl:Class>
     
 
@@ -1284,15 +1190,10 @@ The updated classification was approved at the May, 2018 General Assembly in Ams
 
     <owl:Class rdf:about="http://purl.org/issva/classification#GATA2">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Gene"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000983"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Primary_lymphedema_with_myelodysplasia"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">GATA2</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_274222"/>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:4171</skos:exactMatch>
+        <sio:SIO_000983 rdf:resource="http://purl.org/issva/classification#Primary_lymphedema_with_myelodysplasia"/>
     </owl:Class>
     
 
@@ -1301,15 +1202,10 @@ The updated classification was approved at the May, 2018 General Assembly in Ams
 
     <owl:Class rdf:about="http://purl.org/issva/classification#GJC2">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Gene"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000983"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Primary_hereditary_lymphedema"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">GJC2</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_122110"/>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:17494</skos:exactMatch>
+        <sio:SIO_000983 rdf:resource="http://purl.org/issva/classification#Primary_hereditary_lymphedema"/>
     </owl:Class>
     
 
@@ -1318,27 +1214,12 @@ The updated classification was approved at the May, 2018 General Assembly in Ams
 
     <owl:Class rdf:about="http://purl.org/issva/classification#GNA11">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Gene"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000983"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#CM_with_bone_and_or_soft_tissues_overgrowth"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000983"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Congenital_hemangioma"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000983"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Diffuse_CM_with_overgrowth_(DCMO)"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">GNA11</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_360224"/>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:4379</skos:exactMatch>
+        <sio:SIO_000983 rdf:resource="http://purl.org/issva/classification#CM_with_bone_and_or_soft_tissues_overgrowth"/>
+        <sio:SIO_000983 rdf:resource="http://purl.org/issva/classification#Congenital_hemangioma"/>
+        <sio:SIO_000983 rdf:resource="http://purl.org/issva/classification#Diffuse_CM_with_overgrowth_(DCMO)"/>
     </owl:Class>
     
 
@@ -1347,27 +1228,12 @@ The updated classification was approved at the May, 2018 General Assembly in Ams
 
     <owl:Class rdf:about="http://purl.org/issva/classification#GNA14">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Gene"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000983"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Kaposiform_hemangioendothelioma"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000983"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Pyogenic_granuloma"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000983"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Tufted_angioma"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">GNA14</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_477268"/>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:4382</skos:exactMatch>
+        <sio:SIO_000983 rdf:resource="http://purl.org/issva/classification#Kaposiform_hemangioendothelioma"/>
+        <sio:SIO_000983 rdf:resource="http://purl.org/issva/classification#Pyogenic_granuloma"/>
+        <sio:SIO_000983 rdf:resource="http://purl.org/issva/classification#Tufted_angioma"/>
     </owl:Class>
     
 
@@ -1376,27 +1242,12 @@ The updated classification was approved at the May, 2018 General Assembly in Ams
 
     <owl:Class rdf:about="http://purl.org/issva/classification#GNAQ">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Gene"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000983"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Congenital_hemangioma"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000983"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Nonsyndromic_CM"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000983"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Sturge-Weber_syndrome"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">GNAQ</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_353497"/>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:4390</skos:exactMatch>
+        <sio:SIO_000983 rdf:resource="http://purl.org/issva/classification#Congenital_hemangioma"/>
+        <sio:SIO_000983 rdf:resource="http://purl.org/issva/classification#Nonsyndromic_CM"/>
+        <sio:SIO_000983 rdf:resource="http://purl.org/issva/classification#Sturge-Weber_syndrome"/>
     </owl:Class>
     
 
@@ -1436,15 +1287,10 @@ The updated classification was approved at the May, 2018 General Assembly in Ams
 
     <owl:Class rdf:about="http://purl.org/issva/classification#Glomulin">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Gene"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000983"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Glomuvenous_malformation"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Glomulin</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_122172"/>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:14373</skos:exactMatch>
+        <sio:SIO_000983 rdf:resource="http://purl.org/issva/classification#Glomuvenous_malformation"/>
     </owl:Class>
     
 
@@ -1537,21 +1383,11 @@ The updated classification was approved at the May, 2018 General Assembly in Ams
 
     <owl:Class rdf:about="http://purl.org/issva/classification#IDH1">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Gene"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000983"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Maffucci_syndrome"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000983"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Spindle-cell_hemangioma"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">IDH1</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_299152"/>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:5382</skos:exactMatch>
+        <sio:SIO_000983 rdf:resource="http://purl.org/issva/classification#Maffucci_syndrome"/>
+        <sio:SIO_000983 rdf:resource="http://purl.org/issva/classification#Spindle-cell_hemangioma"/>
     </owl:Class>
     
 
@@ -1560,21 +1396,11 @@ The updated classification was approved at the May, 2018 General Assembly in Ams
 
     <owl:Class rdf:about="http://purl.org/issva/classification#IDH2">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Gene"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000983"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Maffucci_syndrome"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000983"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Spindle-cell_hemangioma"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">IDH2</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_247145"/>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:5383</skos:exactMatch>
+        <sio:SIO_000983 rdf:resource="http://purl.org/issva/classification#Maffucci_syndrome"/>
+        <sio:SIO_000983 rdf:resource="http://purl.org/issva/classification#Spindle-cell_hemangioma"/>
     </owl:Class>
     
 
@@ -1634,15 +1460,10 @@ The updated classification was approved at the May, 2018 General Assembly in Ams
 
     <owl:Class rdf:about="http://purl.org/issva/classification#KIF11">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Gene"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000983"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Microcephaly_with_or_without_chorioretinopathy_lymphedema_or_mental_retardation_syndrome"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">KIF11</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_292401"/>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:6388</skos:exactMatch>
+        <sio:SIO_000983 rdf:resource="http://purl.org/issva/classification#Microcephaly_with_or_without_chorioretinopathy_lymphedema_or_mental_retardation_syndrome"/>
     </owl:Class>
     
 
@@ -1651,15 +1472,10 @@ The updated classification was approved at the May, 2018 General Assembly in Ams
 
     <owl:Class rdf:about="http://purl.org/issva/classification#KRIT1">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Gene"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000983"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#CCM1"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">KRIT1</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_122883"/>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:1573</skos:exactMatch>
+        <sio:SIO_000983 rdf:resource="http://purl.org/issva/classification#CCM1"/>
     </owl:Class>
     
 
@@ -1841,21 +1657,11 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
 
     <owl:Class rdf:about="http://purl.org/issva/classification#MAP2K1">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Gene"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000983"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Sporadic_Arteriovenous_malformation"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000983"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Sporadic_arteriovenous_fistula"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">MAP2K1</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_123135"/>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:6840</skos:exactMatch>
+        <sio:SIO_000983 rdf:resource="http://purl.org/issva/classification#Sporadic_Arteriovenous_malformation"/>
+        <sio:SIO_000983 rdf:resource="http://purl.org/issva/classification#Sporadic_arteriovenous_fistula"/>
     </owl:Class>
     
 
@@ -1864,14 +1670,9 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
 
     <owl:Class rdf:about="http://purl.org/issva/classification#MAP3K3">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Gene"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000983"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Verrucous_venous_malformation"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">MAP3K3</rdfs:label>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:6855</skos:exactMatch>
+        <sio:SIO_000983 rdf:resource="http://purl.org/issva/classification#Verrucous_venous_malformation"/>
     </owl:Class>
     
 
@@ -1880,15 +1681,10 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
 
     <owl:Class rdf:about="http://purl.org/issva/classification#MYC">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Gene"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000983"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Angiosarcoma"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">MYC</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_159785"/>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:7553</skos:exactMatch>
+        <sio:SIO_000983 rdf:resource="http://purl.org/issva/classification#Angiosarcoma"/>
     </owl:Class>
     
 
@@ -1945,15 +1741,10 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
 
     <owl:Class rdf:about="http://purl.org/issva/classification#Malcavernin">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Gene"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000983"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#CCM2"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Malcavernin</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_119213"/>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:21708</skos:exactMatch>
+        <sio:SIO_000983 rdf:resource="http://purl.org/issva/classification#CCM2"/>
     </owl:Class>
     
 
@@ -2046,15 +1837,10 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
 
     <owl:Class rdf:about="http://purl.org/issva/classification#NPM11">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Gene"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000983"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Maffucci_syndrome"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">NPM1</rdfs:label>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.orpha.net/ORDO/Orphanet_159793</skos:exactMatch>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:7910</skos:exactMatch>
+        <sio:SIO_000983 rdf:resource="http://purl.org/issva/classification#Maffucci_syndrome"/>
     </owl:Class>
     
 
@@ -2189,15 +1975,10 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
 
     <owl:Class rdf:about="http://purl.org/issva/classification#PDCD10">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Gene"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000983"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#CCM3"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">PDCD10</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_124142"/>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:8761</skos:exactMatch>
+        <sio:SIO_000983 rdf:resource="http://purl.org/issva/classification#CCM3"/>
     </owl:Class>
     
 
@@ -2206,51 +1987,16 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
 
     <owl:Class rdf:about="http://purl.org/issva/classification#PIK3CA">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Gene"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000983"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#CLAPO_syndrome"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000983"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#CLOVES_syndrome"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000983"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Common_VM"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000983"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Common_cystic_LM"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000983"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Fibro_adipose_vascular_anomaly_FAVA"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000983"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Klippel-Trenaunay_syndrome"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000983"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Macrocephaly_CM_M-CM_MCAP"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">PIK3CA</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_117820"/>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:8975</skos:exactMatch>
+        <sio:SIO_000983 rdf:resource="http://purl.org/issva/classification#CLAPO_syndrome"/>
+        <sio:SIO_000983 rdf:resource="http://purl.org/issva/classification#CLOVES_syndrome"/>
+        <sio:SIO_000983 rdf:resource="http://purl.org/issva/classification#Common_VM"/>
+        <sio:SIO_000983 rdf:resource="http://purl.org/issva/classification#Common_cystic_LM"/>
+        <sio:SIO_000983 rdf:resource="http://purl.org/issva/classification#Fibro_adipose_vascular_anomaly_FAVA"/>
+        <sio:SIO_000983 rdf:resource="http://purl.org/issva/classification#Klippel-Trenaunay_syndrome"/>
+        <sio:SIO_000983 rdf:resource="http://purl.org/issva/classification#Macrocephaly_CM_M-CM_MCAP"/>
     </owl:Class>
     
 
@@ -2259,21 +2005,11 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
 
     <owl:Class rdf:about="http://purl.org/issva/classification#PTEN">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Gene"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000983"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Bannayan-Riley-Ruvalcaba_sd"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000983"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#PTEN_type_hamartoma_of_soft_tissue_angiomatosis_of_soft_tissue"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">PTEN</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_118128"/>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:9588</skos:exactMatch>
+        <sio:SIO_000983 rdf:resource="http://purl.org/issva/classification#Bannayan-Riley-Ruvalcaba_sd"/>
+        <sio:SIO_000983 rdf:resource="http://purl.org/issva/classification#PTEN_type_hamartoma_of_soft_tissue_angiomatosis_of_soft_tissue"/>
     </owl:Class>
     
 
@@ -2299,15 +2035,10 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
 
     <owl:Class rdf:about="http://purl.org/issva/classification#PTPN14">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Gene"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000983"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Lymphedema-choanal_atresia"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">PTPN14</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_468087"/>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:9647</skos:exactMatch>
+        <sio:SIO_000983 rdf:resource="http://purl.org/issva/classification#Lymphedema-choanal_atresia"/>
     </owl:Class>
     
 
@@ -2487,12 +2218,6 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
 
     <owl:Class rdf:about="http://purl.org/issva/classification#RAS">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Gene"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000983"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Pyogenic_granuloma"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">RAS</rdfs:label>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.orpha.net/ORDO/Orphanet_122499</skos:exactMatch>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.orpha.net/ORDO/Orphanet_122879</skos:exactMatch>
@@ -2500,6 +2225,7 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:5173</skos:exactMatch>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:6407</skos:exactMatch>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:7989</skos:exactMatch>
+        <sio:SIO_000983 rdf:resource="http://purl.org/issva/classification#Pyogenic_granuloma"/>
     </owl:Class>
     
 
@@ -2508,33 +2234,13 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
 
     <owl:Class rdf:about="http://purl.org/issva/classification#RASA1">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Gene"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000983"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Arteriovenous_fistula_in_CM-AVM"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000983"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Arteriovenous_malformation_in_CM-AVM"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000983"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#CM_of_CM-AVM"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000983"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Parkes_Weber_syndrome"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">RASA1</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_118231"/>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:9871</skos:exactMatch>
+        <sio:SIO_000983 rdf:resource="http://purl.org/issva/classification#Arteriovenous_fistula_in_CM-AVM"/>
+        <sio:SIO_000983 rdf:resource="http://purl.org/issva/classification#Arteriovenous_malformation_in_CM-AVM"/>
+        <sio:SIO_000983 rdf:resource="http://purl.org/issva/classification#CM_of_CM-AVM"/>
+        <sio:SIO_000983 rdf:resource="http://purl.org/issva/classification#Parkes_Weber_syndrome"/>
     </owl:Class>
     
 
@@ -2598,27 +2304,12 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
 
     <owl:Class rdf:about="http://purl.org/issva/classification#SMAD4">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Gene"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000983"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Arteriovenous_fistula_in_HHT_JPHT"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000983"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Arteriovenous_malformation_in_HHT_JPHT"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000983"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#JPHT"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">SMAD4</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_119727"/>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:6770</skos:exactMatch>
+        <sio:SIO_000983 rdf:resource="http://purl.org/issva/classification#Arteriovenous_fistula_in_HHT_JPHT"/>
+        <sio:SIO_000983 rdf:resource="http://purl.org/issva/classification#Arteriovenous_malformation_in_HHT_JPHT"/>
+        <sio:SIO_000983 rdf:resource="http://purl.org/issva/classification#JPHT"/>
     </owl:Class>
     
 
@@ -2627,15 +2318,10 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
 
     <owl:Class rdf:about="http://purl.org/issva/classification#SOX18">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Gene"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000983"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Hypotrichosis-lymphedema-telangiectasia"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">SOX18</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_119788"/>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:11194</skos:exactMatch>
+        <sio:SIO_000983 rdf:resource="http://purl.org/issva/classification#Hypotrichosis-lymphedema-telangiectasia"/>
     </owl:Class>
     
 
@@ -2644,21 +2330,11 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
 
     <owl:Class rdf:about="http://purl.org/issva/classification#STAMBP">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Gene"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000983"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#CM_of_MIC-CAP_microcephaly-capillary_malformation"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000983"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Microcephaly_CM_MICCAP"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">STAMBP</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_353369"/>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:16950</skos:exactMatch>
+        <sio:SIO_000983 rdf:resource="http://purl.org/issva/classification#CM_of_MIC-CAP_microcephaly-capillary_malformation"/>
+        <sio:SIO_000983 rdf:resource="http://purl.org/issva/classification#Microcephaly_CM_MICCAP"/>
     </owl:Class>
     
 
@@ -2762,27 +2438,12 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
 
     <owl:Class rdf:about="http://purl.org/issva/classification#TEK_TIE2">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Gene"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000983"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Blue_rubber_bleb_nevus_Bean_syndrome_VM"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000983"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Common_VM"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000983"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Familial_VM_cutaneo-mucosal"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">TEK (TIE2)</rdfs:label>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.orpha.net/ORDO/Orphanet_120020</skos:exactMatch>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:11724</skos:exactMatch>
+        <sio:SIO_000983 rdf:resource="http://purl.org/issva/classification#Blue_rubber_bleb_nevus_Bean_syndrome_VM"/>
+        <sio:SIO_000983 rdf:resource="http://purl.org/issva/classification#Common_VM"/>
+        <sio:SIO_000983 rdf:resource="http://purl.org/issva/classification#Familial_VM_cutaneo-mucosal"/>
     </owl:Class>
     
 
@@ -2791,15 +2452,10 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
 
     <owl:Class rdf:about="http://purl.org/issva/classification#TFE3">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Gene"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000983"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Epithelioid_hemangioendothelioma"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">TFE3</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_120036"/>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:11752</skos:exactMatch>
+        <sio:SIO_000983 rdf:resource="http://purl.org/issva/classification#Epithelioid_hemangioendothelioma"/>
     </owl:Class>
     
 
@@ -2843,15 +2499,10 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
 
     <owl:Class rdf:about="http://purl.org/issva/classification#VEGFC">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Gene"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000983"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Primary_hereditary_lymphedema"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">VEGFC</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_376917"/>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:12682</skos:exactMatch>
+        <sio:SIO_000983 rdf:resource="http://purl.org/issva/classification#Primary_hereditary_lymphedema"/>
     </owl:Class>
     
 
@@ -2860,15 +2511,10 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
 
     <owl:Class rdf:about="http://purl.org/issva/classification#VEGFR3">
         <rdfs:subClassOf rdf:resource="http://purl.org/issva/classification#Gene"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://semanticscience.org/resource/SIO_000983"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/issva/classification#Nonne-Milroy_syndrome"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">VEGFR3</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_121872"/>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:3767</skos:exactMatch>
+        <sio:SIO_000983 rdf:resource="http://purl.org/issva/classification#Nonne-Milroy_syndrome"/>
     </owl:Class>
     
 
