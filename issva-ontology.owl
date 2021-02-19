@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.org/issva/classification#"
-     xml:base="http://purl.org/issva/classification"
+<rdf:RDF xmlns="http://purl.bioontology.org/ontology/ISSVA/"
+     xml:base="http://purl.bioontology.org/ontology/ISSVA/"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -24,10 +24,10 @@ The updated classification was approved at the May, 2018 General Assembly in Ams
         <dc:format xml:lang="en">OWL</dc:format>
         <dc:title xml:lang="en">ISSVA Ontology of Vascular Anomalies</dc:title>
         <terms:bibliographicCitation xml:lang="en">ISSVA Classification of Vascular Anomalies ©2018 International Society for the Study of Vascular Anomalies Available at &quot;issva.org/classification&quot; Accessed [date]</terms:bibliographicCitation>
-        <terms:hasVersion xml:lang="en">1.1.0</terms:hasVersion>
+        <terms:hasVersion xml:lang="en">1.1.1</terms:hasVersion>
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/legalcode"/>
         <rdfs:label xml:lang="en">ISSVA Ontology of Vascular Anomalies</rdfs:label>
-        <owl:versionInfo xml:lang="en">1.1.0</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">1.1.1</owl:versionInfo>
         <skos:prefLabel xml:lang="en">ISSVA Ontology of Vascular Anomalies</skos:prefLabel>
         <foaf:name xml:lang="en">ISSVA Ontology of Vascular Anomalies</foaf:name>
         <sio:SIO_000563 rdf:resource="https://www.issva.org/UserFiles/file/ISSVA-Classification-2018.pdf"/>
