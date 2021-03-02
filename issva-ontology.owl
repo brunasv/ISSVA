@@ -135,6 +135,7 @@ The updated classification was approved at the May, 2018 General Assembly in Ams
     <!-- https://semanticscience.org/resource/SIO_000983 -->
 
     <owl:AnnotationProperty rdf:about="https://semanticscience.org/resource/SIO_000983">
+        <rdfs:label>gene-disease association</rdfs:label>
         <skos:prefLabel xml:lang="en">sio:gene-disease-association</skos:prefLabel>
     </owl:AnnotationProperty>
     
