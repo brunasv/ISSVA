@@ -151,6 +151,7 @@ Please contact ISSVA at info@issva.org in case you have any issues and/or featur
     <!-- https://semanticscience.org/resource/SIO_000983 -->
 
     <owl:AnnotationProperty rdf:about="https://semanticscience.org/resource/SIO_000983">
+        <rdfs:label>gene-disease association</rdfs:label>
         <skos:prefLabel xml:lang="en">sio:gene-disease-association</skos:prefLabel>
     </owl:AnnotationProperty>
     
