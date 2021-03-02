@@ -43,7 +43,7 @@ Please contact ISSVA at info@issva.org in case you have any issues and/or featur
         <terms:hasVersion xml:lang="en">1.1.1</terms:hasVersion>
         <terms:license xml:lang="en">https://creativecommons.org/licenses/by/4.0/legalcode</terms:license>
         <rdfs:label xml:lang="en">ISSVA Ontology of Vascular Anomalies</rdfs:label>
-        <owl:versionInfo xml:lang="en">1.1.1</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">1.1.2</owl:versionInfo>
         <skos:prefLabel xml:lang="en">ISSVA Ontology of Vascular Anomalies</skos:prefLabel>
         <foaf:name xml:lang="en">ISSVA Ontology of Vascular Anomalies</foaf:name>
         <sio:SIO_000563 rdf:resource="https://www.issva.org/UserFiles/file/ISSVA-Classification-2018.pdf"/>
