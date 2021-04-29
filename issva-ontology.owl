@@ -122,6 +122,12 @@ Please contact ISSVA at info@issva.org in case you have any issues and/or featur
     
 
 
+    <!-- http://www.w3.org/2004/02/skos/core#closeMatch -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#closeMatch"/>
+    
+
+
     <!-- http://www.w3.org/2004/02/skos/core#exactMatch -->
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#exactMatch"/>
@@ -380,9 +386,9 @@ Please contact ISSVA at info@issva.org in case you have any issues and/or featur
         <skos:altLabel xml:lang="en">AVF</skos:altLabel>
         <skos:altLabel xml:lang="en">Other AVF</skos:altLabel>
         <skos:altLabel xml:lang="en">Other arteriovenous fistula</skos:altLabel>
+        <skos:closeMatch rdf:resource="http://snomed.info/id/128617001"/>
         <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0004947"/>
         <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C36192"/>
-        <skos:exactMatch rdf:resource="http://snomed.info/id/128617001"/>
         <skos:exactMatch rdf:resource="http://snomed.info/id/439470001"/>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_98731"/>
     </owl:Class>
@@ -1007,8 +1013,8 @@ Please contact ISSVA at info@issva.org in case you have any issues and/or featur
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_058">
         <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_029"/>
         <rdfs:label xml:lang="en">Cutaneous epithelioid angiomatous nodule</rdfs:label>
+        <skos:closeMatch rdf:resource="http://snomed.info/id/817950008"/>
         <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C49079"/>
-        <skos:exactMatch rdf:resource="http://snomed.info/id/817950008"/>
     </owl:Class>
     
 
@@ -1063,9 +1069,9 @@ Please contact ISSVA at info@issva.org in case you have any issues and/or featur
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_063">
         <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_098"/>
         <rdfs:label xml:lang="en">Epithelioid hemangioendothelioma</rdfs:label>
+        <skos:closeMatch rdf:resource="http://snomed.info/id/54124005"/>
         <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3800"/>
         <skos:exactMatch rdf:resource="http://snomed.info/id/403981003"/>
-        <skos:exactMatch rdf:resource="http://snomed.info/id/54124005"/>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_157791"/>
     </owl:Class>
     
@@ -1076,9 +1082,9 @@ Please contact ISSVA at info@issva.org in case you have any issues and/or featur
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_064">
         <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_029"/>
         <rdfs:label xml:lang="en">Epithelioid hemangioma</rdfs:label>
+        <skos:closeMatch rdf:resource="http://snomed.info/id/33929001"/>
         <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0032060"/>
         <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C4298"/>
-        <skos:exactMatch rdf:resource="http://snomed.info/id/33929001"/>
     </owl:Class>
     
 
@@ -1223,8 +1229,8 @@ Please contact ISSVA at info@issva.org in case you have any issues and/or featur
         <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_029"/>
         <rdfs:label xml:lang="en">Hemangioma of infancy</rdfs:label>
         <rdfs:label xml:lang="en">Infantile hemangioma</rdfs:label>
+        <skos:closeMatch rdf:resource="http://snomed.info/id/83343001"/>
         <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C6645"/>
-        <skos:exactMatch rdf:resource="http://snomed.info/id/83343001"/>
         <skos:prefLabel xml:lang="en">Infantile hemangioma</skos:prefLabel>
     </owl:Class>
     
@@ -1254,8 +1260,8 @@ Please contact ISSVA at info@issva.org in case you have any issues and/or featur
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">Distinct from infantile hemangioma, from intramuscular common VM, PHOST/AST, FAVA and AVM. Some lesions may be associated with thrombocytopenia and/or consumptive coagulopathy.</rdfs:comment>
         <rdfs:label xml:lang="en">Intramuscular hemangioma</rdfs:label>
+        <skos:closeMatch rdf:resource="http://snomed.info/id/54249004"/>
         <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3699"/>
-        <skos:exactMatch rdf:resource="http://snomed.info/id/54249004"/>
     </owl:Class>
     
 
@@ -1286,10 +1292,10 @@ Please contact ISSVA at info@issva.org in case you have any issues and/or featur
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_081">
         <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_087"/>
         <rdfs:label xml:lang="en">Kaposi sarcoma</rdfs:label>
+        <skos:closeMatch rdf:resource="http://snomed.info/id/49937004"/>
         <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0100726"/>
         <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C9087"/>
         <skos:exactMatch rdf:resource="http://snomed.info/id/109385007"/>
-        <skos:exactMatch rdf:resource="http://snomed.info/id/49937004"/>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_33276"/>
     </owl:Class>
     
@@ -1555,8 +1561,8 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_101">
         <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_029"/>
         <rdfs:label xml:lang="en">Microvenular hemangioma</rdfs:label>
+        <skos:closeMatch rdf:resource="http://snomed.info/id/699607001"/>
         <skos:exactMatch rdf:resource="http://snomed.info/id/403964007"/>
-        <skos:exactMatch rdf:resource="http://snomed.info/id/699607001"/>
     </owl:Class>
     
 
@@ -1800,7 +1806,7 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
         <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_029"/>
         <rdfs:label xml:lang="en">Pyogenic granuloma</rdfs:label>
         <skos:altLabel xml:lang="en">Lobular capillary hemangioma</skos:altLabel>
-        <skos:exactMatch rdf:resource="http://snomed.info/id/17372009"/>
+        <skos:closeMatch rdf:resource="http://snomed.info/id/17372009"/>
         <skos:exactMatch rdf:resource="http://snomed.info/id/200722003"/>
     </owl:Class>
     
@@ -1822,7 +1828,7 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_130">
         <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_131"/>
         <rdfs:label xml:lang="en">Reactive angioendotheliomatosis</rdfs:label>
-        <skos:exactMatch rdf:resource="http://snomed.info/id/725501005"/>
+        <skos:closeMatch rdf:resource="http://snomed.info/id/725501005"/>
     </owl:Class>
     
 
@@ -1853,9 +1859,9 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_133">
         <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_087"/>
         <rdfs:label xml:lang="en">Retiform hemangioendothelioma</rdfs:label>
+        <skos:closeMatch rdf:resource="http://snomed.info/id/703659003"/>
         <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C27511"/>
         <skos:exactMatch rdf:resource="http://snomed.info/id/403982005"/>
-        <skos:exactMatch rdf:resource="http://snomed.info/id/703659003"/>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_458763"/>
     </owl:Class>
     
@@ -1873,7 +1879,7 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">Associated with limb VM + bone undergrowth</rdfs:comment>
         <rdfs:label xml:lang="en">Servelle-Martorell syndrome</rdfs:label>
-        <skos:exactMatch rdf:resource="http://snomed.info/id/703659003"/>
+        <skos:closeMatch rdf:resource="http://snomed.info/id/703659003"/>
         <skos:exactMatch rdf:resource="http://snomed.info/id/765750001"/>
     </owl:Class>
     
@@ -1900,8 +1906,8 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_136">
         <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_125"/>
         <rdfs:label xml:lang="en">Sinusoidal hemangioma</rdfs:label>
+        <skos:closeMatch rdf:resource="http://snomed.info/id/699606005"/>
         <skos:exactMatch rdf:resource="http://snomed.info/id/403965008"/>
-        <skos:exactMatch rdf:resource="http://snomed.info/id/699606005"/>
     </owl:Class>
     
 
@@ -1911,8 +1917,8 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_137">
         <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_029"/>
         <rdfs:label xml:lang="en">Spindle-cell hemangioma</rdfs:label>
+        <skos:closeMatch rdf:resource="http://snomed.info/id/128769003"/>
         <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C4754"/>
-        <skos:exactMatch rdf:resource="http://snomed.info/id/128769003"/>
         <skos:exactMatch rdf:resource="http://snomed.info/id/403967000"/>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_210584"/>
     </owl:Class>
@@ -2037,9 +2043,9 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_146">
         <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_144"/>
         <rdfs:label xml:lang="en">Vascular malformation</rdfs:label>
+        <skos:closeMatch rdf:resource="http://snomed.info/id/783806000"/>
         <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C112117"/>
         <skos:exactMatch rdf:resource="http://snomed.info/id/400159008"/>
-        <skos:exactMatch rdf:resource="http://snomed.info/id/783806000"/>
     </owl:Class>
     
 
@@ -2126,14 +2132,14 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_153">
         <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_125"/>
         <rdfs:label xml:lang="en">Angiokeratoma</rdfs:label>
+        <skos:closeMatch rdf:resource="http://snomed.info/id/26810009"/>
+        <skos:closeMatch rdf:resource="http://snomed.info/id/39000009"/>
         <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0001014"/>
         <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0200058"/>
         <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2874"/>
         <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3088"/>
         <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C4488"/>
         <skos:exactMatch rdf:resource="http://snomed.info/id/254788004"/>
-        <skos:exactMatch rdf:resource="http://snomed.info/id/26810009"/>
-        <skos:exactMatch rdf:resource="http://snomed.info/id/39000009"/>
         <skos:exactMatch rdf:resource="http://snomed.info/id/403977003"/>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_263413"/>
     </owl:Class>
@@ -2657,9 +2663,9 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
         <rdfs:comment xml:lang="en">The CM nature of some subtypes of telangiectasia is debated. Some telangiectasia may be reclassified in other sections in the future.</rdfs:comment>
         <rdfs:label xml:lang="en">Telangiectasia</rdfs:label>
         <skos:altLabel xml:lang="en">Other telangiectasia</skos:altLabel>
+        <skos:closeMatch rdf:resource="http://snomed.info/id/112641009"/>
         <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0001009"/>
         <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C28194"/>
-        <skos:exactMatch rdf:resource="http://snomed.info/id/112641009"/>
     </owl:Class>
     
 
