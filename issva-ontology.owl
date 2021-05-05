@@ -619,6 +619,8 @@ Please contact ISSVA at info@issva.org in case you have any issues and/or featur
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_037">
         <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_201"/>
         <rdfs:label xml:lang="en">Capillary vessel</rdfs:label>
+        <skos:closeMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12685"/>
+        <skos:exactMatch rdf:resource="http://snomed.info/id/20982000"/>
     </owl:Class>
     
 
@@ -1414,6 +1416,8 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_090">
         <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_201"/>
         <rdfs:label xml:lang="en">Lymphatic vessel</rdfs:label>
+        <skos:closeMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12685"/>
+        <skos:exactMatch rdf:resource="http://snomed.info/id/83555006"/>
     </owl:Class>
     
 
@@ -2169,6 +2173,8 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_156">
         <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_201"/>
         <rdfs:label xml:lang="en">Artery</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12372"/>
+        <skos:exactMatch rdf:resource="http://snomed.info/id/51114001"/>
     </owl:Class>
     
 
@@ -2711,6 +2717,8 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_200">
         <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_201"/>
         <rdfs:label xml:lang="en">Vein</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12814"/>
+        <skos:exactMatch rdf:resource="http://snomed.info/id/29092000"/>
     </owl:Class>
     
 
