@@ -950,7 +950,6 @@ Please contact ISSVA at info@issva.org in case you have any issues and/or featur
 
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00056">
         <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00029"/>
-        <owl:disjointWith rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00171"/>
         <rdfs:label xml:lang="en">Congenital hemangioma</rdfs:label>
         <skos:altLabel xml:lang="en">CH</skos:altLabel>
         <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3841"/>
