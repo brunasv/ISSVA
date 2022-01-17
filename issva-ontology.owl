@@ -40,10 +40,10 @@ Please contact ISSVA at info@issva.org in case you have any issues and/or featur
         <dc:format xml:lang="en">OWL</dc:format>
         <dc:title xml:lang="en">ISSVA Ontology of Vascular Anomalies</dc:title>
         <terms:bibliographicCitation xml:lang="en">ISSVA Classification of Vascular Anomalies ©2018 International Society for the Study of Vascular Anomalies Available at &quot;issva.org/classification&quot; Accessed [date]</terms:bibliographicCitation>
-        <terms:hasVersion xml:lang="en">1.1.3</terms:hasVersion>
+        <terms:hasVersion xml:lang="en">1.2.0</terms:hasVersion>
         <terms:license xml:lang="en">https://creativecommons.org/licenses/by/4.0/legalcode</terms:license>
         <rdfs:label xml:lang="en">ISSVA Ontology of Vascular Anomalies</rdfs:label>
-        <owl:versionInfo xml:lang="en">1.1.3</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">1.2.0</owl:versionInfo>
         <skos:prefLabel xml:lang="en">ISSVA Ontology of Vascular Anomalies</skos:prefLabel>
         <foaf:name xml:lang="en">ISSVA Ontology of Vascular Anomalies</foaf:name>
         <sio:SIO_000563 rdf:resource="https://www.issva.org/UserFiles/file/ISSVA-Classification-2018.pdf"/>
@@ -177,8 +177,8 @@ Please contact ISSVA at info@issva.org in case you have any issues and/or featur
     <!-- http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type -->
 
     <owl:ObjectProperty rdf:about="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type">
-        <rdfs:domain rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_143"/>
-        <rdfs:range rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_201"/>
+        <rdfs:domain rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00143"/>
+        <rdfs:range rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00201"/>
         <rdfs:label xml:lang="en">affects vessel type</rdfs:label>
     </owl:ObjectProperty>
     
@@ -195,190 +195,191 @@ Please contact ISSVA at info@issva.org in case you have any issues and/or featur
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_001 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00001 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_001">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_029"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00001">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00029"/>
         <rdfs:label xml:lang="en">Acquired elastotic hemangioma</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_002 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00002 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_002">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_125"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00002">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00125"/>
         <rdfs:label xml:lang="en">Acral arteriovenous &quot;tumour&quot;</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_003 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00003 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_003">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_029"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00003">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00029"/>
         <rdfs:label xml:lang="en">Anastomosing hemangioma</rdfs:label>
         <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C131760"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_004 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00004 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_004">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_143"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00004">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00143"/>
         <rdfs:label xml:lang="en">Anomaly of communication</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_005 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00005 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_005">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_143"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00005">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00143"/>
         <rdfs:label xml:lang="en">Anomaly of course</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_006 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00006 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_006">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_143"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00006">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00143"/>
         <rdfs:label xml:lang="en">Anomaly of diameter</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_007 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00007 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_007">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_143"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00007">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00143"/>
         <rdfs:label xml:lang="en">Anomaly of length</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_008 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00008 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_008">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_143"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00008">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00143"/>
         <rdfs:label xml:lang="en">Anomaly of number</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_009 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00009 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_009">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_143"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00009">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00143"/>
         <rdfs:label xml:lang="en">Anomaly of origin</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_010 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00010 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_010">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_011"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00010">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00011"/>
         <rdfs:label xml:lang="en">Anomaly of persistence of embryonal vessel</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_011 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00011 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_011">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_143"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00011">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00143"/>
         <rdfs:label xml:lang="en">Anomaly of persistence</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_012 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00012 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_012">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_143"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00012">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00143"/>
         <rdfs:label xml:lang="en">Anomaly of valves</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_013 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00013 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_013">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_019"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00013">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00019"/>
         <rdfs:label xml:lang="en">Arteriovenous fistula in capillary malformation-arteriovenous malformation</rdfs:label>
         <skos:altLabel xml:lang="en">Arteriovenous fistula in CM-AVM</skos:altLabel>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_014 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00014 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_014">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_019"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00014">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00019"/>
         <rdfs:label xml:lang="en">Arteriovenous fistula in hereditary hemorrhagic telangiectasia</rdfs:label>
         <skos:altLabel xml:lang="en">Arteriovenous fistula in HHT</skos:altLabel>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_015 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00015 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_015">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_014"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00015">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00014"/>
         <rdfs:label xml:lang="en">Arteriovenous fistula in hereditary hemorrhagic telangiectasia, type 1</rdfs:label>
         <skos:altLabel xml:lang="en">Arteriovenous fistula in HHT1</skos:altLabel>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_016 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00016 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_016">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_014"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00016">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00014"/>
         <rdfs:label xml:lang="en">Arteriovenous fistula in hereditary hemorrhagic telangiectasia, type 2</rdfs:label>
         <skos:altLabel xml:lang="en">Arteriovenous fistula in HHT2</skos:altLabel>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_017 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00017 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_017">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_014"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00017">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00014"/>
         <rdfs:label xml:lang="en">Arteriovenous fistula in hereditary hemorrhagic telangiectasia, type 3</rdfs:label>
         <skos:altLabel xml:lang="en">Arteriovenous fistula in HHT3</skos:altLabel>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_018 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00018 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_018">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_014"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00018">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00014"/>
         <rdfs:label xml:lang="en">Arteriovenous fistula in juvenile polyposis associated with hereditary hemorrhagic telangiectasia</rdfs:label>
         <skos:altLabel xml:lang="en">Arteriovenous fistula in JPHT</skos:altLabel>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_019 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00019 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_019">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_004"/>
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_135"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00019">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00004"/>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00135"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:someValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_156"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:someValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_200"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00156"/>
+                            <rdf:Description rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00200"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">Congenital. High-flow lesions.</rdfs:comment>
@@ -395,10 +396,10 @@ Please contact ISSVA at info@issva.org in case you have any issues and/or featur
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_020 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00020 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_020">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_026"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00020">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00026"/>
         <rdfs:label xml:lang="en">Arteriovenous malformation in capillary malformation-arteriovenous malformation</rdfs:label>
         <skos:altLabel xml:lang="en">Arteriovenous malformation in CM-AVM</skos:altLabel>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_137667"/>
@@ -406,70 +407,71 @@ Please contact ISSVA at info@issva.org in case you have any issues and/or featur
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_021 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00021 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_021">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_026"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00021">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00026"/>
         <rdfs:label xml:lang="en">Arteriovenous malformation in hereditary hemorrhagic telangiectasia</rdfs:label>
         <skos:altLabel xml:lang="en">Arteriovenous malformation in HHT</skos:altLabel>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_022 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00022 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_022">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_021"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00022">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00021"/>
         <rdfs:label xml:lang="en">Arteriovenous malformation in hereditary hemorrhagic telangiectasia, type 1</rdfs:label>
         <skos:altLabel xml:lang="en">Arteriovenous malformation in HHT1</skos:altLabel>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_023 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00023 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_023">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_021"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00023">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00021"/>
         <rdfs:label xml:lang="en">Arteriovenous malformation in hereditary hemorrhagic telangiectasia, type 2</rdfs:label>
         <skos:altLabel xml:lang="en">Arteriovenous malformation in HHT2</skos:altLabel>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_024 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00024 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_024">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_021"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00024">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00021"/>
         <rdfs:label xml:lang="en">Arteriovenous malformation in hereditary hemorrhagic telangiectasia, type 3</rdfs:label>
         <skos:altLabel xml:lang="en">Arteriovenous malformation in HHT3</skos:altLabel>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_025 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00025 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_025">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_021"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00025">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00021"/>
         <rdfs:label xml:lang="en">Arteriovenous malformation in juvenile polyposis associated with hereditary hemorrhagic telangiectasia</rdfs:label>
         <skos:altLabel xml:lang="en">Arteriovenous malformation in JPHT</skos:altLabel>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_026 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00026 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_026">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_135"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00026">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00135"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:someValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_156"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:someValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_200"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00156"/>
+                            <rdf:Description rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00200"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">high-flow lesions</rdfs:comment>
@@ -484,10 +486,10 @@ Please contact ISSVA at info@issva.org in case you have any issues and/or featur
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_027 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00027 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_027">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_131"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00027">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00131"/>
         <rdfs:label xml:lang="en">Bacillary angiomatosis</rdfs:label>
         <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3477"/>
         <skos:exactMatch rdf:resource="http://snomed.info/id/58213005"/>
@@ -495,20 +497,21 @@ Please contact ISSVA at info@issva.org in case you have any issues and/or featur
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_028 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00028 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_028">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_145"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00028">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00145"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:someValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_156"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:someValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_200"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00156"/>
+                            <rdf:Description rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00200"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">Associated with AVM + VM +macrocephaly, lipomatous overgrowth</rdfs:comment>
@@ -519,10 +522,10 @@ Please contact ISSVA at info@issva.org in case you have any issues and/or featur
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_029 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00029 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_029">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_147"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00029">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00147"/>
         <rdfs:comment xml:lang="en">reactive proliferative vascular lesions are listed with benign tumors</rdfs:comment>
         <rdfs:label xml:lang="en">Benign vascular tumor</rdfs:label>
         <skos:altLabel xml:lang="en">Other benign vascular tumor</skos:altLabel>
@@ -530,10 +533,10 @@ Please contact ISSVA at info@issva.org in case you have any issues and/or featur
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_030 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00030 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_030">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_148"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00030">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00148"/>
         <rdfs:label xml:lang="en">Blue rubber bleb nevus (Bean) syndrome venous malformation</rdfs:label>
         <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C4486"/>
         <skos:exactMatch rdf:resource="http://snomed.info/id/254784002"/>
@@ -542,20 +545,20 @@ Please contact ISSVA at info@issva.org in case you have any issues and/or featur
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_031 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00031 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_031">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_036"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00031">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00036"/>
         <rdfs:label xml:lang="en">Capillary malformation of Capillary malformation-arteriovenous malformation</rdfs:label>
         <skos:altLabel xml:lang="en">CM of CM-AVM</skos:altLabel>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_032 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00032 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_032">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_132"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00032">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00132"/>
         <rdfs:label xml:lang="en">Capillary malformation of megalencephaly-capillary malformation-polymicrogyria</rdfs:label>
         <skos:altLabel xml:lang="en">CM of MCAP</skos:altLabel>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_60040"/>
@@ -563,30 +566,30 @@ Please contact ISSVA at info@issva.org in case you have any issues and/or featur
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_033 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00033 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_033">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_132"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00033">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00132"/>
         <rdfs:label xml:lang="en">Capillary malformation of microcephaly-capillary malformation</rdfs:label>
         <skos:altLabel xml:lang="en">CM of MIC-CAP</skos:altLabel>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_034 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00034 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_034">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_057"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00034">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00057"/>
         <rdfs:label xml:lang="en">Capillary malformation with bone and/or soft tissues overgrowth</rdfs:label>
         <skos:altLabel xml:lang="en">CM with bone and/or soft tissues overgrowth</skos:altLabel>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_035 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00035 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_035">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_057"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00035">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00057"/>
         <rdfs:label xml:lang="en">Capillary malformation with central nervous system and/or ocular anomalies</rdfs:label>
         <skos:altLabel xml:lang="en">CM with CNS and/or ocular anomalies</skos:altLabel>
         <skos:altLabel xml:lang="en">Sturge-Weber syndrome</skos:altLabel>
@@ -595,14 +598,14 @@ Please contact ISSVA at info@issva.org in case you have any issues and/or featur
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_036 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00036 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_036">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_135"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00036">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00135"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:someValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_037"/>
+                <owl:allValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00037"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Capillary malformation</rdfs:label>
@@ -614,10 +617,10 @@ Please contact ISSVA at info@issva.org in case you have any issues and/or featur
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_037 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00037 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_037">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_201"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00037">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00201"/>
         <rdfs:label xml:lang="en">Capillary vessel</rdfs:label>
         <skos:closeMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12685"/>
         <skos:exactMatch rdf:resource="http://snomed.info/id/20982000"/>
@@ -625,26 +628,22 @@ Please contact ISSVA at info@issva.org in case you have any issues and/or featur
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_038 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00038 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_038">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_052"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00038">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00052"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:someValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_037"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:someValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_156"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:someValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_200"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00037"/>
+                            <rdf:Description rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00156"/>
+                            <rdf:Description rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00200"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Capillary-arteriovenous malformation</rdfs:label>
@@ -653,20 +652,21 @@ Please contact ISSVA at info@issva.org in case you have any issues and/or featur
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_039 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00039 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_039">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_052"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00039">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00052"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:someValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_037"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:someValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_090"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00037"/>
+                            <rdf:Description rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00090"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Capillary-lymphatic malformation</rdfs:label>
@@ -675,32 +675,23 @@ Please contact ISSVA at info@issva.org in case you have any issues and/or featur
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_040 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00040 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_040">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_052"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00040">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00052"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:someValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_037"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:someValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_090"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:someValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_156"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:someValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_200"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00037"/>
+                            <rdf:Description rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00090"/>
+                            <rdf:Description rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00156"/>
+                            <rdf:Description rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00200"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Capillary-lymphatic-arteriovenous malformation</rdfs:label>
@@ -709,32 +700,22 @@ Please contact ISSVA at info@issva.org in case you have any issues and/or featur
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_041 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00041 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_041">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_052"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00041">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00052"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:someValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_037"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:someValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_090"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:someValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_156"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:someValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_200"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00037"/>
+                            <rdf:Description rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00090"/>
+                            <rdf:Description rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00200"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Capillary-lymphatic-venous malformation</rdfs:label>
@@ -743,32 +724,23 @@ Please contact ISSVA at info@issva.org in case you have any issues and/or featur
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_042 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00042 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_042">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_052"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00042">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00052"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:someValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_037"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:someValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_090"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:someValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_156"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:someValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_200"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00037"/>
+                            <rdf:Description rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00090"/>
+                            <rdf:Description rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00156"/>
+                            <rdf:Description rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00200"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Capillary-lymphatic-venous-arteriovenous malformation</rdfs:label>
@@ -777,20 +749,21 @@ Please contact ISSVA at info@issva.org in case you have any issues and/or featur
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_043 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00043 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_043">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_052"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00043">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00052"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:someValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_037"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:someValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_200"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00037"/>
+                            <rdf:Description rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00200"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Capillary-venous malformation</rdfs:label>
@@ -800,26 +773,22 @@ Please contact ISSVA at info@issva.org in case you have any issues and/or featur
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_044 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00044 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_044">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_052"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00044">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00052"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:someValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_037"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:someValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_156"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:someValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_200"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00037"/>
+                            <rdf:Description rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00156"/>
+                            <rdf:Description rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00200"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Capillary-venous-arteriovenous malformation</rdfs:label>
@@ -828,10 +797,10 @@ Please contact ISSVA at info@issva.org in case you have any issues and/or featur
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_045 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00045 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_045">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_148"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00045">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00148"/>
         <rdfs:label xml:lang="en">Cerebral cavernous malformation</rdfs:label>
         <skos:altLabel xml:lang="en">CCM</skos:altLabel>
         <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C84626"/>
@@ -839,60 +808,61 @@ Please contact ISSVA at info@issva.org in case you have any issues and/or featur
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_046 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00046 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_046">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_045"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00046">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00045"/>
         <rdfs:label xml:lang="en">Cerebral cavernous malformation, type 1</rdfs:label>
         <skos:altLabel xml:lang="en">CCM1</skos:altLabel>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_047 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00047 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_047">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_045"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00047">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00045"/>
         <rdfs:label xml:lang="en">Cerebral cavernous malformation, type 2</rdfs:label>
         <skos:altLabel xml:lang="en">CCM2</skos:altLabel>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_048 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00048 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_048">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_045"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00048">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00045"/>
         <rdfs:label xml:lang="en">Cerebral cavernous malformation, type 3</rdfs:label>
         <skos:altLabel xml:lang="en">CCM3</skos:altLabel>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_049 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00049 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_049">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_089"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00049">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00089"/>
         <rdfs:label xml:lang="en">Channel type lymphatic malformation</rdfs:label>
         <skos:altLabel xml:lang="en">Channel type LM</skos:altLabel>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_050 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00050 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_050">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_145"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00050">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00145"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:someValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_037"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:someValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_090"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00037"/>
+                            <rdf:Description rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00090"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">Associated with lower lip CM + face and neck LM + asymmetry and partial/generalized overgrowth. CLAPO syndrome belongs to the PIK3CA-related overgrowth spectrum (PROS).</rdfs:comment>
@@ -903,32 +873,23 @@ Please contact ISSVA at info@issva.org in case you have any issues and/or featur
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_051 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00051 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_051">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_145"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00051">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00145"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:someValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_037"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:someValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_090"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:someValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_156"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:someValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_200"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00037"/>
+                            <rdf:Description rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00090"/>
+                            <rdf:Description rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00156"/>
+                            <rdf:Description rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00200"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">Associated with LM + VM + CM +/- AVM + lipomatous overgrowth. CLOVES syndrome belongs to the PIK3CA-related overgrowth spectrum (PROS)</rdfs:comment>
@@ -939,10 +900,10 @@ Please contact ISSVA at info@issva.org in case you have any issues and/or featur
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_052 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00052 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_052">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_146"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00052">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00146"/>
         <rdfs:comment xml:lang="en">defined as two or more vascular malformations found in one lesion</rdfs:comment>
         <rdfs:label xml:lang="en">Combined vascular malformation</rdfs:label>
         <skos:exactMatch rdf:resource="http://snomed.info/id/400017009"/>
@@ -951,10 +912,10 @@ Please contact ISSVA at info@issva.org in case you have any issues and/or featur
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_053 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00053 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_053">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_089"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00053">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00089"/>
         <rdfs:comment xml:lang="en">When associated with overgrowth, some of these lesions belong to the PIK3CA-related overgrowth spectrum. Some of these lesions may be associated with thrombocytopenia and/or consumptive coagulopathy.</rdfs:comment>
         <rdfs:label xml:lang="en">Common (cystic) lymphatic malformation</rdfs:label>
         <skos:altLabel xml:lang="en">Common (cystic) LM</skos:altLabel>
@@ -963,19 +924,19 @@ Please contact ISSVA at info@issva.org in case you have any issues and/or featur
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_054 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00054 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_054">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_148"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00054">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00148"/>
         <rdfs:label xml:lang="en">Common venous malformation</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_055 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00055 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_055">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_087"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00055">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00087"/>
         <rdfs:label xml:lang="en">Composite hemangioendothelioma</rdfs:label>
         <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C45475"/>
         <skos:exactMatch rdf:resource="http://snomed.info/id/403984006"/>
@@ -985,11 +946,10 @@ Please contact ISSVA at info@issva.org in case you have any issues and/or featur
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_056 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00056 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_056">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_029"/>
-        <owl:disjointWith rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_171"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00056">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00029"/>
         <rdfs:label xml:lang="en">Congenital hemangioma</rdfs:label>
         <skos:altLabel xml:lang="en">CH</skos:altLabel>
         <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3841"/>
@@ -999,10 +959,10 @@ Please contact ISSVA at info@issva.org in case you have any issues and/or featur
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_057 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00057 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_057">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_036"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00057">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00036"/>
         <rdfs:label xml:lang="en">Cutaneous and/or mucosal capillary malformation</rdfs:label>
         <skos:altLabel xml:lang="en">Cutaneous and/or mucosal CM</skos:altLabel>
         <skos:altLabel xml:lang="en">“Port-wine” stain</skos:altLabel>
@@ -1010,10 +970,10 @@ Please contact ISSVA at info@issva.org in case you have any issues and/or featur
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_058 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00058 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_058">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_029"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00058">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00029"/>
         <rdfs:label xml:lang="en">Cutaneous epithelioid angiomatous nodule</rdfs:label>
         <skos:closeMatch rdf:resource="http://snomed.info/id/817950008"/>
         <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C49079"/>
@@ -1021,10 +981,10 @@ Please contact ISSVA at info@issva.org in case you have any issues and/or featur
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_059 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00059 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_059">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_036"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00059">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00036"/>
         <rdfs:label xml:lang="en">Cutis marmorata telangiectatica congenita</rdfs:label>
         <skos:altLabel xml:lang="en">CMTC</skos:altLabel>
         <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0025107"/>
@@ -1035,10 +995,10 @@ Please contact ISSVA at info@issva.org in case you have any issues and/or featur
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_060 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00060 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_060">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_057"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00060">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00057"/>
         <rdfs:label xml:lang="en">Diffuse capillary malformation with overgrowth</rdfs:label>
         <skos:altLabel xml:lang="en">DCMO</skos:altLabel>
         <skos:altLabel xml:lang="en">Diffuse CM with overgrowth</skos:altLabel>
@@ -1046,10 +1006,10 @@ Please contact ISSVA at info@issva.org in case you have any issues and/or featur
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_061 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00061 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_061">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_131"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00061">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00131"/>
         <rdfs:label xml:lang="en">Eccrine angiomatous hamartoma</rdfs:label>
         <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C4703"/>
         <skos:exactMatch rdf:resource="http://snomed.info/id/239115005"/>
@@ -1057,19 +1017,19 @@ Please contact ISSVA at info@issva.org in case you have any issues and/or featur
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_062 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00062 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_062">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_006"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00062">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00006"/>
         <rdfs:label xml:lang="en">Ectasia / aneurysm</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_063 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00063 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_063">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_098"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00063">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00098"/>
         <rdfs:label xml:lang="en">Epithelioid hemangioendothelioma</rdfs:label>
         <skos:closeMatch rdf:resource="http://snomed.info/id/54124005"/>
         <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3800"/>
@@ -1079,10 +1039,10 @@ Please contact ISSVA at info@issva.org in case you have any issues and/or featur
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_064 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00064 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_064">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_029"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00064">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00029"/>
         <rdfs:label xml:lang="en">Epithelioid hemangioma</rdfs:label>
         <skos:closeMatch rdf:resource="http://snomed.info/id/33929001"/>
         <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0032060"/>
@@ -1091,34 +1051,34 @@ Please contact ISSVA at info@issva.org in case you have any issues and/or featur
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_065 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00065 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_065">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_148"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00065">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00148"/>
         <rdfs:label xml:lang="en">Familial intraosseous vascular malformation</rdfs:label>
         <skos:altLabel xml:lang="en">VMOS</skos:altLabel>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_066 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00066 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_066">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_148"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00066">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00148"/>
         <rdfs:label xml:lang="en">Familial venous malformation cutaneo-mucosal</rdfs:label>
         <skos:altLabel xml:lang="en">VMCM</skos:altLabel>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_067 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00067 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_067">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_125"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00067">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00125"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:someValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_090"/>
+                <owl:allValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00090"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Fibro adipose vascular anomaly</rdfs:label>
@@ -1127,10 +1087,10 @@ Please contact ISSVA at info@issva.org in case you have any issues and/or featur
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_068 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00068 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_068">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_089"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00068">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00089"/>
         <rdfs:label xml:lang="en">Generalized lymphatic anomaly</rdfs:label>
         <skos:altLabel xml:lang="en">GLA</skos:altLabel>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_141209"/>
@@ -1138,10 +1098,10 @@ Please contact ISSVA at info@issva.org in case you have any issues and/or featur
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_069 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00069 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_069">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_029"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00069">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00029"/>
         <rdfs:label xml:lang="en">Glomeruloid hemangioma</rdfs:label>
         <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0031357"/>
         <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C27505"/>
@@ -1150,10 +1110,10 @@ Please contact ISSVA at info@issva.org in case you have any issues and/or featur
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_070 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00070 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_070">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_148"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00070">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00148"/>
         <rdfs:label xml:lang="en">Glomuvenous malformation</rdfs:label>
         <skos:altLabel xml:lang="en">GVM</skos:altLabel>
         <skos:exactMatch rdf:resource="http://snomed.info/id/715644000"/>
@@ -1162,20 +1122,20 @@ Please contact ISSVA at info@issva.org in case you have any issues and/or featur
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_071 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00071 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_071">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_087"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00071">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00087"/>
         <rdfs:label xml:lang="en">Hemangioendothelioma not otherwise specified</rdfs:label>
         <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3084"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_072 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00072 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_072">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_196"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00072">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00196"/>
         <rdfs:label xml:lang="en">Hereditary hemorrhagic telangiectasia</rdfs:label>
         <skos:altLabel xml:lang="en">HHT</skos:altLabel>
         <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C35064"/>
@@ -1185,50 +1145,50 @@ Please contact ISSVA at info@issva.org in case you have any issues and/or featur
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_073 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00073 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_073">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_072"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00073">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00072"/>
         <rdfs:label xml:lang="en">Hereditary hemorrhagic telangiectasia, type 1</rdfs:label>
         <skos:altLabel xml:lang="en">HHT1</skos:altLabel>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_074 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00074 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_074">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_072"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00074">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00072"/>
         <rdfs:label xml:lang="en">Hereditary hemorrhagic telangiectasia, type 2</rdfs:label>
         <skos:altLabel xml:lang="en">HHT2</skos:altLabel>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_075 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00075 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_075">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_072"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00075">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00072"/>
         <rdfs:label xml:lang="en">Hereditary hemorrhagic telangiectasia, type 3</rdfs:label>
         <skos:altLabel xml:lang="en">HHT3</skos:altLabel>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_076 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00076 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_076">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_029"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00076">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00029"/>
         <rdfs:label xml:lang="en">Hobnail hemangioma</rdfs:label>
         <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C27506"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_077 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00077 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_077">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_029"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00077">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00029"/>
         <rdfs:label xml:lang="en">Hemangioma of infancy</rdfs:label>
         <rdfs:label xml:lang="en">Infantile hemangioma</rdfs:label>
         <skos:closeMatch rdf:resource="http://snomed.info/id/83343001"/>
@@ -1238,26 +1198,22 @@ Please contact ISSVA at info@issva.org in case you have any issues and/or featur
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_078 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00078 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_078">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_125"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00078">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00125"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:someValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_090"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:someValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_156"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:someValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_200"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00090"/>
+                            <rdf:Description rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00156"/>
+                            <rdf:Description rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00200"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">Distinct from infantile hemangioma, from intramuscular common VM, PHOST/AST, FAVA and AVM. Some lesions may be associated with thrombocytopenia and/or consumptive coagulopathy.</rdfs:comment>
@@ -1268,10 +1224,10 @@ Please contact ISSVA at info@issva.org in case you have any issues and/or featur
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_079 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00079 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_079">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_029"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00079">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00029"/>
         <rdfs:label xml:lang="en">Intravascular papillary endothelial hyperplasia</rdfs:label>
         <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C4391"/>
         <skos:exactMatch rdf:resource="http://snomed.info/id/238770007"/>
@@ -1279,20 +1235,20 @@ Please contact ISSVA at info@issva.org in case you have any issues and/or featur
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_080 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00080 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_080">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_072"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00080">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00072"/>
         <rdfs:label xml:lang="en">Juvenile polyposis associated with hereditary hemorrhagic telangiectasia</rdfs:label>
         <skos:altLabel xml:lang="en">JPHT</skos:altLabel>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_081 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00081 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_081">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_087"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00081">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00087"/>
         <rdfs:label xml:lang="en">Kaposi sarcoma</rdfs:label>
         <skos:closeMatch rdf:resource="http://snomed.info/id/49937004"/>
         <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0100726"/>
@@ -1303,10 +1259,10 @@ Please contact ISSVA at info@issva.org in case you have any issues and/or featur
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_082 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00082 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_082">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_087"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00082">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00087"/>
         <rdfs:comment xml:lang="en">many experts believe that tufted angioma and kaposiform hemangioendothelioma are part of a spectrum
 rather than distinct entities</rdfs:comment>
         <rdfs:comment xml:lang="en">some lesions may be associated with thrombocytopenia and/or consumptive coagulopathy see details</rdfs:comment>
@@ -1318,10 +1274,10 @@ rather than distinct entities</rdfs:comment>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_083 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00083 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_083">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_068"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00083">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00068"/>
         <rdfs:label xml:lang="en">Kaposiform lymphangiomatosis</rdfs:label>
         <skos:altLabel xml:lang="en">KLA</skos:altLabel>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_464329"/>
@@ -1329,20 +1285,21 @@ rather than distinct entities</rdfs:comment>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_084 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00084 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_084">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_145"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00084">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00145"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:someValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_037"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:someValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_200"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00037"/>
+                            <rdf:Description rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00200"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">Associated with CM + VM +/- LM + limb overgrowth.
@@ -1355,14 +1312,14 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_085 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00085 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_085">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_145"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00085">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00145"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:someValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_037"/>
+                <owl:allValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00037"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Limb capillary malformation + congenital non-progressive limb overgrowth</rdfs:label>
@@ -1370,29 +1327,29 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_086 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00086 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_086">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_029"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00086">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00029"/>
         <rdfs:label xml:lang="en">Littoral cell hemangioma of the spleen</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_087 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00087 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_087">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_147"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00087">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00147"/>
         <rdfs:label xml:lang="en">Locally aggressive or borderline vascular tumor</rdfs:label>
         <skos:altLabel xml:lang="en">Other locally aggressive or borderline vascular tumor</skos:altLabel>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_088 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00088 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_088">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_089"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00088">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00089"/>
         <rdfs:label xml:lang="en">Lymphatic malformation in Gorham-Stout disease</rdfs:label>
         <skos:altLabel xml:lang="en">LM in Gorham-Stout disease</skos:altLabel>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_73"/>
@@ -1400,10 +1357,10 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_089 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00089 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_089">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_135"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00089">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00135"/>
         <rdfs:label xml:lang="en">Lymphatic malformation</rdfs:label>
         <skos:altLabel xml:lang="en">LM</skos:altLabel>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_458833"/>
@@ -1411,10 +1368,10 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_090 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00090 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_090">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_201"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00090">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00201"/>
         <rdfs:label xml:lang="en">Lymphatic vessel</rdfs:label>
         <skos:closeMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12685"/>
         <skos:exactMatch rdf:resource="http://snomed.info/id/83555006"/>
@@ -1422,20 +1379,21 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_091 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00091 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_091">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_052"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00091">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00052"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:someValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_090"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:someValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_200"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00090"/>
+                            <rdf:Description rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00200"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Lymphatic-venous malformation</rdfs:label>
@@ -1444,24 +1402,24 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_092 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00092 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_092">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_123"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00092">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00123"/>
         <rdfs:label xml:lang="en">Lymphedema-choanal atresia</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_99141"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_093 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00093 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_093">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_145"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00093">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00145"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:someValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_037"/>
+                <owl:allValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00037"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">MCAP belongs to the PIK3CA-related overgrowth spectrum (PROS)</rdfs:comment>
@@ -1472,10 +1430,10 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_094 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00094 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_094">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_053"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00094">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00053"/>
         <rdfs:label xml:lang="en">Macrocystic lymphatic malformation</rdfs:label>
         <skos:altLabel xml:lang="en">Mixed cystic LM</skos:altLabel>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_458792"/>
@@ -1483,10 +1441,10 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_095 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00095 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_095">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_053"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00095">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00053"/>
         <rdfs:label xml:lang="en">Macrocystic lymphatic malformation</rdfs:label>
         <skos:altLabel xml:lang="en">Microcystic LM</skos:altLabel>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_79490"/>
@@ -1494,10 +1452,10 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_096 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00096 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_096">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_053"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00096">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00053"/>
         <rdfs:label xml:lang="en">Macrocystic lymphatic malformation</rdfs:label>
         <skos:altLabel xml:lang="en">Macrocystic LM</skos:altLabel>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_79489"/>
@@ -1505,14 +1463,14 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_097 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00097 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_097">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_145"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00097">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00145"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:someValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_200"/>
+                <owl:allValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00200"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">Associated with VM +/- spindle-cell hemangioma + enchondroma</rdfs:comment>
@@ -1524,34 +1482,34 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_098 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00098 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_098">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_147"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00098">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00147"/>
         <rdfs:label xml:lang="en">Malignant vascular tumor</rdfs:label>
         <skos:altLabel xml:lang="en">Other malignant vascular tumor</skos:altLabel>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_099 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00099 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_099">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_123"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00099">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00123"/>
         <rdfs:label xml:lang="en">Microcephaly with or without chorioretinopathy, lymphedema, or mental retardation syndrome</rdfs:label>
         <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C129306"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_100 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00100 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_100">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_145"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00100">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00145"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:someValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_037"/>
+                <owl:allValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00037"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Microcephaly-capillary malformation</rdfs:label>
@@ -1560,10 +1518,10 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_101 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00101 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_101">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_029"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00101">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00029"/>
         <rdfs:label xml:lang="en">Microvenular hemangioma</rdfs:label>
         <skos:closeMatch rdf:resource="http://snomed.info/id/699607001"/>
         <skos:exactMatch rdf:resource="http://snomed.info/id/403964007"/>
@@ -1571,14 +1529,14 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_102 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00102 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_102">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_125"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00102">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00125"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:someValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_090"/>
+                <owl:allValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00090"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Multifocal lymphangioendotheliomatosis with thrombocytopenia / cutaneovisceral angiomatosis with thrombocytopenia (MLT/CAT)</rdfs:label>
@@ -1587,20 +1545,20 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_103 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00103 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_103">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_036"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00103">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00036"/>
         <rdfs:comment xml:lang="en">salmon patch, angel kiss, stork bite</rdfs:comment>
         <rdfs:label xml:lang="en">Nevus simplex</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_104 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00104 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_104">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_056"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00104">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00056"/>
         <rdfs:label xml:lang="en">Non-involuting congenital hemangioma</rdfs:label>
         <skos:altLabel xml:lang="en">NICH</skos:altLabel>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_141179"/>
@@ -1608,39 +1566,39 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_105 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00105 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_105">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_123"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00105">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00123"/>
         <rdfs:label xml:lang="en">Nonne-Milroy syndrome</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_79452"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_106 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00106 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_106">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_057"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00106">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00057"/>
         <rdfs:label xml:lang="en">Nonsyndromic capillary malformation</rdfs:label>
         <skos:altLabel xml:lang="en">Nonsyndromic CM</skos:altLabel>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_115 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00115 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_115">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_029"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00115">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00029"/>
         <rdfs:label xml:lang="en">Papillary hemangioma</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_116 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00116 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_116">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_087"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00116">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00087"/>
         <rdfs:label xml:lang="en">Papillary intralymphatic angioendothelioma</rdfs:label>
         <rdfs:seeAlso xml:lang="en">Dabska tumor</rdfs:seeAlso>
         <skos:altLabel xml:lang="en">PILA</skos:altLabel>
@@ -1650,20 +1608,21 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_117 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00117 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_117">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_145"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00117">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00145"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:someValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_037"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:someValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_156"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00037"/>
+                            <rdf:Description rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00156"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">Associated with CM + AVF + limb overgrowth</rdfs:comment>
@@ -1674,10 +1633,10 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_118 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00118 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_118">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_056"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00118">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00056"/>
         <rdfs:comment xml:lang="en">some lesions may be associated with thrombocytopenia and/or consumptive coagulopathy</rdfs:comment>
         <rdfs:label xml:lang="en">Partially involuting congenital hemangioma</rdfs:label>
         <skos:altLabel xml:lang="en">PICH</skos:altLabel>
@@ -1686,48 +1645,48 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_119 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00119 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_119">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_087"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00119">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00087"/>
         <rdfs:label xml:lang="en">Polymorphous hemangioendothelioma</rdfs:label>
         <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C45476"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_120 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00120 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_120">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_123"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00120">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00123"/>
         <rdfs:label xml:lang="en">Primary generalized lymphatic anomaly</rdfs:label>
         <skos:altLabel xml:lang="en">Hennekam lymphangiectasia-lymphedema syndrome</skos:altLabel>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_121 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00121 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_121">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_123"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00121">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00123"/>
         <rdfs:label xml:lang="en">Primary hereditary lymphedema</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_122 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00122 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_122">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_123"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00122">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00123"/>
         <rdfs:label xml:lang="en">Primary lymphedema with myelodysplasia</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_123 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00123 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_123">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_135"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00123">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00135"/>
         <rdfs:label xml:lang="en">Primary lymphedema</rdfs:label>
         <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C48829"/>
         <skos:exactMatch rdf:resource="http://snomed.info/id/77123007"/>
@@ -1736,26 +1695,22 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_124 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00124 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_124">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_145"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00124">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00145"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:someValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_037"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:someValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_090"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:someValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_200"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00037"/>
+                            <rdf:Description rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00090"/>
+                            <rdf:Description rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00200"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">Associated with CM, VM and/or LM + asymmetrical somatic overgrowth.</rdfs:comment>
@@ -1768,33 +1723,33 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_125 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00125 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_125">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_146"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00125">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00146"/>
         <rdfs:label xml:lang="en">Provisionally unclassified vascular anomaly</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_126 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00126 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_126">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_087"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00126">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00087"/>
         <rdfs:label xml:lang="en">Pseudomyogenic hemangioendothelioma</rdfs:label>
         <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C121668"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_127 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00127 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_127">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_125"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00127">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00125"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:someValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_090"/>
+                <owl:allValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00090"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">PTEN (type) hamartoma of soft tissue / &quot;Angiomatosis&quot; of soft tissue</rdfs:label>
@@ -1804,10 +1759,10 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_128 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00128 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_128">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_029"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00128">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00029"/>
         <rdfs:label xml:lang="en">Pyogenic granuloma</rdfs:label>
         <skos:altLabel xml:lang="en">Lobular capillary hemangioma</skos:altLabel>
         <skos:closeMatch rdf:resource="http://snomed.info/id/17372009"/>
@@ -1816,10 +1771,10 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_129 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00129 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_129">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_056"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00129">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00056"/>
         <rdfs:label xml:lang="en">Rapidly involuting congenital hemangioma</rdfs:label>
         <skos:altLabel xml:lang="en">RICH</skos:altLabel>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_141184"/>
@@ -1827,20 +1782,20 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_130 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00130 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_130">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_131"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00130">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00131"/>
         <rdfs:label xml:lang="en">Reactive angioendotheliomatosis</rdfs:label>
         <skos:closeMatch rdf:resource="http://snomed.info/id/725501005"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_131 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00131 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_131">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_029"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00131">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00029"/>
         <rdfs:comment xml:lang="en">The tumor nature of some of these lesions is not certain
 Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comment>
         <rdfs:label xml:lang="en">Related lesion</rdfs:label>
@@ -1848,20 +1803,20 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_132 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00132 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_132">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_036"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00132">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00036"/>
         <rdfs:label xml:lang="en">Reticulate capillary malformation</rdfs:label>
         <skos:altLabel xml:lang="en">Reticulate CM</skos:altLabel>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_133 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00133 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_133">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_087"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00133">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00087"/>
         <rdfs:label xml:lang="en">Retiform hemangioendothelioma</rdfs:label>
         <skos:closeMatch rdf:resource="http://snomed.info/id/703659003"/>
         <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C27511"/>
@@ -1871,14 +1826,14 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_134 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00134 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_134">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_145"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00134">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00145"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:someValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_200"/>
+                <owl:allValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00200"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">Associated with limb VM + bone undergrowth</rdfs:comment>
@@ -1889,14 +1844,14 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_135 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00135 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_135">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_146"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00135">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00146"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:someValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_090"/>
+                <owl:allValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00090"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Simple vascular malformation</rdfs:label>
@@ -1905,10 +1860,10 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_136 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00136 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_136">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_125"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00136">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00125"/>
         <rdfs:label xml:lang="en">Sinusoidal hemangioma</rdfs:label>
         <skos:closeMatch rdf:resource="http://snomed.info/id/699606005"/>
         <skos:exactMatch rdf:resource="http://snomed.info/id/403965008"/>
@@ -1916,10 +1871,10 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_137 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00137 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_137">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_029"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00137">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00029"/>
         <rdfs:label xml:lang="en">Spindle-cell hemangioma</rdfs:label>
         <skos:closeMatch rdf:resource="http://snomed.info/id/128769003"/>
         <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C4754"/>
@@ -1929,32 +1884,32 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_138 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00138 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_138">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_019"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00138">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00019"/>
         <rdfs:label xml:lang="en">Sporadic arteriovenous fistula</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_139 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00139 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_139">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_026"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00139">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00026"/>
         <rdfs:label xml:lang="en">Sporadic arteriovenous malformation</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_140 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00140 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_140">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_145"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00140">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00145"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:someValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_037"/>
+                <owl:allValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00037"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">Associated with facial + leptomeningeal CM + eye anomalies +/- bone and/or soft tissue overgrowth</rdfs:comment>
@@ -1966,24 +1921,24 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_141 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00141 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_141">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_168"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00141">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00168"/>
         <rdfs:label xml:lang="en">TEK (TIE2)</rdfs:label>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.orpha.net/ORDO/Orphanet_120020</skos:exactMatch>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:11724</skos:exactMatch>
-        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_030"/>
-        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_054"/>
-        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_066"/>
+        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00030"/>
+        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00054"/>
+        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00066"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_142 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00142 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_142">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_029"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00142">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00029"/>
         <rdfs:comment xml:lang="en">many experts believe that tufted angioma and kaposiform hemangioendothelioma are part of a spectrum rather than distinct entities</rdfs:comment>
         <rdfs:comment xml:lang="en">some lesions may be associated with thrombocyctopenia and/or consumptive coagulopathy</rdfs:comment>
         <rdfs:label xml:lang="en">Tufted angioma</rdfs:label>
@@ -1994,27 +1949,23 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_143 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00143 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_143">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_146"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00143">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00146"/>
         <rdfs:subClassOf>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_037"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_156"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_200"/>
-                    </owl:Restriction>
-                </owl:unionOf>
-            </owl:Class>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00037"/>
+                            <rdf:Description rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00156"/>
+                            <rdf:Description rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00200"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Vascular anomaly of major named vessel</rdfs:label>
         <skos:altLabel xml:lang="en">Channel type vascular anomaly of major named vessel</skos:altLabel>
@@ -2024,28 +1975,28 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_144 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00144 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_144">
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00144">
         <rdfs:label xml:lang="en">Vascular anomaly</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_145 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00145 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_145">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_146"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00145">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00146"/>
         <rdfs:label xml:lang="en">Vascular malformation associated with other anomalies</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_211277"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_146 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00146 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_146">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_144"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00146">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00144"/>
         <rdfs:label xml:lang="en">Vascular malformation</rdfs:label>
         <skos:closeMatch rdf:resource="http://snomed.info/id/783806000"/>
         <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C112117"/>
@@ -2054,24 +2005,24 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_147 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00147 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_147">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_144"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00147">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00144"/>
         <rdfs:label xml:lang="en">Vascular tumor</rdfs:label>
         <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0100742"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_148 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00148 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_148">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_135"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00148">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00135"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:someValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_200"/>
+                <owl:allValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00200"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">some lesions may be associated with thrombocytopenia and/or consumptive coagulopathy</rdfs:comment>
@@ -2084,20 +2035,20 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_149 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00149 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_149">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_148"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00149">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00148"/>
         <rdfs:comment xml:lang="en">(formerly verrucous hemangioma)</rdfs:comment>
         <rdfs:label xml:lang="en">Verrucous venous malformation</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_150 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00150 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_150">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_089"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00150">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00089"/>
         <rdfs:comment xml:lang="en">so called acquired progressive &quot;lymphangioma&quot;</rdfs:comment>
         <rdfs:label xml:lang="en">“Acquired” progressive lymphatic anomaly</rdfs:label>
         <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3203"/>
@@ -2105,36 +2056,36 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_151 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00151 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_151">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_168"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00151">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00168"/>
         <rdfs:label xml:lang="en">ACVRL1</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_117764"/>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:175</skos:exactMatch>
-        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_014"/>
-        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_021"/>
-        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_196"/>
+        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00014"/>
+        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00021"/>
+        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00196"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_152 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00152 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_152">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_168"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00152">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00168"/>
         <rdfs:label xml:lang="en">AKT1</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_281472"/>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:391</skos:exactMatch>
-        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_124"/>
+        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00124"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_153 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00153 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_153">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_125"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00153">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00125"/>
         <rdfs:label xml:lang="en">Angiokeratoma</rdfs:label>
         <skos:closeMatch rdf:resource="http://snomed.info/id/26810009"/>
         <skos:closeMatch rdf:resource="http://snomed.info/id/39000009"/>
@@ -2150,28 +2101,28 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_154 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00154 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_154">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_098"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00154">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00098"/>
         <rdfs:label xml:lang="en">Angiosarcoma</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_155 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00155 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_155">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_006"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00155">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00006"/>
         <rdfs:label xml:lang="en">Aplasia</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_156 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00156 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_156">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_201"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00156">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00201"/>
         <rdfs:label xml:lang="en">Artery</rdfs:label>
         <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12372"/>
         <skos:exactMatch rdf:resource="http://snomed.info/id/51114001"/>
@@ -2179,288 +2130,288 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_157 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00157 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_157">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_168"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00157">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00168"/>
         <rdfs:label xml:lang="en">BRAF</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_119066"/>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:1097</skos:exactMatch>
-        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_128"/>
+        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00128"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_158 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00158 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_158">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_168"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00158">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00168"/>
         <rdfs:label xml:lang="en">CAMTA1</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_317761"/>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:18806</skos:exactMatch>
-        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_063"/>
+        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00063"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_159 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00159 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_159">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_168"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00159">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00168"/>
         <rdfs:label xml:lang="en">CCBE1</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_220744"/>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:29426</skos:exactMatch>
-        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_120"/>
+        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00120"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_160 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00160 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_160">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_168"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00160">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00168"/>
         <rdfs:label xml:lang="en">ELMO2</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_465978"/>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:17233</skos:exactMatch>
-        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_065"/>
+        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00065"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_161 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00161 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_161">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_168"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00161">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00168"/>
         <rdfs:label xml:lang="en">ENG</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_121536"/>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:3349</skos:exactMatch>
-        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_015"/>
-        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_022"/>
-        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_073"/>
+        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00015"/>
+        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00022"/>
+        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00073"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_162 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00162 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_162">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_168"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00162">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00168"/>
         <rdfs:label xml:lang="en">EPHB4</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_509002"/>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:3395</skos:exactMatch>
-        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_013"/>
-        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_020"/>
-        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_031"/>
+        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00013"/>
+        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00020"/>
+        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00031"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_163 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00163 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_163">
-        <owl:equivalentClass rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_199"/>
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_168"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00163">
+        <owl:equivalentClass rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00199"/>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00168"/>
         <rdfs:label xml:lang="en">FLT4</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_121872"/>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:3767</skos:exactMatch>
-        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_105"/>
+        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00105"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_164 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00164 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_164">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_168"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00164">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00168"/>
         <rdfs:label xml:lang="en">FOS</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_364789"/>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:3796</skos:exactMatch>
-        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_064"/>
+        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00064"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_165 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00165 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_165">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_168"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00165">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00168"/>
         <rdfs:label xml:lang="en">FOSB</rdfs:label>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:3797</skos:exactMatch>
-        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_126"/>
+        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00126"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_166 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00166 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_166">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_168"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00166">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00168"/>
         <rdfs:label xml:lang="en">FOXC2</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_121891"/>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:3801</skos:exactMatch>
-        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_180"/>
+        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00180"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_167 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00167 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_167">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_168"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00167">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00168"/>
         <rdfs:label xml:lang="en">GATA2</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_274222"/>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:4171</skos:exactMatch>
-        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_122"/>
+        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00122"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_168 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00168 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_168">
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00168">
         <rdfs:label xml:lang="en">Gene</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_169 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00169 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_169">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_168"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00169">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00168"/>
         <rdfs:label xml:lang="en">GJC2</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_122110"/>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:17494</skos:exactMatch>
-        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_121"/>
+        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00121"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_170 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00170 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_170">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_168"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00170">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00168"/>
         <rdfs:label xml:lang="en">Glomulin</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_122172"/>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:14373</skos:exactMatch>
-        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_070"/>
+        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00070"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_171 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00171 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_171">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_168"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00171">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00168"/>
         <rdfs:label xml:lang="en">GNA11</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_360224"/>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:4379</skos:exactMatch>
         <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA#Diffuse_CM_with_overgrowth_(DCMO)"/>
-        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_034"/>
-        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_056"/>
+        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00034"/>
+        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00056"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_172 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00172 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_172">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_168"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00172">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00168"/>
         <rdfs:label xml:lang="en">GNA14</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_477268"/>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:4382</skos:exactMatch>
-        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_082"/>
-        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_128"/>
-        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_142"/>
+        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00082"/>
+        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00128"/>
+        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00142"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_173 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00173 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_173">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_168"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00173">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00168"/>
         <rdfs:label xml:lang="en">GNAQ</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_353497"/>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:4390</skos:exactMatch>
-        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_056"/>
-        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_106"/>
-        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_140"/>
+        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00056"/>
+        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00106"/>
+        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00140"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_174 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00174 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_174">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_006"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00174">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00006"/>
         <rdfs:label xml:lang="en">Hypoplasia</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_175 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00175 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_175">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_123"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00175">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00123"/>
         <rdfs:label xml:lang="en">Hypotrichosis-lymphedema-telangiectasia</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_176 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00176 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_176">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_168"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00176">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00168"/>
         <rdfs:label xml:lang="en">IDH1</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_299152"/>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:5382</skos:exactMatch>
-        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_097"/>
-        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_137"/>
+        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00097"/>
+        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00137"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_177 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00177 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_177">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_168"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00177">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00168"/>
         <rdfs:label xml:lang="en">IDH2</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_247145"/>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:5383</skos:exactMatch>
-        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_097"/>
-        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_137"/>
+        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00097"/>
+        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00137"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_178 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00178 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_178">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_168"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00178">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00168"/>
         <rdfs:label xml:lang="en">KIF11</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_292401"/>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:6388</skos:exactMatch>
-        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_099"/>
+        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00099"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_179 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00179 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_179">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_168"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00179">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00168"/>
         <rdfs:label xml:lang="en">KRIT1</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_122883"/>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:1573</skos:exactMatch>
-        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_046"/>
+        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00046"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_180 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00180 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_180">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_123"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00180">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00123"/>
         <rdfs:label xml:lang="en">Lymphedema-distichiasis</rdfs:label>
         <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C128191"/>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_33001"/>
@@ -2468,125 +2419,125 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_181 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00181 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_181">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_168"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00181">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00168"/>
         <rdfs:label xml:lang="en">Malcavernin</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_119213"/>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:21708</skos:exactMatch>
-        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_047"/>
+        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00047"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_182 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00182 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_182">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_168"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00182">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00168"/>
         <rdfs:label xml:lang="en">MAP2K1</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_123135"/>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:6840</skos:exactMatch>
-        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_138"/>
-        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_139"/>
+        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00138"/>
+        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00139"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_183 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00183 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_183">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_168"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00183">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00168"/>
         <rdfs:label xml:lang="en">MAP3K3</rdfs:label>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:6855</skos:exactMatch>
-        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_149"/>
+        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00149"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_184 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00184 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_184">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_168"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00184">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00168"/>
         <rdfs:label xml:lang="en">MYC</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_159785"/>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:7553</skos:exactMatch>
-        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_154"/>
+        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00154"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_185 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00185 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_185">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_168"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00185">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00168"/>
         <rdfs:label xml:lang="en">NPM1</rdfs:label>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.orpha.net/ORDO/Orphanet_159793</skos:exactMatch>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:7910</skos:exactMatch>
-        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_097"/>
+        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00097"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_186 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00186 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_186">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_168"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00186">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00168"/>
         <rdfs:label xml:lang="en">PDCD10</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_124142"/>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:8761</skos:exactMatch>
-        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_048"/>
+        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00048"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_187 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00187 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_187">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_168"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00187">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00168"/>
         <rdfs:label xml:lang="en">PIK3CA</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_117820"/>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:8975</skos:exactMatch>
-        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_050"/>
-        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_051"/>
-        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_053"/>
-        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_054"/>
-        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_067"/>
-        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_084"/>
-        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_093"/>
+        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00050"/>
+        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00051"/>
+        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00053"/>
+        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00054"/>
+        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00067"/>
+        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00084"/>
+        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00093"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_188 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00188 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_188">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_168"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00188">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00168"/>
         <rdfs:label xml:lang="en">PTEN</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_118128"/>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:9588</skos:exactMatch>
-        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_028"/>
-        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_127"/>
+        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00028"/>
+        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00127"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_189 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00189 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_189">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_168"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00189">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00168"/>
         <rdfs:label xml:lang="en">PTPN14</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_468087"/>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:9647</skos:exactMatch>
-        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_092"/>
+        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00092"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_190 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00190 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_190">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_168"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00190">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00168"/>
         <rdfs:label xml:lang="en">RAS</rdfs:label>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.orpha.net/ORDO/Orphanet_122499</skos:exactMatch>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.orpha.net/ORDO/Orphanet_122879</skos:exactMatch>
@@ -2594,78 +2545,78 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:5173</skos:exactMatch>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:6407</skos:exactMatch>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:7989</skos:exactMatch>
-        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_128"/>
+        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00128"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_191 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00191 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_191">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_168"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00191">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00168"/>
         <rdfs:label xml:lang="en">RASA1</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_118231"/>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:9871</skos:exactMatch>
-        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_013"/>
-        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_020"/>
-        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_031"/>
-        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_117"/>
+        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00013"/>
+        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00020"/>
+        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00031"/>
+        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00117"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_192 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00192 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_192">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_168"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00192">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00168"/>
         <rdfs:label xml:lang="en">SMAD4</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_119727"/>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:6770</skos:exactMatch>
-        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_018"/>
-        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_025"/>
-        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_080"/>
+        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00018"/>
+        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00025"/>
+        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00080"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_193 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00193 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_193">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_168"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00193">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00168"/>
         <rdfs:label xml:lang="en">SOX18</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_119788"/>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:11194</skos:exactMatch>
-        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_175"/>
+        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00175"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_194 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00194 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_194">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_168"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00194">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00168"/>
         <rdfs:label xml:lang="en">STAMBP</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_353369"/>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:16950</skos:exactMatch>
-        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_033"/>
-        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_100"/>
+        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00033"/>
+        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00100"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_195 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00195 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_195">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_006"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00195">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00006"/>
         <rdfs:label xml:lang="en">Stenosis</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_196 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00196 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_196">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_036"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00196">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00036"/>
         <rdfs:comment xml:lang="en">The CM nature of some subtypes of telangiectasia is debated. Some telangiectasia may be reclassified in other sections in the future.</rdfs:comment>
         <rdfs:label xml:lang="en">Telangiectasia</rdfs:label>
         <skos:altLabel xml:lang="en">Other telangiectasia</skos:altLabel>
@@ -2676,46 +2627,46 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_197 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00197 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_197">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_168"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00197">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00168"/>
         <rdfs:label xml:lang="en">TFE3</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_120036"/>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:11752</skos:exactMatch>
-        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_063"/>
+        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00063"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_198 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00198 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_198">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_168"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00198">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00168"/>
         <rdfs:label xml:lang="en">VEGFC</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_376917"/>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:12682</skos:exactMatch>
-        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_121"/>
+        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00121"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_199 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00199 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_199">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_168"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00199">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00168"/>
         <rdfs:label xml:lang="en">VEGFR3</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_121872"/>
         <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.alliancegenome.org/gene/HGNC:3767</skos:exactMatch>
-        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_105"/>
+        <sio:SIO_000983 rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00105"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_200 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00200 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_200">
-        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_201"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00200">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00201"/>
         <rdfs:label xml:lang="en">Vein</rdfs:label>
         <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12814"/>
         <skos:exactMatch rdf:resource="http://snomed.info/id/29092000"/>
@@ -2723,9 +2674,9 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
     
 
 
-    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_201 -->
+    <!-- http://purl.bioontology.org/ontology/ISSVA/ISSVA_00201 -->
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_201">
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00201">
         <rdfs:label xml:lang="en">Vessel</rdfs:label>
     </owl:Class>
     
