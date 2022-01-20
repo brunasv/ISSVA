@@ -1361,6 +1361,12 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
 
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00089">
         <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00135"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
+                <owl:someValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00090"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Lymphatic malformation</rdfs:label>
         <skos:altLabel xml:lang="en">LM</skos:altLabel>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_458833"/>
@@ -1848,12 +1854,6 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
 
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00135">
         <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00146"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:allValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00090"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Simple vascular malformation</rdfs:label>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_211243"/>
     </owl:Class>
