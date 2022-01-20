@@ -372,14 +372,14 @@ Please contact ISSVA at info@issva.org in case you have any issues and/or featur
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:allValuesFrom>
+                <owl:someValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00156"/>
                             <rdf:Description rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00200"/>
                         </owl:unionOf>
                     </owl:Class>
-                </owl:allValuesFrom>
+                </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">Congenital. High-flow lesions.</rdfs:comment>
@@ -464,14 +464,14 @@ Please contact ISSVA at info@issva.org in case you have any issues and/or featur
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:allValuesFrom>
+                <owl:someValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00156"/>
                             <rdf:Description rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00200"/>
                         </owl:unionOf>
                     </owl:Class>
-                </owl:allValuesFrom>
+                </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">high-flow lesions</rdfs:comment>
@@ -504,14 +504,14 @@ Please contact ISSVA at info@issva.org in case you have any issues and/or featur
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:allValuesFrom>
+                <owl:someValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00156"/>
                             <rdf:Description rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00200"/>
                         </owl:unionOf>
                     </owl:Class>
-                </owl:allValuesFrom>
+                </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">Associated with AVM + VM +macrocephaly, lipomatous overgrowth</rdfs:comment>
@@ -605,7 +605,7 @@ Please contact ISSVA at info@issva.org in case you have any issues and/or featur
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:allValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00037"/>
+                <owl:someValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00037"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Capillary malformation</rdfs:label>
@@ -635,7 +635,7 @@ Please contact ISSVA at info@issva.org in case you have any issues and/or featur
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:allValuesFrom>
+                <owl:someValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00037"/>
@@ -643,7 +643,7 @@ Please contact ISSVA at info@issva.org in case you have any issues and/or featur
                             <rdf:Description rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00200"/>
                         </owl:unionOf>
                     </owl:Class>
-                </owl:allValuesFrom>
+                </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Capillary-arteriovenous malformation</rdfs:label>
@@ -659,14 +659,14 @@ Please contact ISSVA at info@issva.org in case you have any issues and/or featur
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:allValuesFrom>
+                <owl:someValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00037"/>
                             <rdf:Description rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00090"/>
                         </owl:unionOf>
                     </owl:Class>
-                </owl:allValuesFrom>
+                </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Capillary-lymphatic malformation</rdfs:label>
@@ -682,7 +682,7 @@ Please contact ISSVA at info@issva.org in case you have any issues and/or featur
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:allValuesFrom>
+                <owl:someValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00037"/>
@@ -691,7 +691,7 @@ Please contact ISSVA at info@issva.org in case you have any issues and/or featur
                             <rdf:Description rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00200"/>
                         </owl:unionOf>
                     </owl:Class>
-                </owl:allValuesFrom>
+                </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Capillary-lymphatic-arteriovenous malformation</rdfs:label>
@@ -707,7 +707,7 @@ Please contact ISSVA at info@issva.org in case you have any issues and/or featur
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:allValuesFrom>
+                <owl:someValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00037"/>
@@ -715,7 +715,7 @@ Please contact ISSVA at info@issva.org in case you have any issues and/or featur
                             <rdf:Description rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00200"/>
                         </owl:unionOf>
                     </owl:Class>
-                </owl:allValuesFrom>
+                </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Capillary-lymphatic-venous malformation</rdfs:label>
@@ -731,7 +731,7 @@ Please contact ISSVA at info@issva.org in case you have any issues and/or featur
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:allValuesFrom>
+                <owl:someValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00037"/>
@@ -740,7 +740,7 @@ Please contact ISSVA at info@issva.org in case you have any issues and/or featur
                             <rdf:Description rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00200"/>
                         </owl:unionOf>
                     </owl:Class>
-                </owl:allValuesFrom>
+                </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Capillary-lymphatic-venous-arteriovenous malformation</rdfs:label>
@@ -756,14 +756,14 @@ Please contact ISSVA at info@issva.org in case you have any issues and/or featur
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:allValuesFrom>
+                <owl:someValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00037"/>
                             <rdf:Description rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00200"/>
                         </owl:unionOf>
                     </owl:Class>
-                </owl:allValuesFrom>
+                </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Capillary-venous malformation</rdfs:label>
@@ -780,7 +780,7 @@ Please contact ISSVA at info@issva.org in case you have any issues and/or featur
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:allValuesFrom>
+                <owl:someValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00037"/>
@@ -788,7 +788,7 @@ Please contact ISSVA at info@issva.org in case you have any issues and/or featur
                             <rdf:Description rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00200"/>
                         </owl:unionOf>
                     </owl:Class>
-                </owl:allValuesFrom>
+                </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Capillary-venous-arteriovenous malformation</rdfs:label>
@@ -855,14 +855,14 @@ Please contact ISSVA at info@issva.org in case you have any issues and/or featur
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:allValuesFrom>
+                <owl:someValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00037"/>
                             <rdf:Description rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00090"/>
                         </owl:unionOf>
                     </owl:Class>
-                </owl:allValuesFrom>
+                </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">Associated with lower lip CM + face and neck LM + asymmetry and partial/generalized overgrowth. CLAPO syndrome belongs to the PIK3CA-related overgrowth spectrum (PROS).</rdfs:comment>
@@ -880,7 +880,7 @@ Please contact ISSVA at info@issva.org in case you have any issues and/or featur
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:allValuesFrom>
+                <owl:someValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00037"/>
@@ -889,7 +889,7 @@ Please contact ISSVA at info@issva.org in case you have any issues and/or featur
                             <rdf:Description rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00200"/>
                         </owl:unionOf>
                     </owl:Class>
-                </owl:allValuesFrom>
+                </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">Associated with LM + VM + CM +/- AVM + lipomatous overgrowth. CLOVES syndrome belongs to the PIK3CA-related overgrowth spectrum (PROS)</rdfs:comment>
@@ -1078,7 +1078,7 @@ Please contact ISSVA at info@issva.org in case you have any issues and/or featur
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:allValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00090"/>
+                <owl:someValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00090"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Fibro adipose vascular anomaly</rdfs:label>
@@ -1205,7 +1205,7 @@ Please contact ISSVA at info@issva.org in case you have any issues and/or featur
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:allValuesFrom>
+                <owl:someValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00090"/>
@@ -1213,7 +1213,7 @@ Please contact ISSVA at info@issva.org in case you have any issues and/or featur
                             <rdf:Description rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00200"/>
                         </owl:unionOf>
                     </owl:Class>
-                </owl:allValuesFrom>
+                </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">Distinct from infantile hemangioma, from intramuscular common VM, PHOST/AST, FAVA and AVM. Some lesions may be associated with thrombocytopenia and/or consumptive coagulopathy.</rdfs:comment>
@@ -1292,14 +1292,14 @@ rather than distinct entities</rdfs:comment>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:allValuesFrom>
+                <owl:someValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00037"/>
                             <rdf:Description rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00200"/>
                         </owl:unionOf>
                     </owl:Class>
-                </owl:allValuesFrom>
+                </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">Associated with CM + VM +/- LM + limb overgrowth.
@@ -1319,7 +1319,7 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:allValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00037"/>
+                <owl:someValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00037"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Limb capillary malformation + congenital non-progressive limb overgrowth</rdfs:label>
@@ -1386,14 +1386,14 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:allValuesFrom>
+                <owl:someValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00090"/>
                             <rdf:Description rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00200"/>
                         </owl:unionOf>
                     </owl:Class>
-                </owl:allValuesFrom>
+                </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Lymphatic-venous malformation</rdfs:label>
@@ -1419,7 +1419,7 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:allValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00037"/>
+                <owl:someValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00037"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">MCAP belongs to the PIK3CA-related overgrowth spectrum (PROS)</rdfs:comment>
@@ -1470,7 +1470,7 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:allValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00200"/>
+                <owl:someValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00200"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">Associated with VM +/- spindle-cell hemangioma + enchondroma</rdfs:comment>
@@ -1509,7 +1509,7 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:allValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00037"/>
+                <owl:someValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00037"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Microcephaly-capillary malformation</rdfs:label>
@@ -1536,7 +1536,7 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:allValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00090"/>
+                <owl:someValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00090"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Multifocal lymphangioendotheliomatosis with thrombocytopenia / cutaneovisceral angiomatosis with thrombocytopenia (MLT/CAT)</rdfs:label>
@@ -1615,14 +1615,14 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:allValuesFrom>
+                <owl:someValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00037"/>
                             <rdf:Description rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00156"/>
                         </owl:unionOf>
                     </owl:Class>
-                </owl:allValuesFrom>
+                </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">Associated with CM + AVF + limb overgrowth</rdfs:comment>
@@ -1702,7 +1702,7 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:allValuesFrom>
+                <owl:someValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00037"/>
@@ -1710,7 +1710,7 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
                             <rdf:Description rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00200"/>
                         </owl:unionOf>
                     </owl:Class>
-                </owl:allValuesFrom>
+                </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">Associated with CM, VM and/or LM + asymmetrical somatic overgrowth.</rdfs:comment>
@@ -1749,7 +1749,7 @@ Klippel-Trenaunay syndrome belongs to the PIK3CA-related overgrowth spectrum (PR
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:allValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00090"/>
+                <owl:someValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00090"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">PTEN (type) hamartoma of soft tissue / &quot;Angiomatosis&quot; of soft tissue</rdfs:label>
@@ -1833,7 +1833,7 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:allValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00200"/>
+                <owl:someValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00200"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">Associated with limb VM + bone undergrowth</rdfs:comment>
@@ -1909,7 +1909,7 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:allValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00037"/>
+                <owl:someValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00037"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">Associated with facial + leptomeningeal CM + eye anomalies +/- bone and/or soft tissue overgrowth</rdfs:comment>
@@ -1956,7 +1956,7 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:allValuesFrom>
+                <owl:someValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00037"/>
@@ -1964,7 +1964,7 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
                             <rdf:Description rdf:about="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00200"/>
                         </owl:unionOf>
                     </owl:Class>
-                </owl:allValuesFrom>
+                </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Vascular anomaly of major named vessel</rdfs:label>
@@ -2022,7 +2022,7 @@ Reactive proliferative vascular lesions are listed with benign tumors</rdfs:comm
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.bioontology.org/ontology/ISSVA#affects_vessel_type"/>
-                <owl:allValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00200"/>
+                <owl:someValuesFrom rdf:resource="http://purl.bioontology.org/ontology/ISSVA/ISSVA_00200"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">some lesions may be associated with thrombocytopenia and/or consumptive coagulopathy</rdfs:comment>
